@@ -60,6 +60,51 @@
     "url": ""
   },
   {
+    "id": "engagement:30",
+    "title": {
+      "en": "Penne Amiche della Scienza — Science Pen Pals",
+      "es": "Penne Amiche della Scienza — Correspondencia científica",
+      "it": "Penne Amiche della Scienza"
+    },
+    "description": {
+      "en": "Ongoing volunteer participation in the Italian “Penne Amiche della Scienza” initiative, which connects scientists with primary and lower-secondary school classes through written correspondence. Shares her scientific career and research, answers students’ questions, and promotes curiosity, critical thinking and inclusive access to scientific careers. Participated in the 2025/2026 edition and continues in 2026/2027.",
+      "es": "Participación voluntaria continuativa en la iniciativa italiana “Penne Amiche della Scienza”, que conecta científicas/os con clases de educación primaria y secundaria mediante correspondencia. Comparte su trayectoria científica y sus investigaciones, responde preguntas del alumnado y promueve la curiosidad, el pensamiento crítico y una visión inclusiva de las carreras científicas. Participó en la edición 2025/2026 y continúa en 2026/2027.",
+      "it": "Partecipazione volontaria continuativa all’iniziativa “Penne Amiche della Scienza”, che mette in contatto scienziate e scienziati con classi della scuola primaria e secondaria di primo grado attraverso la corrispondenza. Condivido il mio percorso e la mia ricerca, rispondo alle domande degli alunni e promuovo curiosità, pensiero critico e una visione inclusiva delle carriere scientifiche. Ho partecipato all’edizione 2025/2026 e proseguo nel 2026/2027."
+    },
+    "start": "2025",
+    "end": "Current",
+    "category": "School engagement",
+    "role": "Volunteer scientist / science correspondent",
+    "organiser": "Associazione Penne Amiche della Scienza",
+    "location": "Italy–Chile · remote correspondence",
+    "url": "https://sites.google.com/view/penne-amiche-della-scienza/scienziat%C9%99/liste-volontari%C9%99?authuser=0",
+    "url_label": {
+      "en": "Volunteer list · expand 2025/2026",
+      "es": "Lista de voluntariado · desplegar 2025/2026",
+      "it": "Elenco volontari · espandere 2025/2026"
+    }
+  },
+  {
+    "id": "engagement:3",
+    "title": {
+      "en": "Emerging Relationships with Generative AI",
+      "es": "Relaciones emergentes con la IA generativa",
+      "it": "Relazioni emergenti con l’IA generativa"
+    },
+    "description": {
+      "en": "Invited presentation at the National Conference on AI & Law, in a roundtable on the problematic aspects of AI and their impact on human behaviour.",
+      "es": "Ponencia invitada en las Jornadas Nacionales IA & Derecho, en una mesa sobre los aspectos problemáticos de la IA y su impacto en el comportamiento humano.",
+      "it": "Intervento su invito alle Jornadas Nacionales IA & Derecho, in una tavola rotonda sugli aspetti problematici dell’IA e sul loro impatto sul comportamento umano."
+    },
+    "start": "2025",
+    "end": "",
+    "category": "Invited talk",
+    "role": "Invited speaker",
+    "organiser": "Universidad Autónoma de Chile",
+    "location": "",
+    "url": ""
+  },
+  {
     "id": "engagement:5",
     "title": {
       "en": "Beyond Artificial Intelligence: Organoid Intelligence, Challenges and Ethical Implications",
@@ -380,6 +425,26 @@
     "url": ""
   },
   {
+    "id": "engagement:18",
+    "title": {
+      "en": "Neurorights discussions at the Chilean Senate",
+      "es": "Discusiones sobre neuroderechos en el Senado de Chile",
+      "it": "Discussioni sui neurodiritti al Senato cileno"
+    },
+    "description": {
+      "en": "Participated with Boris Lucero, representing CINPSI Neurocog, in discussions connected with the Chilean Senate Committee on Future Challenges and the development of Chilean neurorights legislation.",
+      "es": "Participó junto a Boris Lucero, en representación de CINPSI Neurocog, en discusiones vinculadas a la Comisión Desafíos del Futuro del Senado y al desarrollo de la legislación chilena sobre neuroderechos.",
+      "it": "Partecipazione insieme a Boris Lucero, in rappresentanza di CINPSI Neurocog, a discussioni collegate alla Commissione Desafíos del Futuro del Senato e allo sviluppo della legislazione cilena sui neurodiritti."
+    },
+    "start": "2020",
+    "end": "2021",
+    "category": "Policy engagement",
+    "role": "Discussion participant",
+    "organiser": "Senado de Chile · Comisión Desafíos del Futuro",
+    "location": "Chile",
+    "url": ""
+  },
+  {
     "id": "engagement:21",
     "title": {
       "en": "Conscious Percept Emergence and Cognitive Flexibility in Visual Bistable Phenomena: Temporal Dynamics and Phase Synchrony",
@@ -557,6 +622,26 @@
     "role": "Invited speaker",
     "organiser": "Facultad de Psicología, Universidad de Talca",
     "location": "Chile",
+    "url": ""
+  },
+  {
+    "id": "engagement:ucm-talented-2017",
+    "title": {
+      "en": "Perception course for academically talented school students",
+      "es": "Curso de percepción para escolares con talento académico",
+      "it": "Corso sulla percezione per studenti con talento accademico"
+    },
+    "description": {
+      "en": "Taught a short course on perception for academically talented school students at Universidad Católica del Maule.",
+      "es": "Impartió un curso breve sobre percepción para escolares con talento académico en la Universidad Católica del Maule.",
+      "it": "Corso breve sulla percezione per studenti con talento accademico presso la Universidad Católica del Maule."
+    },
+    "start": "2017",
+    "end": "",
+    "category": "School engagement",
+    "role": "Lecturer",
+    "organiser": "Universidad Católica del Maule",
+    "location": "Talca, Chile",
     "url": ""
   }
 ]

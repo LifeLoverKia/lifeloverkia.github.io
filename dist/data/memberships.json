@@ -1,0 +1,79 @@
+[
+  {
+    "id": "assc",
+    "acronym": "ASSC",
+    "name": "Association for the Scientific Study of Consciousness",
+    "start": "2023-12-06",
+    "role": {
+      "en": "Full voting member",
+      "es": "Miembro pleno con derecho a voto",
+      "it": "Socia con diritto di voto"
+    },
+    "url": "https://theassc.org/"
+  },
+  {
+    "id": "sfn",
+    "acronym": "SfN",
+    "name": "Society for Neuroscience",
+    "start": "2023-05-02",
+    "role": {
+      "en": "Voting member",
+      "es": "Miembro con derecho a voto",
+      "it": "Socia con diritto di voto"
+    },
+    "url": "https://www.sfn.org/"
+  },
+  {
+    "id": "neurolatam",
+    "acronym": "NeuroLATAM",
+    "name": "NeuroLATAM",
+    "start": "2025-02-05",
+    "role": {
+      "en": "Ambassador · Latin American neuroscience network",
+      "es": "Embajadora · red latinoamericana de neurociencia",
+      "it": "Ambasciatrice · rete latinoamericana di neuroscienze"
+    },
+    "url": "https://www.neurolatam.net/embajadores"
+  },
+  {
+    "id": "scp",
+    "acronym": "SCP",
+    "name": "Sociedad Científica de Psicología de Chile",
+    "start": "2025-05-31",
+    "role": {
+      "en": "Regular member",
+      "es": "Socia regular",
+      "it": "Socia ordinaria"
+    },
+    "url": "https://cienciapsicologica.cl/"
+  },
+  {
+    "id": "arsic",
+    "acronym": "ARSIC",
+    "name": "Associazione Ricercatori e Studiosi Italiani in Cile",
+    "start": "2022-07-29",
+    "role": {
+      "en": "Founding member · Vice-President 2023–2026 · Treasurer 2026–2029",
+      "es": "Socia fundadora · Vicepresidenta 2023–2026 · Tesorera 2026–2029",
+      "it": "Socia fondatrice · Vicepresidente 2023–2026 · Tesoriera 2026–2029"
+    },
+    "url": "https://www.arsic.online/"
+  },
+  {
+    "id": "lasc",
+    "acronym": "LASC",
+    "name": "Latin American consciousness research network",
+    "names": {
+      "en": "Emerging Latin American network for consciousness research",
+      "es": "Red latinoamericana emergente de investigación sobre la conciencia",
+      "it": "Rete latinoamericana emergente per la ricerca sulla coscienza"
+    },
+    "start": "2026-06-30",
+    "role": {
+      "en": "Founding participant / organising group · initiative in development (provisional LASC)",
+      "es": "Participante fundadora / grupo organizador · iniciativa en desarrollo (LASC provisional)",
+      "it": "Partecipante fondatrice / gruppo organizzatore · iniziativa in sviluppo (LASC provvisoria)"
+    },
+    "url": "https://rubenherzog.github.io/la_consciousness_2026/"
+  }
+]

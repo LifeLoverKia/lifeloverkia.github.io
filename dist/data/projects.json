@@ -1,5 +1,50 @@
 [
   {
+    "id": "network:COST_CA24148_EEG101",
+    "title": "EEG101: Fundamentals of Open & Rigorous EEG Science",
+    "titles": {
+      "en": "EEG101: Fundamentals of Open & Rigorous EEG Science",
+      "es": "EEG101: Fundamentals of Open & Rigorous EEG Science",
+      "it": "EEG101: Fundamentals of Open & Rigorous EEG Science"
+    },
+    "description": {
+      "en": "International COST Action advancing open and rigorous EEG science through reporting standards, data curation and harmonisation, and community-wide methodological recommendations. I participate in Working Groups WG1, WG2 and WG3, which I joined in 2026.",
+      "es": "COST Action internacional que promueve una ciencia EEG abierta y rigurosa mediante estándares de reporte, curación y armonización de datos y recomendaciones metodológicas para la comunidad. Participo en los grupos de trabajo WG1, WG2 y WG3, a los que me incorporé en 2026.",
+      "it": "COST Action internazionale per una ricerca EEG aperta e rigorosa, attraverso standard di rendicontazione, cura e armonizzazione dei dati e raccomandazioni metodologiche condivise. Partecipo ai gruppi di lavoro WG1, WG2 e WG3, ai quali ho aderito nel 2026."
+    },
+    "start": "2025-09-24",
+    "end": "2029-09-23",
+    "date_scope": "action",
+    "type": "COST Action",
+    "role": "Working Group member (WG1, WG2, WG3)",
+    "grant": "CA24148",
+    "funder": "COST",
+    "status": "Ongoing",
+    "url": "https://www.cost.eu/actions/CA24148/"
+  },
+  {
+    "id": "initiative:EEGManyAnalysts",
+    "title": "EEGManyAnalysts",
+    "titles": {
+      "en": "EEGManyAnalysts",
+      "es": "EEGManyAnalysts",
+      "it": "EEGManyAnalysts"
+    },
+    "description": {
+      "en": "International many-analyst project investigating how EEG analysis choices and analyst characteristics affect research outcomes and replicability. I contributed as an independent EEG analyst to the analysis of a shared dataset. Coordinated by Katharina Paul and Jan Wacker, Universität Hamburg.",
+      "es": "Proyecto internacional que investiga cómo las decisiones analíticas en EEG y las características de los analistas afectan los resultados y su replicabilidad. Contribuí como analista EEG independiente al análisis de un conjunto de datos compartido. Coordinado por Katharina Paul y Jan Wacker, Universität Hamburg.",
+      "it": "Progetto internazionale che studia come le scelte di analisi EEG e le caratteristiche degli analisti influenzino i risultati e la replicabilità. Ho contribuito come analista EEG indipendente all’analisi di un dataset condiviso. Coordinato da Katharina Paul e Jan Wacker, Universität Hamburg."
+    },
+    "start": "2025",
+    "end": "",
+    "type": "Open-science collaboration",
+    "role": "Contributing EEG analyst",
+    "grant": "",
+    "funder": "DFG",
+    "status": "Ongoing",
+    "url": "https://www.coscience-personality.com/manyanalysts"
+  },
+  {
     "id": "grant:FOVI 230078",
     "title": "Strengthening a network for advanced neuroscience research focusing on rural populations vulnerable to socio-environmental impacts",
     "description": {
