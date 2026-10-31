@@ -33,7 +33,10 @@
     "metadata_checked": "2026-10-31",
     "volume": "67",
     "issue": "3",
-    "pages": ""
+    "pages": "",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.23736/s2724-6612.26.02701-6",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.1016/j.dcn.2026.101821",
@@ -67,7 +70,12 @@
     "related": "doi:10.64898/2025.11.29.691280",
     "volume": "82",
     "issue": "",
-    "pages": "101821"
+    "pages": "101821",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.dcn.2026.101821",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1878929326001635/pdf",
+    "preprint_url": "https://www.biorxiv.org/content/10.64898/2025.11.29.691280"
   },
   {
     "id": "doi:10.3389/fpubh.2026.1877249",
@@ -102,7 +110,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "14",
     "issue": "",
-    "pages": "1877249"
+    "pages": "1877249",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3389/fpubh.2026.1877249",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1877249/pdf"
   },
   {
     "id": "doi:10.1007/s11673-026-10581-5",
@@ -140,7 +152,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "",
     "issue": "",
-    "pages": ""
+    "pages": "",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s11673-026-10581-5",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/412193697_Retractions_in_Psychology_and_Psychiatry_in_Web_of_Science_A_Bioethical_Perspective"
   },
   {
     "id": "doi:10.1016/j.concog.2025.103967",
@@ -176,7 +192,10 @@
     "metadata_checked": "2026-10-30",
     "volume": "137",
     "issue": "",
-    "pages": "103967"
+    "pages": "103967",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.concog.2025.103967",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.1007/s10339-026-01337-5",
@@ -214,7 +233,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "27",
     "issue": "3",
-    "pages": "535-553"
+    "pages": "535-553",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s10339-026-01337-5",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/403591718_Perceiving_the_uncertain_predictive_coding_and_individual_differences_in_the_dynamics_of_multistable_perception"
   },
   {
     "id": "doi:10.1016/j.brs.2024.12.589",
@@ -249,7 +272,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "18",
     "issue": "1",
-    "pages": "413"
+    "pages": "413",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.brs.2024.12.589",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.brainstimjrnl.com/article/S1935-861X(24)00784-8/pdf"
   },
   {
     "id": "doi:10.1177/21582440251341066",
@@ -290,7 +317,10 @@
     "metadata_checked": "2026-10-30",
     "volume": "15",
     "issue": "2",
-    "pages": "21582440251341066"
+    "pages": "21582440251341066",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1177/21582440251341066",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.1016/j.ijpsycho.2025.112998",
@@ -322,7 +352,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "213",
     "issue": "",
-    "pages": "112998"
+    "pages": "112998",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.ijpsycho.2025.112998",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/393713781_Spike-time-dependent_plasticity_induction_reveals_dissociable_premotor-motor_pathways_to_automatic_imitation"
   },
   {
     "id": "doi:10.1007/s10339-025-01260-1",
@@ -364,7 +398,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "26",
     "issue": "3",
-    "pages": "511-529"
+    "pages": "511-529",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s10339-025-01260-1",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/389400523_Spontaneous_perceptual_alternations_and_higher-order_cognitive_processes_an_exploratory_study"
   },
   {
     "id": "doi:10.3389/fpsyg.2025.1662206",
@@ -402,7 +440,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "16",
     "issue": "",
-    "pages": "1662206"
+    "pages": "1662206",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3389/fpsyg.2025.1662206",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1662206/pdf"
   },
   {
     "id": "doi:10.64898/2025.11.29.691280",
@@ -431,7 +473,11 @@
         2
       ]
     },
-    "related": "doi:10.1016/j.dcn.2026.101821"
+    "related": "doi:10.1016/j.dcn.2026.101821",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.64898/2025.11.29.691280",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.biorxiv.org/content/10.64898/2025.11.29.691280"
   },
   {
     "id": "doi:10.1016/j.brs.2024.01.001",
@@ -467,7 +513,10 @@
     "metadata_checked": "2026-10-30",
     "volume": "17",
     "issue": "1",
-    "pages": "89-91"
+    "pages": "89-91",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.brs.2024.01.001",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.3390/ph17121625",
@@ -507,7 +556,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "17",
     "issue": "12",
-    "pages": "1625"
+    "pages": "1625",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3390/ph17121625",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.mdpi.com/1424-8247/17/12/1625/pdf?version=1733224691"
   },
   {
     "id": "title\\:exploringthecorrelationbetweenvisuospatialinhibitorycontrolandcognitiveflexibilityperformance\\:2024",
@@ -530,7 +583,10 @@
       "https://orcid.org/0000-0002-1594-7382/work/198675936"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "title\\:howtomeasureobservationalimplicitlearningofcomplexsequencesanovelparadigminvolvingrapidvisualpresentationandserialreactiontimetask\\:2024",
@@ -550,7 +606,10 @@
       "https://www.semanticscholar.org/paper/c3390146d108eea872a14b975945852d3a1e18b6"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "doi:10.3390/medicina60050770",
@@ -590,7 +649,10 @@
     "metadata_checked": "2026-10-30",
     "volume": "60",
     "issue": "5",
-    "pages": "770"
+    "pages": "770",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3390/medicina60050770",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.1073/pnas.2404925121",
@@ -634,7 +696,10 @@
     "metadata_checked": "2026-10-30",
     "volume": "121",
     "issue": "27",
-    "pages": "e2404925121"
+    "pages": "e2404925121",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1073/pnas.2404925121",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.3389/fpsyg.2023.1177720",
@@ -674,7 +739,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "14",
     "issue": "",
-    "pages": "1177720"
+    "pages": "1177720",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3389/fpsyg.2023.1177720",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1177720/pdf"
   },
   {
     "id": "doi:10.1016/j.physbeh.2022.113743",
@@ -711,7 +780,12 @@
     "metadata_checked": "2026-10-30",
     "volume": "249",
     "issue": "",
-    "pages": "113743"
+    "pages": "113743",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.physbeh.2022.113743",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/358578468_Affective_modulation_of_cognitive_control_A_systematic_review_of_EEG_studies",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/abs/pii/S0031938422000506"
   },
   {
     "id": "doi:10.3390/iecbs2022-13742",
@@ -748,7 +822,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "",
     "issue": "",
-    "pages": "13"
+    "pages": "13",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3390/iecbs2022-13742",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.mdpi.com/2673-9976/19/1/13/pdf?version=1672044314"
   },
   {
     "id": "doi:10.3390/neurosci3040039",
@@ -788,7 +866,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "3",
     "issue": "4",
-    "pages": "546-557"
+    "pages": "546-557",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3390/neurosci3040039",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.mdpi.com/2673-4087/3/4/39/pdf?version=1665994787"
   },
   {
     "id": "doi:10.3390/ijerph19042022",
@@ -828,7 +910,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "19",
     "issue": "4",
-    "pages": "2022"
+    "pages": "2022",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3390/ijerph19042022",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.mdpi.com/1660-4601/19/4/2022/pdf?version=1644577699"
   },
   {
     "id": "doi:10.1080/1612197x.2020.1826997",
@@ -871,7 +957,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "20",
     "issue": "1",
-    "pages": "319-336"
+    "pages": "319-336",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1080/1612197x.2020.1826997",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/344436175_Work-based_physical_exercise_benefits_on_NCCDs_Chilean_employees%27_mood_and_emotions_a_preliminary_study"
   },
   {
     "id": "doi:10.1016/j.gaceta.2020.04.020",
@@ -908,7 +998,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "35",
     "issue": "5",
-    "pages": "480-487"
+    "pages": "480-487",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.gaceta.2020.04.020",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0213911120301291/pdf"
   },
   {
     "id": "title\\:impulsivenessinfluenceonattentionalnetworksinyoungadults\\:2021",
@@ -931,7 +1025,10 @@
       "https://orcid.org/0000-0002-1594-7382/work/198675946"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "doi:10.3390/ijerph18094825",
@@ -971,7 +1068,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "18",
     "issue": "9",
-    "pages": "4825"
+    "pages": "4825",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3390/ijerph18094825",
+    "publisher_open_access": true,
+    "fulltext_url": "https://www.mdpi.com/1660-4601/18/9/4825/pdf?version=1620289256"
   },
   {
     "id": "title\\:spatialattentionperformanceassessedbytheantonchildrenandyoungadultsitsassociationwithageintelligenceandimpulsiveness\\:2021",
@@ -994,7 +1095,10 @@
       "https://orcid.org/0000-0002-1594-7382/work/198675947"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "title\\:wsmiintelligenceandattentionalperformanceonchildrenpreliminaryresults\\:2021",
@@ -1017,7 +1121,10 @@
       "https://orcid.org/0000-0002-1594-7382/work/198675945"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "doi:10.4067/s1726-569x2020000100043",
@@ -1051,7 +1158,10 @@
     "metadata_checked": "2026-10-30",
     "volume": "26",
     "issue": "1",
-    "pages": "43-50"
+    "pages": "43-50",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.4067/s1726-569x2020000100043",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.1007/978-3-030-41018-6\\_72",
@@ -1088,7 +1198,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "",
     "issue": "",
-    "pages": "881-896"
+    "pages": "881-896",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/978-3-030-41018-6_72",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/339991233_Differences_in_Distance_Estimations_in_Real_and_Virtual_3D_Environments"
   },
   {
     "id": "doi:10.1016/j.neuropsychologia.2019.107260",
@@ -1126,7 +1240,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "136",
     "issue": "",
-    "pages": "107260"
+    "pages": "107260",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.neuropsychologia.2019.107260",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/337254829_Differential_involvement_of_left_and_right_frontoparietal_areas_in_visuospatial_planning_An_rTMS_study"
   },
   {
     "id": "doi:10.1289/isee.2020.virtual.p-0813",
@@ -1161,7 +1279,10 @@
     "metadata_checked": "2026-10-30",
     "volume": "2020",
     "issue": "1",
-    "pages": "isee.2020.virtual.P-0813"
+    "pages": "isee.2020.virtual.P-0813",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1289/isee.2020.virtual.p-0813",
+    "publisher_open_access": true
   },
   {
     "id": "doi:10.21125/inted.2019.1643",
@@ -1197,7 +1318,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "1",
     "issue": "",
-    "pages": "6755-6762"
+    "pages": "6755-6762",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.21125/inted.2019.1643",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/333000965_Learning_tools_against_developmental_dyscalculia_in_primary_school_A_case_study"
   },
   {
     "id": "doi:10.1016/j.jecp.2018.10.008",
@@ -1235,7 +1360,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "179",
     "issue": "",
-    "pages": "38-55"
+    "pages": "38-55",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.jecp.2018.10.008",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/329143552_Performance_predictions_and_postdictions_in_prospective_memory_of_school-aged_children"
   },
   {
     "id": "doi:10.1007/978-3-030-41018-6\\_74",
@@ -1270,7 +1399,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "",
     "issue": "",
-    "pages": "907-922"
+    "pages": "907-922",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/978-3-030-41018-6_74",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/339989573_Stereoscopy_Does_not_Improve_Metric_Distance_Estimations_in_Virtual_Environments"
   },
   {
     "id": "doi:10.1007/978-3-030-12240-9\\_54",
@@ -1307,7 +1440,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "",
     "issue": "",
-    "pages": "519-529"
+    "pages": "519-529",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/978-3-030-12240-9_54",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/332818140_Travelling_Salesperson_in_an_Immersive_Virtual_Environment_Experimental_Evaluation_of_Tracking_System_Device"
   },
   {
     "id": "doi:10.1155/2019/7901760",
@@ -1347,7 +1484,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "2019",
     "issue": "",
-    "pages": "1-11"
+    "pages": "1-11",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1155/2019/7901760",
+    "publisher_open_access": true,
+    "fulltext_url": "https://downloads.hindawi.com/journals/bmri/2019/7901760.pdf"
   },
   {
     "id": "title\\:attentionalnetworksandintellectualperformanceinchildrenpreliminaryevidencefromerps\\:2018",
@@ -1372,7 +1513,10 @@
       "https://orcid.org/0000-0002-1594-7382/work/198675958"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "title\\:eljuegocomorecursoenlapsicoterapiainfantilfrentealestresytrauma\\:2018",
@@ -1394,7 +1538,10 @@
       "https://orcid.org/0000-0002-1594-7382/work/181826856"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "title\\:isartificialstereoscopyreallyhelpfulforacorrectdistanceperceptioninvirtualenvironments\\:2018",
@@ -1419,7 +1566,10 @@
       "https://orcid.org/0000-0002-1594-7382/work/198675957"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "doi:10.1007/s10339-018-0871-8",
@@ -1463,7 +1613,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "19",
     "issue": "3",
-    "pages": "465-472"
+    "pages": "465-472",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s10339-018-0871-8",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/325758027_Laboratory_of_the_Neuropsychology_and_Cognitive_Neurosciences_Research_Center_of_Universidad_Catolica_del_Maule_Chile"
   },
   {
     "id": "doi:10.1371/journal.pone.0098305",
@@ -1503,7 +1657,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "9",
     "issue": "5",
-    "pages": "e98305"
+    "pages": "e98305",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1371/journal.pone.0098305",
+    "publisher_open_access": true,
+    "fulltext_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0098305&type=printable"
   },
   {
     "id": "scholar:spatialcognitioninvirtualenvironments",
@@ -1523,7 +1681,10 @@
       "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "scholar:theinfluenceofstereoscopyinvirtualenvironmentsformetricandnonmetricdistancesestimates",
@@ -1543,7 +1704,10 @@
       "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "title\\:exploratoryanalysisofoperatorrobotratioinsearchandrescuemissions\\:2010",
@@ -1565,7 +1729,11 @@
       "https://orcid.org/0000-0002-1594-7382/work/39920183"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null,
+    "researchgate_url": "https://www.researchgate.net/publication/265188384_Exploratory_Analysis_of_OperatorRobot_ratio_in_Search_and_Rescue_Missions"
   },
   {
     "id": "scholar:influencesofdifferentvisualizationsystemsonperformancesinaplanningandwayfindingtest",
@@ -1585,7 +1753,10 @@
       "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "scholar:cognitiveprocessesinvirtualenvironments",
@@ -1605,7 +1776,11 @@
       "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null,
+    "researchgate_url": "https://www.researchgate.net/publication/46194817_Cognitive_processes_in_virtual_environments"
   },
   {
     "id": "doi:10.1007/s10339-009-0314-7",
@@ -1651,7 +1826,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "10",
     "issue": "S2",
-    "pages": "294-296"
+    "pages": "294-296",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s10339-009-0314-7",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/51437932_Comparing_distance_perception_in_different_virtual_environments"
   },
   {
     "id": "doi:10.1109/ssrr.2009.5424157",
@@ -1687,7 +1866,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "",
     "issue": "",
-    "pages": "1-6"
+    "pages": "1-6",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1109/ssrr.2009.5424157",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/224120710_Give_me_the_control_I_can_see_the_robot"
   },
   {
     "id": "doi:10.1007/s10339-009-0299-2",
@@ -1734,7 +1917,11 @@
     "metadata_checked": "2026-10-30",
     "volume": "10",
     "issue": "S2",
-    "pages": "338-341"
+    "pages": "338-341",
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s10339-009-0299-2",
+    "publisher_open_access": false,
+    "researchgate_url": "https://www.researchgate.net/publication/51437945_Spatial_processes_in_mobile_robot_teleoperation"
   },
   {
     "id": "scholar:tempidireazionesemplicivisiviuncompitoperlavalutazionedellavigilanzadurante24oredivegliasostenuta",
@@ -1754,7 +1941,10 @@
       "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "scholar:orientamentoememoriaspazialeeffettidellavegliaprotratta",
@@ -1774,7 +1964,10 @@
       "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   },
   {
     "id": "title\\:repetitivetmsstimulationonvirtual3dnavigationgenderdifferencesinfrontalandparietalinvolvement\\:2008",
@@ -1794,7 +1987,11 @@
       "https://www.semanticscholar.org/paper/7859c14b40e53778762ca5c34924b5fee5d5e00a"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null,
+    "researchgate_url": "https://www.researchgate.net/publication/38134247_Repetitive_TMS_stimulation_on_virtual_3D_navigation_Gender_differences_in_frontal_and_parietal_involvement"
   },
   {
     "id": "title\\:theadvantageofmobilitymobileteleoperationformobilerobots\\:2009",
@@ -1817,6 +2014,9 @@
       "https://orcid.org/0000-0002-1594-7382/work/39920182"
     ],
     "dates": {},
-    "metadata_checked": null
+    "metadata_checked": null,
+    "access_checked": "2026-10-31",
+    "access_metadata_source": "",
+    "publisher_open_access": null
   }
 ]

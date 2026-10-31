@@ -8,4 +8,4 @@ The initial 32 records reconcile the supplied publication-list TeX/PDF, 2024/202
 
 Invited talks, public engagement and policy discussions remain in the outreach register and `activities.json`. Three former aggregate scientific-conference activity records were replaced on the website by individual contributions; original spreadsheet rows remain for historical reference.
 
-Run `python3 scripts/build.py` after editing data, templates or assets. Verify search, filters, selection, CSV and print in all three languages before publishing.
+Run `python3 scripts/build.py` after editing data, templates or assets. Verify compact previews, archive links, role badges and all three languages before publishing.
