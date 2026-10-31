@@ -1,0 +1,119 @@
+{
+  "en": {
+    "headings": [
+      "Research",
+      "Publications",
+      "Projects & collaborations",
+      "Talks, conferences & public engagement",
+      "Teaching & academic service",
+      "Background",
+      "Let’s connect"
+    ],
+    "question": "How do we turn the world into an experience?",
+    "intro": "I study perception, cognition and consciousness, and the ethical questions that emerge when technologies become part of how we think and relate to others.",
+    "bio": "I am an Italian cognitive neuroscientist based in Talca, Chile, and an Associate Professor on the research track at Universidad Católica del Maule. At CINPSI Neurocog, my work combines experimental psychology, EEG and interdisciplinary inquiry. My research began with spatial cognition and virtual environments and developed towards perceptual awareness, bistability and the relationship between perception and higher-order cognitive processes.",
+    "research": [
+      {
+        "title": "Perception & consciousness",
+        "description": "Binocular rivalry and other bistable phenomena offer a way to examine how a changing perceptual experience emerges from constant sensory input. I am interested in the relationship between these dynamics, individual differences and cognitive flexibility."
+      },
+      {
+        "title": "Brain dynamics & cognition",
+        "description": "EEG, behavioural experiments and brain stimulation inform my work on perceptual awareness, attention, cognitive control, learning and the links between perception and action."
+      },
+      {
+        "title": "Neuroethics & human–AI relations",
+        "description": "My conceptual work examines neurorights, cognitive sovereignty and the psychological and ethical dimensions of relationships with generative AI, including techno-emotional projection."
+      }
+    ],
+    "service": [
+      "I teach and coordinate postgraduate courses, including contributions to the Doctorate in Psychology, Doctorate in Philosophy, Master’s in Neuroscience and Master’s in Kinesiology, and supervise doctoral and master’s research.",
+      "My institutional appointments include Alternate Director of CINPSI Neurocog and Alternate Director of the Master’s in Neuroscience. I also contribute to scientific publishing as an Assistant Editor for BMC Psychology and as a peer reviewer.",
+      "A founding member of the Association of Italian Researchers and Scholars in Chile (ARSIC), I served as Vice-President from 2023 to 2026 and hold the Treasurer role for 2026–2029."
+    ],
+    "background": [
+      "PhD in Cognitive Psychology, Psychophysiology and Personality, Sapienza University of Rome, 2011. Thesis: Spatial Cognition in Virtual Environments.",
+      "Master’s in Psychology of Information Processing, with honours, Sapienza University of Rome, 2007.",
+      "Bachelor’s in Cognitive Processes Methodology, with honours, Sapienza University of Rome, 2003.",
+      "Further training in bioethics at Universidad Católica del Maule and in ethical and regulatory aspects of clinical research at the US National Institutes of Health, 2021."
+    ]
+  },
+  "es": {
+    "headings": [
+      "Investigación",
+      "Publicaciones",
+      "Proyectos y colaboraciones",
+      "Conferencias y vinculación con el medio",
+      "Docencia y servicio académico",
+      "Formación",
+      "Contacto"
+    ],
+    "question": "¿Cómo se convierte el mundo en una experiencia?",
+    "intro": "Investigo la percepción, la cognición y la conciencia, y las preguntas éticas que surgen cuando las tecnologías pasan a formar parte de cómo pensamos y nos relacionamos.",
+    "bio": "Soy neurocientífica cognitiva italiana, radicada en Talca, Chile, y Profesora Asociada en la línea de investigación de la Universidad Católica del Maule. En CINPSI Neurocog combino psicología experimental, EEG y trabajo interdisciplinario. Mi trayectoria comenzó con la cognición espacial y los entornos virtuales, y se amplió hacia la conciencia perceptiva, la biestabilidad y su relación con los procesos cognitivos de orden superior.",
+    "research": [
+      {
+        "title": "Percepción y conciencia",
+        "description": "Utilizo la rivalidad binocular y otros fenómenos biestables para investigar cómo cambia la experiencia perceptiva cuando la información sensorial permanece constante, y cómo se relacionan estas dinámicas con las diferencias individuales y la flexibilidad cognitiva."
+      },
+      {
+        "title": "Dinámica cerebral y cognición",
+        "description": "Estudio la conciencia perceptiva, la atención, el control cognitivo, el aprendizaje y las relaciones entre percepción y acción mediante EEG, experimentos conductuales y estimulación cerebral."
+      },
+      {
+        "title": "Neuroética y relaciones humano–IA",
+        "description": "Mi trabajo conceptual aborda los neuroderechos, la soberanía cognitiva y las dimensiones psicológicas y éticas de las relaciones con la IA generativa, incluida la proyección tecnoemocional."
+      }
+    ],
+    "service": [
+      "Imparto y coordino cursos de posgrado, con contribuciones al Doctorado en Psicología, Doctorado en Filosofía, Magíster en Neurociencias y Magíster en Kinesiología, y dirijo investigaciones doctorales y de magíster.",
+      "Soy directora subrogante de CINPSI Neurocog y del Magíster en Neurociencias. También participo como editora asistente de BMC Psychology y revisora de revistas científicas.",
+      "Soy socia fundadora de ARSIC, Asociación de Investigadores y Estudiosos Italianos en Chile. Fui vicepresidenta entre 2023 y 2026 y soy tesorera para el período 2026–2029."
+    ],
+    "background": [
+      "Doctorado en Psicología Cognitiva, Psicofisiología y Personalidad, Sapienza Universidad de Roma, 2011. Tesis sobre cognición espacial en entornos virtuales.",
+      "Magíster en Psicología del Procesamiento de la Información, con honores, Sapienza Universidad de Roma, 2007.",
+      "Grado en Metodología de los Procesos Cognitivos, con honores, Sapienza Universidad de Roma, 2003.",
+      "Formación complementaria en discernimiento en bioética, UCM, y aspectos éticos y regulatorios de la investigación clínica, NIH, 2021."
+    ]
+  },
+  "it": {
+    "headings": [
+      "Ricerca",
+      "Pubblicazioni",
+      "Progetti e collaborazioni",
+      "Conferenze e divulgazione",
+      "Didattica e servizio accademico",
+      "Formazione",
+      "Contatti"
+    ],
+    "question": "Come diventa esperienza il mondo che ci circonda?",
+    "intro": "Studio la percezione, la cognizione e la coscienza, e le domande etiche che emergono quando le tecnologie entrano nel nostro modo di pensare e di relazionarci.",
+    "bio": "Sono una neuroscienziata cognitiva italiana che vive e lavora a Talca, in Cile, e Professoressa Associata nel percorso di ricerca dell’Universidad Católica del Maule. Al CINPSI Neurocog, il mio lavoro combina psicologia sperimentale, EEG e ricerca interdisciplinare. Ho iniziato occupandomi di cognizione spaziale e ambienti virtuali, per poi concentrarmi sulla consapevolezza percettiva, sulla bistabilità e sulle relazioni fra percezione e processi cognitivi di ordine superiore.",
+    "research": [
+      {
+        "title": "Percezione e coscienza",
+        "description": "La rivalità binoculare e gli altri fenomeni bistabili permettono di studiare come cambia l’esperienza percettiva quando lo stimolo rimane costante. Mi interessano i rapporti fra queste dinamiche, le differenze individuali e la flessibilità cognitiva."
+      },
+      {
+        "title": "Dinamiche cerebrali e cognizione",
+        "description": "EEG, esperimenti comportamentali e stimolazione cerebrale contribuiscono al mio lavoro sulla consapevolezza percettiva, sull’attenzione, sul controllo cognitivo, sull’apprendimento e sui legami fra percezione e azione."
+      },
+      {
+        "title": "Neuroetica e relazioni umano–IA",
+        "description": "Il mio lavoro concettuale riguarda i neurodiritti, la sovranità cognitiva e le dimensioni psicologiche ed etiche delle relazioni con l’IA generativa, inclusa la proiezione tecnoemozionale."
+      }
+    ],
+    "service": [
+      "Insegno e coordino corsi post-laurea, con contributi al Dottorato in Psicologia, al Dottorato in Filosofia, al Master in Neuroscienze e al Master in Kinesiologia, e supervisiono ricerche di dottorato e master.",
+      "Sono designata come sostituta del direttore del CINPSI Neurocog e del direttore del Master in Neuroscienze. Contribuisco inoltre all’editoria scientifica come Assistant Editor di BMC Psychology e come revisora.",
+      "Sono socia fondatrice di ARSIC, Associazione Ricercatori e Studiosi Italiani in Cile. Ho ricoperto la vicepresidenza dal 2023 al 2026 e sono tesoriera per il mandato 2026–2029."
+    ],
+    "background": [
+      "Dottorato in Psicologia Cognitiva, Psicofisiologia e della Personalità, Sapienza Università di Roma, 2011. Tesi: Spatial Cognition in Virtual Environments.",
+      "Laurea magistrale in Psicologia del Trattamento dell’Informazione, con lode, Sapienza Università di Roma, 2007.",
+      "Laurea in Metodologia dei Processi Cognitivi, con lode, Sapienza Università di Roma, 2003.",
+      "Formazione complementare in discernimento bioetico alla UCM e in aspetti etici e regolatori della ricerca clinica presso i National Institutes of Health statunitensi, 2021."
+    ]
+  }
+}
