@@ -1,0 +1,86 @@
+[
+  {
+    "id": "grant:FOVI 230078",
+    "title": "Strengthening a network for advanced neuroscience research focusing on rural populations vulnerable to socio-environmental impacts",
+    "description": {
+      "en": "International research collaboration and advanced training in neuroscience addressing the socio-environmental impacts of climate change on vulnerable rural populations.",
+      "es": "Colaboración internacional y formación avanzada en neurociencias sobre los impactos socioambientales del cambio climático en poblaciones rurales vulnerables.",
+      "it": "Collaborazione internazionale e formazione avanzata nelle neuroscienze sui possibili impatti socioambientali del cambiamento climatico nelle popolazioni rurali vulnerabili."
+    },
+    "start": "2023-03-02",
+    "end": "2025-04-02",
+    "role": "Co-Researcher (Principal Investigator: Boris Lucero)",
+    "grant": "FOVI 230078",
+    "funder": "ANID",
+    "status": "Completed",
+    "url": "https://investigadores.anid.cl//es/works/790603",
+    "titles": {
+      "en": "Strengthening a network for advanced neuroscience research focusing on rural populations vulnerable to socio-environmental impacts",
+      "es": "Fortalecimiento de una red de investigación avanzada en neurociencia centrada en poblaciones rurales vulnerables a impactos socioambientales",
+      "it": "Rafforzamento di una rete di ricerca avanzata nelle neuroscienze sulle popolazioni rurali vulnerabili agli impatti socioambientali"
+    }
+  },
+  {
+    "id": "grant:FONDECYT Iniciación 11190828",
+    "title": "Conscious percept emergence and cognitive flexibility in visual bistable phenomena: An EEG experimental study",
+    "description": {
+      "en": "An experimental EEG project investigating the emergence of conscious percepts and cognitive flexibility through visual bistability.",
+      "es": "Proyecto experimental con EEG sobre la emergencia de perceptos conscientes y la flexibilidad cognitiva mediante fenómenos de percepción visual biestable.",
+      "it": "Progetto sperimentale EEG sull’emergere dei percetti coscienti e sulla flessibilità cognitiva attraverso i fenomeni di percezione visiva bistabile."
+    },
+    "start": "2019-11-02",
+    "end": "2023-10-31",
+    "role": "Principal Investigator",
+    "grant": "FONDECYT Iniciación 11190828",
+    "funder": "ANID",
+    "status": "Completed",
+    "url": "https://investigadores.anid.cl//es/works/583519",
+    "titles": {
+      "en": "Conscious percept emergence and cognitive flexibility in visual bistable phenomena: An EEG experimental study",
+      "es": "Emergencia del percepto consciente y flexibilidad cognitiva en fenómenos visuales biestables: un estudio experimental con EEG",
+      "it": "Emergenza del percetto cosciente e flessibilità cognitiva nei fenomeni visivi bistabili: uno studio sperimentale EEG"
+    }
+  },
+  {
+    "id": "grant:REDES190078",
+    "title": "Collaboration network for the study of chronic diseases in agricultural workers",
+    "description": {
+      "en": "A Chilean collaboration network studying pesticide exposure and public health in agricultural workers.",
+      "es": "Red de colaboración chilena para estudiar la exposición a plaguicidas y la salud pública en trabajadores agrícolas.",
+      "it": "Rete di collaborazione cilena per lo studio dell’esposizione ai pesticidi e della salute pubblica nei lavoratori agricoli."
+    },
+    "start": "2019-01-02",
+    "end": "2021-12-31",
+    "role": "Associate Researcher (Principal Investigator: Sandra Cortés)",
+    "grant": "REDES190078",
+    "funder": "ANID",
+    "status": "Completed",
+    "url": "https://investigadores.anid.cl//es/works/628295",
+    "titles": {
+      "en": "Collaboration network for the study of chronic diseases in agricultural workers",
+      "es": "Red de colaboración para el estudio de enfermedades crónicas en trabajadores agrícolas",
+      "it": "Rete di collaborazione per lo studio delle malattie croniche nei lavoratori agricoli"
+    }
+  },
+  {
+    "id": "grant:GR09.133.1",
+    "title": "Perceptual awareness and emotional contagion",
+    "description": {
+      "en": "Research on body-part perception and visual awareness through binocular rivalry.",
+      "es": "Investigación sobre percepción de partes del cuerpo y conciencia visual mediante rivalidad binocular.",
+      "it": "Ricerca sulla percezione delle parti del corpo e sulla consapevolezza visiva attraverso la rivalità binoculare."
+    },
+    "start": "2012-06-30",
+    "end": "2013-05-31",
+    "role": "Research Fellow",
+    "grant": "GR09.133.1",
+    "funder": "IRCCS Fondazione Santa Lucia, in collaboration with Sapienza University of Rome",
+    "status": "Completed",
+    "url": "",
+    "titles": {
+      "en": "Perceptual awareness and emotional contagion",
+      "es": "Conciencia perceptiva y contagio emocional",
+      "it": "Consapevolezza percettiva e contagio emotivo"
+    }
+  }
+]
