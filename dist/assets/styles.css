@@ -28,3 +28,6 @@ body[data-font=pangolin] h1{letter-spacing:-1px}
 @media(max-width:600px){.membership-grid,.academic-details{grid-template-columns:1fr}.memberships-panel{padding:20px}.academic-details{gap:12px}.hero-actions .cta{font-size:13px}.membership-card{padding:18px}}
 
 #memberships-title{scroll-margin-top:140px}
+
+
+.tag.yellow{background:#fff1b8;color:#715500}.conference-role{font:12px/1.7 Arial,sans-serif;color:var(--muted);margin:8px 0}.conference-students{font:12px/1.7 Arial,sans-serif;color:var(--accent);margin:4px 0}#conf-list .linkrow{gap:14px;flex-wrap:wrap}

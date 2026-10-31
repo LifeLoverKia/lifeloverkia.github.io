@@ -20,6 +20,26 @@
     "url": "https://iicsantiago.esteri.it/it/gli_eventi/calendario/slim2026-conferenza-di-chiara-saracini/"
   },
   {
+    "id": "engagement:3",
+    "title": {
+      "en": "Emerging Relationships with Generative AI",
+      "es": "Relaciones emergentes con la IA generativa",
+      "it": "Relazioni emergenti con l’IA generativa"
+    },
+    "description": {
+      "en": "Invited presentation at the National Conference on AI & Law, in a roundtable on the problematic aspects of AI and their impact on human behaviour.",
+      "es": "Ponencia invitada en las Jornadas Nacionales IA & Derecho, en una mesa sobre los aspectos problemáticos de la IA y su impacto en el comportamiento humano.",
+      "it": "Intervento su invito alle Jornadas Nacionales IA & Derecho, in una tavola rotonda sugli aspetti problematici dell’IA e sul loro impatto sul comportamento umano."
+    },
+    "start": "2025-11-25",
+    "end": "2025-11-27",
+    "category": "Invited talk",
+    "role": "Invited speaker",
+    "organiser": "Universidad Autónoma de Chile",
+    "location": "Santiago, Chile",
+    "url": ""
+  },
+  {
     "id": "engagement:1",
     "title": {
       "en": "The Lady (La signora)",
@@ -37,6 +57,26 @@
     "role": "Talk",
     "organiser": "Municipalidad de Roma (Italia)",
     "location": "",
+    "url": ""
+  },
+  {
+    "id": "engagement:anid2025-dialogue",
+    "title": {
+      "en": "45 years of FONDECYT: Horizons and Perspectives",
+      "es": "45 años de Fondecyt: Horizontes y Perspectivas",
+      "it": "45 anni di FONDECYT: orizzonti e prospettive"
+    },
+    "description": {
+      "en": "Participated in ANID’s dialogue tables on the development and future perspectives of FONDECYT.",
+      "es": "Participó en las mesas de diálogo de ANID sobre el desarrollo y las perspectivas de FONDECYT.",
+      "it": "Partecipazione ai tavoli di dialogo ANID sullo sviluppo e sulle prospettive di FONDECYT."
+    },
+    "start": "2025-09-30",
+    "end": "",
+    "category": "Policy engagement",
+    "role": "Discussion participant",
+    "organiser": "ANID",
+    "location": "Chile",
     "url": ""
   },
   {
@@ -83,26 +123,6 @@
       "es": "Lista de voluntariado · desplegar 2025/2026",
       "it": "Elenco volontari · espandere 2025/2026"
     }
-  },
-  {
-    "id": "engagement:3",
-    "title": {
-      "en": "Emerging Relationships with Generative AI",
-      "es": "Relaciones emergentes con la IA generativa",
-      "it": "Relazioni emergenti con l’IA generativa"
-    },
-    "description": {
-      "en": "Invited presentation at the National Conference on AI & Law, in a roundtable on the problematic aspects of AI and their impact on human behaviour.",
-      "es": "Ponencia invitada en las Jornadas Nacionales IA & Derecho, en una mesa sobre los aspectos problemáticos de la IA y su impacto en el comportamiento humano.",
-      "it": "Intervento su invito alle Jornadas Nacionales IA & Derecho, in una tavola rotonda sugli aspetti problematici dell’IA e sul loro impatto sul comportamento umano."
-    },
-    "start": "2025",
-    "end": "",
-    "category": "Invited talk",
-    "role": "Invited speaker",
-    "organiser": "Universidad Autónoma de Chile",
-    "location": "",
-    "url": ""
   },
   {
     "id": "engagement:5",
@@ -445,26 +465,6 @@
     "url": ""
   },
   {
-    "id": "engagement:21",
-    "title": {
-      "en": "Conscious Percept Emergence and Cognitive Flexibility in Visual Bistable Phenomena: Temporal Dynamics and Phase Synchrony",
-      "es": "Conscious percept emergence and cognitive flexibility in visual bistable phenomena: temporal dynamics and phase synchrony",
-      "it": "Emergenza del percetto cosciente e flessibilità cognitiva: dinamiche temporali e sincronia di fase"
-    },
-    "description": {
-      "en": "Oral presentation at an international workshop organised by the Research Center for Cognitive Sciences, Universidad de Talca, 27/11/2019–28/11/2019.",
-      "es": "Presentación oral en un workshop internacional organizado por el Centro de Investigación en Ciencias Cognitivas de la Universidad de Talca, 27/11/2019–28/11/2019.",
-      "it": "Presentazione orale al workshop internazionale del Centro de Investigación en Ciencias Cognitivas della Universidad de Talca, 27/11/2019–28/11/2019."
-    },
-    "start": "2019-11-27",
-    "end": "2019-11-28",
-    "category": "Academic event",
-    "role": "Oral presenter",
-    "organiser": "Centro de Investigación en Ciencias Cognitivas, Universidad de Talca",
-    "location": "Santiago, Chile",
-    "url": ""
-  },
-  {
     "id": "engagement:22",
     "title": {
       "en": "5th School Science Fair",
@@ -525,26 +525,6 @@
     "url": ""
   },
   {
-    "id": "engagement:25",
-    "title": {
-      "en": "International and Interdisciplinary Conference on Image and Imagination (IMG2019)",
-      "es": "International and interdisciplinary Conference on Image and Imagination (IMG2019)",
-      "it": "Conferenza internazionale e interdisciplinare sull’immagine e l’immaginazione (IMG2019)"
-    },
-    "description": {
-      "en": "Contributed two conference papers to IMG2019, including one oral presentation, Alghero, Italy, 04/07/2019–05/07/2019.",
-      "es": "Contribuyó con dos trabajos en IMG2019, incluyendo una presentación oral, Alghero, Italia, 04/07/2019–05/07/2019.",
-      "it": "Contributo a due lavori congressuali, con una presentazione orale, IMG2019, Alghero, 04/07/2019–05/07/2019."
-    },
-    "start": "2019-07-04",
-    "end": "2019-07-05",
-    "category": "Conference",
-    "role": "Conference contributor",
-    "organiser": "Dipartimento di Architettura, Design e Urbanistica, Università di Sassari",
-    "location": "Alghero, Italy",
-    "url": ""
-  },
-  {
     "id": "engagement:26",
     "title": {
       "en": "Science and Technology Innovation and Entrepreneurship Fair",
@@ -582,26 +562,6 @@
     "role": "Workshop facilitator",
     "organiser": "CINPSI Neurocog, Universidad Católica del Maule",
     "location": "San Miguel campus, Talca, Chile",
-    "url": ""
-  },
-  {
-    "id": "engagement:28",
-    "title": {
-      "en": "7th International Conference on Spatial Cognition: Spatial Cognition in a Multimedia and Intercultural World",
-      "es": "7th International Conference on Spatial Cognition: Spatial Cognition in a Multimedia and Intercultural World",
-      "it": "7th International Conference on Spatial Cognition"
-    },
-    "description": {
-      "en": "Contributed two conference papers and one oral presentation at the 7th International Conference on Spatial Cognition, Rome, 10/09/2018–15/09/2018.",
-      "es": "Contribuyó con dos trabajos y una presentación oral en la 7ª International Conference on Spatial Cognition, Roma, 10/09/2018–15/09/2018.",
-      "it": "Contributo a due lavori congressuali e una presentazione orale alla ICSC 2018, Roma, 10/09/2018–15/09/2018."
-    },
-    "start": "2018-09-10",
-    "end": "2018-09-15",
-    "category": "Conference",
-    "role": "Conference contributor",
-    "organiser": "Facoltà di Medicina e Psicologia, Sapienza Università di Roma",
-    "location": "Rome, Italy",
     "url": ""
   },
   {
