@@ -2,7 +2,7 @@
 
 The home page introduces research and education in a two-thirds / one-third layout, followed by publication and conference previews, six project cards, a featured outreach banner, and academic service. On phones the education card follows the portrait and the panels stack.
 
-Home previews show four records each. Native disclosures reveal eight additional publications or five additional conference works. All records remain available in dedicated `publications.html`, `conferences.html` and `outreach.html` pages. No search fields, filters, selections or CSV-export controls are rendered. Year links in the archives are simple in-page navigation. Only the outreach archive has a Print / PDF button.
+Home previews show four records each. Native disclosures reveal every remaining record in that panel. “Show all” states the total count; “Show less” is also available at the bottom and returns keyboard focus to the disclosure control. All records remain available in dedicated `publications.html`, `conferences.html` and `outreach.html` pages. No search fields, filters, selections or CSV-export controls are rendered. Year links in the archives are simple in-page navigation. Only the outreach archive has a Print / PDF button.
 
 Publication format colours are consistent across pages; presentation format and personal role use separate badges. Unconfirmed presenters remain unspecified. External links open new tabs; section navigation uses the same tab. Explicit full-list buttons for publications and conferences open a new tab. The language selection persists into archive and return links.
 
