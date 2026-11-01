@@ -2,7 +2,7 @@
 
 The outreach master workbook in Academic portfolio retains its existing columns and now adds Video, Abstract / proceedings PDF, PDF page, and Slides link. Photo / image link and the main event Link already existed. Blank optional fields do not create empty buttons or image placeholders on the website.
 
-The source has 33 activity rows, including three historical aggregate conference rows retained as references. Those three are represented by individual works in the separate conference archive, so the outreach website shows 31 events after the ARSIC addition.
+The source now has 34 activity rows, including three historical aggregate conference rows retained as references. Those three are represented by individual works in the separate conference archive, so the outreach website shows 32 events after the ARSIC and Homo Ludens additions.
 
 Mapping: Link -> url; Video -> video_url; Abstract / proceedings PDF -> abstract_url; PDF page -> abstract_page (physical page, 1-based); Slides link -> slides_url. Photo / image link is the source used to prepare the deployed image_url and optional image_alt. Public image availability and rendering must be checked when an image is added. The workbook is manually reviewed and published on request; no automatic synchronization is configured.
 
@@ -19,6 +19,14 @@ The originals in Materiali eventi remain unchanged. A reviewed work archive stor
 
 Outreach now also uses Evidence PDF, Additional evidence PDF, Further evidence PDF, and Additional evidence link. Conferences adds Video, Evidence PDF, Photo / image link, and Additional evidence PDF. Material cells retain editable URL values, consistent with the existing registers. Do not replace URLs with descriptive labels when synchronizing. No automatic synchronization is configured.
 
-The website retains 55 publications, 32 conference contributions and 31 outreach records. Reviewed evidence fills author lists for SfN2025 and SweCog2025, identifies Omar Rodríguez Muñoz as presenter of the joint SfN2024 poster, and links the IECBS2022 poster and separate ASSC27/ICSC2024 abstracts. Conference imagery appears on the dedicated archive; compact home previews retain their layout. External material links open new tabs.
+The website retains 55 publications, 32 conference contributions and 32 outreach records. Reviewed evidence fills author lists for SfN2025 and SweCog2025, identifies Omar Rodríguez Muñoz as presenter of the joint SfN2024 poster, and links the IECBS2022 poster and separate ASSC27/ICSC2024 abstracts. Conference imagery appears on the dedicated archive; compact home previews retain their layout. External material links open new tabs.
 
 The original FID2022 flyer confirms 6 and 13 January; a certificate with inconsistent dates remains documented in the work archive but is not used as website evidence. Other unresolved date discrepancies are retained in the review catalog and private workbook notes.
+
+## Featured events and programme links
+
+Featured (Yes/No, column Y) selects the outreach events displayed on the home page. The current selection is SLIM, 22 October 2026. Featured records are ordered newest first. Selection changes are reviewed and published on request; editing the workbook alone does not deploy the website. Cards show the image, title, date, event category and organiser, and the whole card navigates internally to its detailed event entry.
+
+Programme link (Z) is distinct from Full proceedings PDF (AA). The Rome event links to the complete programme, the complete proceedings and a separate two-page extract of Chiara’s abstract. Original proceedings pages 81–82 are physical pages 1–2 of the extract, so the default PDF view reaches the contribution without relying on #page=81 support.
+
+Homo Ludens was verified against the full programme screenshot and the personal 2022 report. The talk was on 28 October 2022 at 17:10, UCM Talca. The former two-page PDF cut off before the name. The register identifies Speaker, without an unsupported invited status.

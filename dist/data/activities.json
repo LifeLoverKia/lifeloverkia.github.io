@@ -18,11 +18,11 @@
     "organiser": "Organizada por el Instituto Italiano de Cultura y la Embajada de Italia en Chile",
     "location": "Santiago (Chile)",
     "url": "https://iicsantiago.esteri.it/it/gli_eventi/calendario/slim2026-conferenza-di-chiara-saracini/",
-    "image_url": "assets/events/iic-santiago.jpg",
+    "image_url": "assets/events/iic-santiago-presentation.jpg",
     "image_alt": {
-      "en": "How Are Brilliant Ideas Born in the Brain?",
-      "es": "¿Cómo nacen las ideas geniales en el cerebro?",
-      "it": "Come nascono le idee geniali nel cervello?"
+      "en": "Chiara Saracini presenting at the Italian Cultural Institute in Santiago",
+      "es": "Chiara Saracini presentando en el Instituto Italiano de Cultura de Santiago",
+      "it": "Chiara Saracini durante la conferenza all’Istituto Italiano di Cultura di Santiago"
     },
     "evidence_links": [
       {
@@ -33,14 +33,20 @@
           "it": "Evidenza PDF"
         }
       }
-    ]
+    ],
+    "featured": true,
+    "featured_organiser": {
+      "en": "Italian Cultural Institute of Santiago · Embassy of Italy in Chile",
+      "es": "Instituto Italiano de Cultura de Santiago · Embajada de Italia en Chile",
+      "it": "Istituto Italiano di Cultura di Santiago · Ambasciata d’Italia in Cile"
+    }
   },
   {
     "id": "engagement:arsic2026-rome",
     "title": {
-      "en": "ARSIC at the 20th Conference of Italian Researchers in the World",
-      "es": "ARSIC en la XX Conferencia de Investigadores Italianos en el Mundo",
-      "it": "ARSIC alla XX Conferenza dei Ricercatori Italiani nel Mondo"
+      "en": "20th Conference of Italian Researchers in the World",
+      "es": "XX Conferencia de Investigadores Italianos en el Mundo",
+      "it": "XX Conferenza dei Ricercatori Italiani nel Mondo"
     },
     "description": {
       "en": "Presented ARSIC (Associazione Ricercatori e Studiosi Italiani in Cile) in the session on associations of Italian researchers abroad, at the Presidency of the Council of Ministers in Rome. The recording starts at my introduction. A separate research abstract is published in the official proceedings, pp. 81–82.",
@@ -55,16 +61,24 @@
     "location": "Sala Polifunzionale, Presidenza del Consiglio dei Ministri · Roma, Italia",
     "url": "https://www.texasic.org/",
     "video_url": "https://youtu.be/GasucQ-lWPA?si=Ai0PYA1xqwCOhzG0&t=4767",
-    "abstract_url": "https://www.texasic.org/_files/ugd/215bac_08c47f6c635741849b68670f19f182c4.pdf",
-    "abstract_page": 81,
+    "abstract_url": "https://drive.google.com/file/d/1tp39TLPdx8KrB7pken6C0nXSHx46yj8n/view?usp=drivesdk",
+    "abstract_page": null,
     "abstract_pages": "81–82",
     "abstract_title": "Cognitive neuroscience, neuroethics, and the ethical governance of artificial intelligence and emerging neurotechnologies",
-    "image_url": "",
+    "image_url": "assets/events/italian-researchers-world-2026.jpg",
     "slides_url": "",
     "url_label": {
       "en": "Event & proceedings",
       "es": "Evento y actas",
       "it": "Evento e atti"
+    },
+    "featured": false,
+    "programme_url": "https://drive.google.com/file/d/1mdcsD6XC3tEKNBPcGx1YlU1K_f2L9sMC/view",
+    "proceedings_url": "https://www.texasic.org/_files/ugd/215bac_08c47f6c635741849b68670f19f182c4.pdf",
+    "image_alt": {
+      "en": "Chiara Saracini · ARSIC · XX Conference of Italian Researchers in the World",
+      "es": "Chiara Saracini · ARSIC · XX Conference of Italian Researchers in the World",
+      "it": "Chiara Saracini · ARSIC · XX Conference of Italian Researchers in the World"
     }
   },
   {
@@ -85,7 +99,9 @@
     "role": "Invited speaker",
     "organiser": "Universidad Autónoma de Chile",
     "location": "Santiago, Chile",
-    "url": ""
+    "url": "",
+    "featured": false,
+    "image_url": "assets/events/ai-law-roundtable-2025.jpg"
   },
   {
     "id": "engagement:1",
@@ -111,7 +127,8 @@
       "en": "The Lady (La signora)",
       "es": "La signora",
       "it": "La signora"
-    }
+    },
+    "featured": false
   },
   {
     "id": "engagement:anid2025-dialogue",
@@ -137,7 +154,8 @@
       "en": "45 years of FONDECYT: Horizons and Perspectives",
       "es": "45 años de Fondecyt: Horizontes y Perspectivas",
       "it": "45 anni di FONDECYT: orizzonti e prospettive"
-    }
+    },
+    "featured": false
   },
   {
     "id": "engagement:2",
@@ -158,12 +176,13 @@
     "organiser": "Colegio “Japón” de Curicó (Chile)",
     "location": "",
     "url": "",
-    "image_url": "",
+    "image_url": "assets/events/colegio-japon.jpg",
     "image_alt": {
       "en": "Neurobiology of Learning",
       "es": "Neurobiología del Aprendizaje",
       "it": "Neurobiologia dell’apprendimento"
-    }
+    },
+    "featured": false
   },
   {
     "id": "engagement:30",
@@ -198,7 +217,8 @@
           "it": "Evidenza PDF"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:5",
@@ -234,7 +254,8 @@
           "it": "Certificato"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:4",
@@ -286,7 +307,8 @@
           "it": "Certificato"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:6",
@@ -330,7 +352,8 @@
           "it": "Programma"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:7",
@@ -350,7 +373,8 @@
     "role": "Invited speaker",
     "organiser": "Universidad Católica del Maule; Proyecto de Vinculación con el Medio UCM 2023",
     "location": "UCM, San Miguel campus",
-    "url": ""
+    "url": "",
+    "featured": false
   },
   {
     "id": "engagement:8",
@@ -377,7 +401,8 @@
       "en": "Perception, Cognition and Consciousness",
       "es": "Percepción, cognición y conciencia",
       "it": "Percezione, cognizione e coscienza"
-    }
+    },
+    "featured": false
   },
   {
     "id": "engagement:9",
@@ -397,7 +422,32 @@
     "role": "Podcast script author",
     "organiser": "Universidad Católica del Maule; Semilla UCM",
     "location": "Online",
-    "url": "https://www.mixcloud.com/Semillascientificas/semillas-cient%C3%ADficas-ucm-1-qu%C3%A9-pasa-cuando-nos-enamoramos/"
+    "url": "https://www.mixcloud.com/Semillascientificas/semillas-cient%C3%ADficas-ucm-1-qu%C3%A9-pasa-cuando-nos-enamoramos/",
+    "featured": false,
+    "image_url": "assets/events/semillas-cientificas-podcast.jpg"
+  },
+  {
+    "id": "engagement:homoludens2022",
+    "title": {
+      "en": "Transplanting agency and identity: my avatar is more successful than I am",
+      "es": "Transplante de agencia e identidad: mi avatar es más exitoso que yo",
+      "it": "Trapianto di agentività e identità: il mio avatar ha più successo di me"
+    },
+    "description": {
+      "en": "Talk at Homo Ludens: Mente, Agencia y Videojuegos, a forum jointly organised by Universidad de Concepción and Universidad Católica del Maule, 26–28 October 2022. Presented on 28 October at 17:10 in Talca.",
+      "es": "Ponencia en Homo Ludens: Mente, Agencia y Videojuegos, foro organizado por la Universidad de Concepción y la Universidad Católica del Maule del 26 al 28 de octubre de 2022. Presentación el 28 de octubre a las 17:10, en Talca.",
+      "it": "Intervento a Homo Ludens: Mente, Agencia y Videojuegos, forum organizzato da Universidad de Concepción e Universidad Católica del Maule dal 26 al 28 ottobre 2022. Presentazione il 28 ottobre alle 17:10, a Talca."
+    },
+    "start": "2022-10-28",
+    "end": "",
+    "category": "Academic event",
+    "role": "Speaker",
+    "organiser": "Universidad de Concepción · CINPSI Neurocog, Universidad Católica del Maule",
+    "location": "Auditorio Facultad de Ciencias de la Ingeniería UCM · Campus San Miguel, Talca, Chile",
+    "url": "https://humanidadesyarte.udec.cl/evento/homo-ludens-mente-agencia-y-videojuegos/",
+    "programme_url": "https://drive.google.com/file/d/1Z0ELvubYTNlzWqGXi2d1Fx01UThjPD8p/view?usp=drivesdk",
+    "image_url": "assets/events/homo-ludens-2022.jpg",
+    "featured": false
   },
   {
     "id": "engagement:10",
@@ -433,7 +483,8 @@
           "it": "Evidenza PDF"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:12",
@@ -459,7 +510,8 @@
       "en": "How to Apply Neuroscience Knowledge in the Classroom",
       "es": "Cómo aprovechar los conocimientos de las neurociencias en el aula",
       "it": "Come utilizzare le conoscenze neuroscientifiche in classe"
-    }
+    },
+    "featured": false
   },
   {
     "id": "engagement:11",
@@ -485,7 +537,8 @@
       "en": "The Biological Foundations of Learning",
       "es": "Bases biológicas del aprendizaje",
       "it": "Le basi biologiche dell’apprendimento"
-    }
+    },
+    "featured": false
   },
   {
     "id": "engagement:13",
@@ -530,7 +583,8 @@
           "it": "Evidenza PDF"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:14",
@@ -567,7 +621,8 @@
           "it": "Locandina"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:15",
@@ -594,7 +649,8 @@
       "en": "The Taste of Knowledge",
       "es": "El sabor del Saber",
       "it": "Il sapore del sapere"
-    }
+    },
+    "featured": false
   },
   {
     "id": "engagement:16",
@@ -638,7 +694,8 @@
           "it": "Locandina"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:17",
@@ -674,7 +731,8 @@
           "it": "Locandina"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:19",
@@ -696,7 +754,7 @@
     "location": "Facebook Live",
     "url": "",
     "video_url": "https://www.facebook.com/cientificosescolaresmaule/videos/427203588448285",
-    "image_url": "",
+    "image_url": "assets/events/percepcion-biestable.jpg",
     "image_alt": {
       "en": "When the Brain Is Undecided: Phenomena of Bistable Perception",
       "es": "Cuando el cerebro está indeciso: Fenómenos de percepción Biestable",
@@ -711,7 +769,8 @@
           "it": "Locandina"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:20",
@@ -747,7 +806,8 @@
           "it": "Locandina"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:18",
@@ -767,7 +827,8 @@
     "role": "Discussion participant",
     "organiser": "Senado de Chile · Comisión Desafíos del Futuro",
     "location": "Chile",
-    "url": "https://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=941"
+    "url": "https://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=941",
+    "featured": false
   },
   {
     "id": "engagement:22",
@@ -787,7 +848,8 @@
     "role": "Project evaluator",
     "organiser": "Escuela Pedro Antonio González de Curepto",
     "location": "Escuela Pedro Antonio González · Curepto, Chile",
-    "url": ""
+    "url": "",
+    "featured": false
   },
   {
     "id": "engagement:23",
@@ -807,7 +869,8 @@
     "role": "Participant",
     "organiser": "PAR Explora Maule; Universidad de Talca",
     "location": "Talca, Chile",
-    "url": ""
+    "url": "",
+    "featured": false
   },
   {
     "id": "engagement:24",
@@ -843,7 +906,8 @@
           "it": "Resoconto e foto"
         }
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "engagement:26",
@@ -863,7 +927,8 @@
     "role": "Exhibitor / presenter",
     "organiser": "CINPSI Neurocog",
     "location": "Talca, Chile",
-    "url": ""
+    "url": "",
+    "featured": false
   },
   {
     "id": "engagement:27",
@@ -883,7 +948,8 @@
     "role": "Workshop facilitator",
     "organiser": "CINPSI Neurocog, Universidad Católica del Maule",
     "location": "San Miguel campus, Talca, Chile",
-    "url": ""
+    "url": "",
+    "featured": false
   },
   {
     "id": "engagement:29",
@@ -903,7 +969,8 @@
     "role": "Invited speaker",
     "organiser": "Facultad de Psicología, Universidad de Talca",
     "location": "Chile",
-    "url": ""
+    "url": "",
+    "featured": false
   },
   {
     "id": "engagement:ucm-talented-2017",
@@ -923,6 +990,7 @@
     "role": "Lecturer",
     "organiser": "Universidad Católica del Maule",
     "location": "Talca, Chile",
-    "url": ""
+    "url": "",
+    "featured": false
   }
 ]

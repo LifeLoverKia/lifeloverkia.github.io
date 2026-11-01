@@ -14,6 +14,9 @@ Object.assign(ui.it,{video:'Video',arsicRome:'ARSIC a Roma',arsicVenue:'Presiden
 Object.assign(ui.en,{evidence:'Evidence PDF'});
 Object.assign(ui.es,{evidence:'Evidencia PDF'});
 Object.assign(ui.it,{evidence:'Evidenza PDF'});
+Object.assign(ui.en,{selectedEvents:'Featured events',programmePDF:'Programme · PDF',fullProceedings:'Full proceedings · PDF'});
+Object.assign(ui.es,{selectedEvents:'Eventos destacados',programmePDF:'Programa · PDF',fullProceedings:'Libro completo · PDF'});
+Object.assign(ui.it,{selectedEvents:'Eventi in evidenza',programmePDF:'Programma · PDF',fullProceedings:'Libro completo · PDF'});
 const t=k=>ui[lang][k]||k,tr=k=>(labels[k]||[k,k,k])[['en','es','it'].indexOf(lang)];
 const date=s=>!s?'':s==='Current'?t('current'):/^\d{4}$/.test(String(s))?String(s):String(s).slice(0,10).split('-').reverse().join('/');
 const safe=u=>/^https?:\/\//i.test(u||'')?u:'';
@@ -61,6 +64,8 @@ function activityLinks(x){
   html+=link(x.video_url,t('video')+stamp);
  }
  if(x.abstract_url)html+=link(pdfMaterialURL(x),t('abstract')+(x.abstract_pages?' · pp. '+x.abstract_pages:''));
+ if(x.programme_url)html+=link(x.programme_url,t('programmePDF'));
+ if(x.proceedings_url)html+=link(x.proceedings_url,t('fullProceedings'));
  if(x.slides_url)html+=link(x.slides_url,t('slides'));
  return html;
 }
@@ -69,7 +74,7 @@ function activityImage(x){
  if(!src)return '';
  return `<div class="activity-image"><img src="${esc(src)}" alt="${esc(x.image_alt?.[lang]||(typeof x.title==='string'?x.title:x.title[lang]))}" loading="lazy"></div>`;
 }
-function activityHTML(x){const image=activityImage(x);return `<article class="entry activity-entry ${image?'has-image':''}" id="${anchor(x)}">${image}<div class="activity-body"><div class="tags">${badge(tr(x.category),x.category==='Public outreach'?'type-chapter':x.category==='School engagement'?'type-symposium':'type-paper')}</div><h3>${esc(x.title[lang])}</h3><p class="venue">${date(x.start)}${x.end?' – '+date(x.end):''}${x.organiser?' · '+esc(x.organiser):''}</p><p class="description">${esc(x.description[lang])}</p>${x.location?`<p class="meta">${esc(x.location)}</p>`:''}<div class="linkrow">${activityLinks(x)}</div></div></article>`;}
+function activityHTML(x){const image=activityImage(x);return `<article class="entry activity-entry ${image?'has-image':''}" id="${anchor(x)}">${image}<div class="activity-body"><div class="tags">${activityCategoryBadge(x)}</div><h3>${esc(x.title[lang])}</h3><p class="venue">${date(x.start)}${x.end?' – '+date(x.end):''}${x.organiser?' · '+esc(x.featured_organiser?.[lang]||x.organiser):''}</p><p class="description">${esc(x.description[lang])}</p>${x.location?`<p class="meta">${esc(x.location)}</p>`:''}<div class="linkrow">${activityLinks(x)}</div></div></article>`;}
 function projectHTML(x){return `<article class="project-card"><div class="tags">${badge(tr(x.status),x.status==='Ongoing'?'status-ongoing':'status-completed')}${x.grant?badge(x.grant,'type-article'):''}</div><h3>${esc(x.titles?.[lang]||x.title)}</h3><p class="project-role">${esc(tr(x.role))}</p><p class="meta">${x.date_scope==='action'?t('actiondates'):t('participation')}: ${date(x.start)}${x.end?' – '+date(x.end):x.status==='Ongoing'&&x.date_scope!=='contribution'?' – '+t('current'):''}</p><p class="description">${esc(x.description[lang])}</p><div class="card-link">${link(x.url,t('source'))}</div></article>`;}
 function homeLists(){
  const pubs=DATA.publications,confs=DATA.conferences;
@@ -82,14 +87,24 @@ function homeLists(){
   $(prefix+'-open').textContent=t('open')+' · '+rows.length;$(prefix+'-open').href=route(prefix==='pub'?'publications.html':'conferences.html');
  }
 }
+function activityCategoryBadge(x){
+ const colors={'Public outreach':'outreach-public','School engagement':'outreach-school','Teacher training':'outreach-training','Invited talk':'outreach-talk','Academic event':'outreach-academic','Institutional representation':'outreach-institutional','Policy engagement':'outreach-policy'};
+ return badge(tr(x.category),colors[x.category]||'type-other');
+}
+function featuredEventsHTML(){
+ const events=DATA.activities.filter(x=>x.featured===true).sort((a,b)=>b.start.localeCompare(a.start)||a.id.localeCompare(b.id));
+ const cards=events.map(x=>`<a class="featured-event-card ${x.image_url?'':'without-image'}" href="${route('outreach.html',anchor(x))}">
+  ${x.image_url?`<div class="featured-event-image"><img src="${esc(x.image_url)}" alt="${esc(x.image_alt?.[lang]||x.title[lang])}" loading="lazy"></div>`:''}
+  <div class="featured-event-copy"><div class="featured-event-meta"><time datetime="${esc(x.start)}">${date(x.start)}</time>${activityCategoryBadge(x)}</div>
+  <p class="featured-event-organiser">${esc(x.featured_organiser?.[lang]||x.organiser||'')}</p><h3>${esc(x.title[lang])}</h3><span class="featured-event-action">${t('viewevent')}</span></div></a>`).join('');
+ return `${events.length?`<div class="featured-events-heading"><p class="eyebrow">${t('selectedEvents')}</p></div><div class="featured-events-grid ${events.length===1?'single-feature':''}">${cards}</div>`:''}<a class="button primary outreach-button" href="${route('outreach.html')}">${t('alloutreach')} <span>${DATA.activities.length} ${t('records')}</span></a>`;
+}
 function renderHome(){const c=DATA.content[lang];
  for(const [id,key] of [['hero-label','label'],['research-cta','cta'],['cv-download','cv'],['education-title','education'],['pub-title','pubtitle'],['conf-title','conftitle'],['project-title','projecttitle'],['outreach-title','outreach'],['academic-title','academic'],['memberships-title','memberships'],['pub-intro','pubintro'],['conf-intro','confintro']])$(id).textContent=t(key);
  $('research-title').textContent=ui[lang].nav[0];$('question').textContent=c.question;$('intro').textContent=c.intro;$('bio').textContent=c.bio;$('cv-download').href=c.cv_url;
  $('research-grid').innerHTML=c.research.map((x,i)=>`<article class="research-item"><span class="research-mark" aria-hidden="true">${['◒','∿','◌'][i]}</span><div><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p></div></article>`).join('');
  $('background-list').innerHTML=c.background.map(x=>`<li>${esc(x)}</li>`).join('');homeLists();$('project-list').innerHTML=DATA.projects.map(projectHTML).join('');
- const arsic=DATA.activities.find(x=>x.id==='engagement:arsic2026-rome');
- const feature=DATA.activities.find(x=>x.id==='engagement:0')||DATA.activities.find(x=>x.start==='2026-10-22'),penne=DATA.activities.find(x=>x.title.en.includes('Science Pen'))||DATA.activities.find(x=>x.title.it.includes('Penne Amiche'));
- $('outreach-banner').innerHTML=`<div class="featured-talk"><p class="eyebrow">${t('featured')}</p><p class="meta">${date(feature.start)} · SANTIAGO</p><h3>${esc(feature.title[lang])}</h3><p>${esc(feature.description[lang])}</p><a class="text-link" href="${route('outreach.html',anchor(feature))}">${t('viewevent')}</a></div><div class="featured-school"><h3>Penne Amiche della Scienza</h3><p>${t('penne')}</p><a class="text-link" href="${route('outreach.html',anchor(penne))}">${t('viewevent')}</a>${arsic?`<div class="featured-institution"><h3>${t('arsicRome')}</h3><p class="meta">18/06/2026 · ${t('arsicVenue')}</p><a class="text-link" href="${route('outreach.html',anchor(arsic))}">${t('viewevent')}</a><div class="linkrow">${link(arsic.video_url,t('video'))}</div></div>`:''}</div><a class="button primary outreach-button" href="${route('outreach.html')}">${t('alloutreach')} <span>${DATA.activities.length} ${t('records')}</span></a>`;
+ $('outreach-banner').innerHTML=featuredEventsHTML();
  $('academic-grid').innerHTML=[['teaching',c.service[0]],['service',c.service.slice(1).join('\n\n')],['mentoring',c.mentoring],['reviews',c.grant_reviews]].map(([title,text])=>`<article class="academic-card"><h3>${t(title)}</h3>${text.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')}</article>`).join('');
  $('membership-grid').innerHTML=DATA.memberships.map(x=>`<article class="membership-card"><div class="membership-top"><span class="membership-acronym">${esc(x.acronym)}</span><span>${t('since')} ${date(x.start)}</span></div><h4>${link(x.url,x.names?.[lang]||x.name)}</h4><p>${esc(x.role[lang])}</p></article>`).join('');
 }
