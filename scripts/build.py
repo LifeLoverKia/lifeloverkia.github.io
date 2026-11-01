@@ -11,9 +11,9 @@ text=embed((ROOT/'template.html').read_text(),data)
 for page,keys in [('publications',['publications']),('conferences',['conferences','publications']),('outreach',['activities'])]:
  template=(ROOT/'list-template.html').read_text().replace('__PAGE__',page)
  (dist/(page+'.html')).write_text(embed(template,{k:data[k] for k in keys}))
-standalone=text.replace('<link rel="stylesheet" href="assets/styles.css?v=20261031-expand">','<style>'+(dist/'assets/styles.css').read_text()+'</style>')
+standalone=text.replace('<link rel="stylesheet" href="assets/styles.css?v=20261101-materials">','<style>'+(dist/'assets/styles.css').read_text()+'</style>')
 for name in ['labels','app']:
- standalone=standalone.replace(f'<script src="assets/{name}.js?v=20261031-expand"></script>','<script>'+(dist/'assets'/(name+'.js')).read_text()+'</script>')
+ standalone=standalone.replace(f'<script src="assets/{name}.js?v=20261101-materials"></script>','<script>'+(dist/'assets'/(name+'.js')).read_text()+'</script>')
 image=base64.b64encode((dist/'assets/chiara-saracini.jpg').read_bytes()).decode()
 standalone=standalone.replace('src="assets/chiara-saracini.jpg"','src="data:image/jpeg;base64,'+image+'"')
 for name in ['Comfortaa','Pangolin']:

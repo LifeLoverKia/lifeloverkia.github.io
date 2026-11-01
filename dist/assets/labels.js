@@ -12,3 +12,5 @@ Object.assign(labels,{
 });
 
 Object.assign(labels,{"Conference poster": ["Conference poster", "Póster de congreso", "Poster congressuale"], "Oral presentation": ["Oral presentation", "Comunicación oral", "Comunicazione orale"], "Conference contribution": ["Conference contribution", "Contribución a congreso", "Contributo congressuale"], "Symposium": ["Symposium", "Simposio", "Simposio"], "Presenter": ["Presenter", "Ponente", "Relatrice"], "Co-author": ["Co-author", "Coautora", "Coautrice"], "Author": ["Author", "Autora", "Autrice"], "Virtual presenter / co-author": ["Virtual presenter / co-author", "Presentación virtual / coautoría", "Presentazione virtuale / coautrice"]});
+
+Object.assign(labels,{'Institutional representation':['Institutional representation','Representación institucional','Rappresentanza istituzionale']});

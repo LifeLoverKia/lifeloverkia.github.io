@@ -20,6 +20,38 @@
     "url": "https://iicsantiago.esteri.it/it/gli_eventi/calendario/slim2026-conferenza-di-chiara-saracini/"
   },
   {
+    "id": "engagement:arsic2026-rome",
+    "title": {
+      "en": "ARSIC at the 20th Conference of Italian Researchers in the World",
+      "es": "ARSIC en la XX Conferencia de Investigadores Italianos en el Mundo",
+      "it": "ARSIC alla XX Conferenza dei Ricercatori Italiani nel Mondo"
+    },
+    "description": {
+      "en": "Presented ARSIC (Associazione Ricercatori e Studiosi Italiani in Cile) in the session on associations of Italian researchers abroad, at the Presidency of the Council of Ministers in Rome. The recording starts at my introduction. A separate research abstract is published in the official proceedings, pp. 81–82.",
+      "es": "Presentación de ARSIC (Associazione Ricercatori e Studiosi Italiani in Cile) en la sesión sobre las asociaciones de investigadores italianos en el exterior, en la Presidencia del Consejo de Ministros, Roma. El vídeo comienza en mi presentación. Un resumen de investigación independiente está publicado en las actas oficiales, pp. 81–82.",
+      "it": "Presentazione di ARSIC (Associazione Ricercatori e Studiosi Italiani in Cile) nella sessione sulle associazioni dei ricercatori italiani all’estero, presso la Presidenza del Consiglio dei Ministri, a Roma. Il video parte dalla mia introduzione. Un abstract sulla mia ricerca è pubblicato separatamente negli atti ufficiali, pp. 81–82."
+    },
+    "start": "2026-06-18",
+    "end": "",
+    "category": "Institutional representation",
+    "role": "Invited speaker / ARSIC representative",
+    "organiser": "Texas Scientific Italian Community (TSIC) · Sapienza Università di Roma",
+    "location": "Sala Polifunzionale, Presidenza del Consiglio dei Ministri · Roma, Italia",
+    "url": "https://www.texasic.org/",
+    "video_url": "https://youtu.be/GasucQ-lWPA?si=Ai0PYA1xqwCOhzG0&t=4767",
+    "abstract_url": "https://www.texasic.org/_files/ugd/215bac_08c47f6c635741849b68670f19f182c4.pdf",
+    "abstract_page": 81,
+    "abstract_pages": "81–82",
+    "abstract_title": "Cognitive neuroscience, neuroethics, and the ethical governance of artificial intelligence and emerging neurotechnologies",
+    "image_url": "",
+    "slides_url": "",
+    "url_label": {
+      "en": "Event & proceedings",
+      "es": "Evento y actas",
+      "it": "Evento e atti"
+    }
+  },
+  {
     "id": "engagement:3",
     "title": {
       "en": "Emerging Relationships with Generative AI",
