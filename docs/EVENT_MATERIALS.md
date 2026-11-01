@@ -38,6 +38,13 @@ Seven events have Featured=Yes: SLIM, the 20th Conference of Italian Researchers
 
 The 2021 FID series is one event with four dated sessions and four video links; it is distinct from January 2021 and January 2022. Her is dated 9 January 2025 according to source row 12, despite its position under the 2024 reporting block. The reference Google Sheet remains unchanged.
 
-Image crops are presentation viewports over preserved source images: UDD uses only its central flyer in the home preview; the 2019 school event uses the large upper classroom photograph. Penne Amiche uses the official public-site feather logo because the user-supplied image URL returned 403. If the user supplies the intended file, replace it.
+Image crops are presentation viewports over preserved source images: UDD uses only its central flyer in the home preview; the 2019 school event uses the large upper classroom photograph. Penne Amiche uses the complete logo file supplied by Chiara, including the project name.
 
 Attivita_da_valutare now distinguishes already published records, details of existing roles, possible new records and optional training/attendance. Do not treat all its rows as missing activities.
+
+
+## Persistent event identifiers
+
+The event id is a permanent key, independent of display order and source row number. Never regenerate existing ids from array position or renumber them after insertions, sorting, date corrections or title edits. Existing numeric keys remain unchanged to preserve published links. New events use a unique descriptive key assigned once, such as engagement:fid-cycle-2021 or engagement:her-2025. A year in a descriptive key is only a mnemonic: correcting an event date must not rename the key. Chronological display uses the start date, separately from the id.
+
+The complete Penne Amiche logo supplied by Chiara replaces the temporary feather-only logo on 1 November 2026. Its existing Drive file ID is preserved so workbook image links remain valid.
