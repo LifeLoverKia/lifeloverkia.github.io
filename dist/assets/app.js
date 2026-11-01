@@ -11,6 +11,9 @@ const ui={
 Object.assign(ui.en,{video:'Video',arsicRome:'ARSIC in Rome',arsicVenue:'Presidency of the Council of Ministers'});
 Object.assign(ui.es,{video:'Vídeo',arsicRome:'ARSIC en Roma',arsicVenue:'Presidencia del Consejo de Ministros'});
 Object.assign(ui.it,{video:'Video',arsicRome:'ARSIC a Roma',arsicVenue:'Presidenza del Consiglio dei Ministri'});
+Object.assign(ui.en,{evidence:'Evidence PDF'});
+Object.assign(ui.es,{evidence:'Evidencia PDF'});
+Object.assign(ui.it,{evidence:'Evidenza PDF'});
 const t=k=>ui[lang][k]||k,tr=k=>(labels[k]||[k,k,k])[['en','es','it'].indexOf(lang)];
 const date=s=>!s?'':s==='Current'?t('current'):/^\d{4}$/.test(String(s))?String(s):String(s).slice(0,10).split('-').reverse().join('/');
 const safe=u=>/^https?:\/\//i.test(u||'')?u:'';
@@ -36,19 +39,22 @@ function roleBadge(x){
  if(x.role==='Virtual presenter / co-author')return badge(t(x.format==='Conference poster'?'virtual':'oralvirtual'),'role-virtual');
  return badge(t('author'),'role-author');
 }
-function confLinks(x){let html=[['poster_url','poster'],['abstract_url','abstract'],['slides_url','slides'],['event_url','event']].map(([k,l])=>link(x[k],t(l))).join('');
+function materialLinks(x){
+ return [...(x.evidence_links||[]),...(x.extra_links||[])].map(item=>link(item.url,item.label?.[lang]||t('evidence'))).join('');
+}
+function confLinks(x){let html=materialLinks(x)+[['poster_url','poster'],['abstract_url','abstract'],['slides_url','slides'],['event_url','event']].map(([k,l])=>link(x[k],t(l))).join('');
  const p=DATA.publications?.find(p=>p.id===x.publication_id);
  if(p&&!x.abstract_url)html+=p.doi?link('https://doi.org/'+doi(p.doi),t('published')):`<a href="${route('publications.html',anchor(p))}" target="_blank" rel="noopener">${t('published')} ↗</a>`;
  if(x.related_article_doi)html+=link('https://doi.org/'+doi(x.related_article_doi),t('article'));return html;
 }
-function confHTML(x){return `<article class="entry conference-entry" id="${anchor(x)}"><div class="tags">${typeBadge(x.format)}${roleBadge(x)}</div><h3>${esc(x.title)} <span class="entry-year">(${x.year})</span></h3>${x.authors?`<p class="authors">${esc(x.authors)}</p>`:''}<p class="venue"><strong>${esc(x.event)}</strong><br>${date(x.start)}${x.end?' – '+date(x.end):''}${x.location?' · '+esc(x.location):''}</p>${page!=='home'&&x.presenter?`<p class="meta">${t('presenter')}: ${esc(x.presenter)}</p>`:''}${x.student_collaboration?`<p class="meta student-note">${t('student')}</p>`:''}${page!=='home'&&x.description?.[lang]?`<p class="description">${esc(x.description[lang])}</p>`:''}<div class="linkrow">${confLinks(x)}</div></article>`;}
+function confHTML(x){const image=page!=='home'?activityImage(x):'';return `<article class="entry conference-entry ${image?'has-image':''}" id="${anchor(x)}">${image}<div class="conference-body"><div class="tags">${typeBadge(x.format)}${roleBadge(x)}</div><h3>${esc(x.title)} <span class="entry-year">(${x.year})</span></h3>${x.authors?`<p class="authors">${esc(x.authors)}</p>`:''}<p class="venue"><strong>${esc(x.event)}</strong><br>${date(x.start)}${x.end?' – '+date(x.end):''}${x.location?' · '+esc(x.location):''}</p>${page!=='home'&&x.presenter?`<p class="meta">${t('presenter')}: ${esc(x.presenter)}</p>`:''}${x.student_collaboration?`<p class="meta student-note">${t('student')}</p>`:''}${page!=='home'&&x.description?.[lang]?`<p class="description">${esc(x.description[lang])}</p>`:''}<div class="linkrow">${confLinks(x)}</div></div></article>`;}
 function pdfMaterialURL(x){
  if(!safe(x.abstract_url))return '';
  const pageNumber=Number(x.abstract_page);
  return Number.isInteger(pageNumber)&&pageNumber>0?x.abstract_url.split('#')[0]+'#page='+pageNumber:x.abstract_url;
 }
 function activityLinks(x){
- let html=link(x.url,x.url_label?.[lang]||t('source'));
+ let html=materialLinks(x)+link(x.url,x.url_label?.[lang]||t('source'));
  if(safe(x.video_url)){
   const seconds=Number(new URL(x.video_url).searchParams.get('t'));
   const stamp=seconds>0?' · '+Math.floor(seconds/3600)+':'+String(Math.floor(seconds%3600/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0'):'';
@@ -61,7 +67,7 @@ function activityLinks(x){
 function activityImage(x){
  const src=safe(x.image_url)||(/^assets\/[a-zA-Z0-9_./-]+$/.test(x.image_url||'')?x.image_url:'');
  if(!src)return '';
- return `<div class="activity-image"><img src="${esc(src)}" alt="${esc(x.image_alt?.[lang]||x.title[lang])}" loading="lazy"></div>`;
+ return `<div class="activity-image"><img src="${esc(src)}" alt="${esc(x.image_alt?.[lang]||(typeof x.title==='string'?x.title:x.title[lang]))}" loading="lazy"></div>`;
 }
 function activityHTML(x){const image=activityImage(x);return `<article class="entry activity-entry ${image?'has-image':''}" id="${anchor(x)}">${image}<div class="activity-body"><div class="tags">${badge(tr(x.category),x.category==='Public outreach'?'type-chapter':x.category==='School engagement'?'type-symposium':'type-paper')}</div><h3>${esc(x.title[lang])}</h3><p class="venue">${date(x.start)}${x.end?' – '+date(x.end):''}${x.organiser?' · '+esc(x.organiser):''}</p><p class="description">${esc(x.description[lang])}</p>${x.location?`<p class="meta">${esc(x.location)}</p>`:''}<div class="linkrow">${activityLinks(x)}</div></div></article>`;}
 function projectHTML(x){return `<article class="project-card"><div class="tags">${badge(tr(x.status),x.status==='Ongoing'?'status-ongoing':'status-completed')}${x.grant?badge(x.grant,'type-article'):''}</div><h3>${esc(x.titles?.[lang]||x.title)}</h3><p class="project-role">${esc(tr(x.role))}</p><p class="meta">${x.date_scope==='action'?t('actiondates'):t('participation')}: ${date(x.start)}${x.end?' – '+date(x.end):x.status==='Ongoing'&&x.date_scope!=='contribution'?' – '+t('current'):''}</p><p class="description">${esc(x.description[lang])}</p><div class="card-link">${link(x.url,t('source'))}</div></article>`;}

@@ -2,7 +2,7 @@
   {
     "id": "conf:sfn2025-biomarkers",
     "title": "EEG biomarkers of impulsiveness and personality traits in healthy adults",
-    "authors": "",
+    "authors": "C. Saracini; M. Rodriguez Ulloa; D. Barros Muñoz; F. Arriagada",
     "year": 2025,
     "start": "2025-11-15",
     "end": "2025-11-19",
@@ -10,25 +10,36 @@
     "location": "San Diego, USA",
     "format": "Conference poster",
     "role": "Virtual presenter / co-author",
-    "presenter": "",
+    "presenter": "Chiara Saracini",
     "attendance": "Virtual",
     "student_collaboration": true,
     "publication_id": "",
     "related_article_doi": "",
     "poster_url": "",
     "slides_url": "",
-    "abstract_url": "",
+    "abstract_url": "https://drive.google.com/file/d/1NyDtay3lArg7jl3bgc1aBZqljKF0dCoI/view?usp=drivesdk",
     "event_url": "https://www.sfn.org/meetings/neuroscience-2025/",
     "description": {
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "poster_number": "PSTR144.07",
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1yXoc8SI09_i-vq3b7lrZmc82eiHzN1FB/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:swecog2025-words",
     "title": "Do emotional words break through visual suppression more quickly?",
-    "authors": "",
+    "authors": "Francia Arriagada-Mödinger; Chiara Saracini; Renzo C. Lanfranco",
     "year": 2025,
     "start": "2025-10-07",
     "end": "2025-10-09",
@@ -49,7 +60,25 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/18Gyq-nzUzsPdnCIARKL2xJN34pwn4Jc2/view?usp=drivesdk",
+        "label": {
+          "en": "Title & authors",
+          "es": "Título y autores",
+          "it": "Titolo e autori"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/1atMEGDFNnZwdaa_ZjxxhxClvXZySd8dj/view?usp=drivesdk",
+        "label": {
+          "en": "Abstract extract",
+          "es": "Extracto del resumen",
+          "it": "Estratto dell’abstract"
+        }
+      }
+    ]
   },
   {
     "id": "conf:icon2025-emotion",
@@ -81,7 +110,7 @@
   {
     "id": "conf:tex:00",
     "title": "Theta/beta ratio as an impulsiveness marker: an exploratory study with EEG",
-    "authors": "Rodríguez, O., Saracini, C.",
+    "authors": "Omar Rodríguez Muñoz; Chiara Saracini",
     "year": 2024,
     "start": "2024-10-05",
     "end": "2024-10-09",
@@ -89,7 +118,7 @@
     "location": "Chicago, USA",
     "format": "Conference poster",
     "role": "Co-author",
-    "presenter": "",
+    "presenter": "Omar Rodríguez Muñoz",
     "attendance": "",
     "student_collaboration": true,
     "publication_id": "",
@@ -102,7 +131,18 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "poster_number": "PSTR311.04",
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1FXb7pwLRMbHJh_jPaQlpcN8xKZETvJ48/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:tex:01",
@@ -115,20 +155,30 @@
     "location": "Rome, Italy",
     "format": "Oral presentation",
     "role": "Presenter",
-    "presenter": "",
+    "presenter": "Chiara Saracini",
     "attendance": "",
     "student_collaboration": false,
     "publication_id": "title\\:exploringthecorrelationbetweenvisuospatialinhibitorycontrolandcognitiveflexibilityperformance\\:2024",
     "related_article_doi": "",
     "poster_url": "",
     "slides_url": "https://drive.google.com/file/d/1AAqMcIpHdwrSXUdX1r64BuZI0AWNW1wN/view?usp=drive_link",
-    "abstract_url": "https://orcid.org/0000-0002-1594-7382/work/198675936",
+    "abstract_url": "https://drive.google.com/file/d/1M7-BHzlNEicudQr_8u_3uRp3YqTTKCyz/view?usp=drivesdk",
     "event_url": "",
     "description": {
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1d41_0NyWiWgEzgBc5M1DeBxsUdXm1NMR/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:tex:02",
@@ -148,7 +198,7 @@
     "related_article_doi": "10.1016/j.concog.2025.103967",
     "poster_url": "",
     "slides_url": "",
-    "abstract_url": "https://escholarship.org/uc/item/6091b9d0",
+    "abstract_url": "https://escholarship.org/uc/item/6091b9d0#main",
     "event_url": "https://cognitivesciencesociety.org/wp-content/uploads/2024/07/DeArmond-CogSci-2024-program-v109.pdf",
     "description": {
       "en": "",
@@ -174,14 +224,38 @@
     "related_article_doi": "",
     "poster_url": "https://drive.google.com/file/d/1JxgI36zQbXr96fTc6b3Drl2x8bSaWSR2/view?usp=drive_link",
     "slides_url": "",
-    "abstract_url": "",
+    "abstract_url": "https://drive.google.com/file/d/1yniWF8arrfdOxDNIJ0wSnPZu8Bd5DvN1/view?usp=drivesdk",
     "event_url": "https://assc27.net/",
     "poster_number": "P-4-22",
     "description": {
       "en": "Transfer Entropy comparison of directed EEG information sharing in binocular rivalry and Necker-cube multistability.",
       "es": "Comparación mediante Transfer Entropy del intercambio direccional de información EEG en rivalidad binocular y multistabilidad del cubo de Necker.",
       "it": "Confronto mediante Transfer Entropy dello scambio direzionale di informazione EEG nella rivalità binoculare e nella multistabilità del cubo di Necker."
-    }
+    },
+    "image_url": "assets/events/assc27-poster.jpg",
+    "image_alt": {
+      "en": "Directional information sharing differentiates binocular rivalry from bistable perceptual awareness",
+      "es": "Directional information sharing differentiates binocular rivalry from bistable perceptual awareness",
+      "it": "Directional information sharing differentiates binocular rivalry from bistable perceptual awareness"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1dc42LLa1xQrhtIE0xS6ulu3Pd3wZsngz/view?usp=drivesdk",
+        "label": {
+          "en": "Evidence PDF",
+          "es": "Evidencia PDF",
+          "it": "Evidenza PDF"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/1bsvWrsBEsysJabd9jqB6msCquvpTenHt/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:tex:04",
@@ -194,7 +268,7 @@
     "location": "Washington, DC, USA",
     "format": "Conference poster",
     "role": "Presenter",
-    "presenter": "",
+    "presenter": "Chiara Saracini",
     "attendance": "",
     "student_collaboration": false,
     "publication_id": "",
@@ -202,7 +276,7 @@
     "poster_url": "https://drive.google.com/file/d/1fOlG_U7KQPeoRX4QoUedBVKwFwfwhehQ/view?usp=drive_link",
     "slides_url": "",
     "abstract_url": "",
-    "event_url": "",
+    "event_url": "https://portal.ucm.cl/noticias/dra-chiara-saracini-presente-prestigiosa-conferencia-internacional-la-society-for-neuroscience",
     "description": {
       "en": "Transfer Entropy analysis of directed EEG connectivity during binocular rivalry.",
       "es": "Análisis de conectividad EEG dirigida mediante Transfer Entropy durante rivalidad binocular.",
@@ -220,7 +294,7 @@
     "location": "Washington, DC, USA",
     "format": "Conference poster",
     "role": "Presenter",
-    "presenter": "",
+    "presenter": "Chiara Saracini",
     "attendance": "",
     "student_collaboration": false,
     "publication_id": "",
@@ -228,7 +302,7 @@
     "poster_url": "https://drive.google.com/file/d/1RdTq08jJC-JYxactt6LAX-x1BOe0vyuj/view?usp=drive_link",
     "slides_url": "",
     "abstract_url": "",
-    "event_url": "",
+    "event_url": "https://portal.ucm.cl/noticias/dra-chiara-saracini-presente-prestigiosa-conferencia-internacional-la-society-for-neuroscience",
     "description": {
       "en": "",
       "es": "",
@@ -244,14 +318,14 @@
     "end": "2022-10-15",
     "event": "IECBS 2022 · 3rd International Electronic Conference on Brain Sciences",
     "location": "Online",
-    "format": "Conference contribution",
+    "format": "Conference poster",
     "role": "Author",
-    "presenter": "",
-    "attendance": "",
+    "presenter": "Chiara Saracini",
+    "attendance": "Online",
     "student_collaboration": false,
     "publication_id": "doi:10.3390/iecbs2022-13742",
     "related_article_doi": "10.1007/s10339-025-01260-1",
-    "poster_url": "",
+    "poster_url": "https://drive.google.com/file/d/1qcVGtaJbggGecgSEuoRpqoRhhgdwDOnj/view?usp=drivesdk",
     "slides_url": "",
     "abstract_url": "https://www.mdpi.com/2673-9976/19/1/13",
     "event_url": "",
@@ -259,7 +333,23 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "image_url": "assets/events/iecbs-bistable-poster.jpg",
+    "image_alt": {
+      "en": "Bistable perception’s oscillations dynamics, individual differences and cognitive flexibility: a behavioral study",
+      "es": "Bistable perception’s oscillations dynamics, individual differences and cognitive flexibility: a behavioral study",
+      "it": "Bistable perception’s oscillations dynamics, individual differences and cognitive flexibility: a behavioral study"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/11vjFjO3ejhDeOgd0UlVGqDh6hZNZTO38/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:tex:07",
@@ -363,7 +453,25 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1x44vzIYExQ4KxkO7jRFQmkaOTtPTkATz/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/12TdAAFblZGbVp52nF4A0mlhZaEFE8X36/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:differencesindistanceestimations",
@@ -389,7 +497,17 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/19SWQ_5aJseUJ0Ds4CRh_D86j_s4894tw/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:stereoscopydoesnotimprove",
@@ -415,7 +533,17 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/19SWQ_5aJseUJ0Ds4CRh_D86j_s4894tw/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "conf:tex:10",

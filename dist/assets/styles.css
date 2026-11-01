@@ -13,3 +13,10 @@
 .activity-image img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:9px}
 @media(max-width:600px){.activity-entry.has-image{grid-template-columns:1fr;gap:16px}.activity-image{max-width:320px}}
 @media print{.activity-entry.has-image{grid-template-columns:120px minmax(0,1fr)}}
+
+.conference-entry.has-image{display:grid;grid-template-columns:175px minmax(0,1fr);gap:24px}
+.activity-image img{aspect-ratio:auto;max-height:300px;object-fit:contain;background:#f7f3fa}
+.conference-body,.activity-body{min-width:0}
+.conference-entry .linkrow,.activity-entry .linkrow{row-gap:8px}
+@media(max-width:600px){.conference-entry.has-image{grid-template-columns:1fr;gap:16px}}
+@media print{.conference-entry.has-image{grid-template-columns:100px minmax(0,1fr)}}

@@ -17,7 +17,23 @@
     "role": "Invited speaker",
     "organiser": "Organizada por el Instituto Italiano de Cultura y la Embajada de Italia en Chile",
     "location": "Santiago (Chile)",
-    "url": "https://iicsantiago.esteri.it/it/gli_eventi/calendario/slim2026-conferenza-di-chiara-saracini/"
+    "url": "https://iicsantiago.esteri.it/it/gli_eventi/calendario/slim2026-conferenza-di-chiara-saracini/",
+    "image_url": "assets/events/iic-santiago.jpg",
+    "image_alt": {
+      "en": "How Are Brilliant Ideas Born in the Brain?",
+      "es": "¿Cómo nacen las ideas geniales en el cerebro?",
+      "it": "Come nascono le idee geniali nel cervello?"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1A7kpODd8q1Xm60UKi7d2qhByQhsACdlo/view?usp=drivesdk",
+        "label": {
+          "en": "Evidence PDF",
+          "es": "Evidencia PDF",
+          "it": "Evidenza PDF"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:arsic2026-rome",
@@ -89,7 +105,13 @@
     "role": "Talk",
     "organiser": "Municipalidad de Roma (Italia)",
     "location": "",
-    "url": ""
+    "url": "",
+    "image_url": "assets/events/la-signora.jpg",
+    "image_alt": {
+      "en": "The Lady (La signora)",
+      "es": "La signora",
+      "it": "La signora"
+    }
   },
   {
     "id": "engagement:anid2025-dialogue",
@@ -109,7 +131,13 @@
     "role": "Discussion participant",
     "organiser": "ANID",
     "location": "Chile",
-    "url": ""
+    "url": "",
+    "image_url": "assets/events/anid-dialogo.jpg",
+    "image_alt": {
+      "en": "45 years of FONDECYT: Horizons and Perspectives",
+      "es": "45 años de Fondecyt: Horizontes y Perspectivas",
+      "it": "45 anni di FONDECYT: orizzonti e prospettive"
+    }
   },
   {
     "id": "engagement:2",
@@ -129,7 +157,13 @@
     "role": "Talk",
     "organiser": "Colegio “Japón” de Curicó (Chile)",
     "location": "",
-    "url": ""
+    "url": "",
+    "image_url": "",
+    "image_alt": {
+      "en": "Neurobiology of Learning",
+      "es": "Neurobiología del Aprendizaje",
+      "it": "Neurobiologia dell’apprendimento"
+    }
   },
   {
     "id": "engagement:30",
@@ -154,7 +188,17 @@
       "en": "Volunteer list · expand 2025/2026",
       "es": "Lista de voluntariado · desplegar 2025/2026",
       "it": "Elenco volontari · espandere 2025/2026"
-    }
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1hSxtN2l45cr5kfxclTtvLcXFXSTVvqrC/view?usp=drivesdk",
+        "label": {
+          "en": "Evidence PDF",
+          "es": "Evidencia PDF",
+          "it": "Evidenza PDF"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:5",
@@ -173,8 +217,24 @@
     "category": "Invited talk",
     "role": "Invited speaker",
     "organiser": "CEI-CITPsi; Colegio Morelense de Psicología; Universidad Autónoma del Estado de Morelos",
-    "location": "Mexico",
-    "url": ""
+    "location": "Online · Cuernavaca, México",
+    "url": "",
+    "image_url": "assets/events/cei-citpsi.jpg",
+    "image_alt": {
+      "en": "Beyond Artificial Intelligence: Organoid Intelligence, Challenges and Ethical Implications",
+      "es": "Más allá de la inteligencia artificial: Ia inteligencia organoide, desafíos y complicaciones éticas",
+      "it": "Oltre l’intelligenza artificiale: intelligenza organoide, sfide e implicazioni etiche"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1JCPTdo_9hNAx4PUE3IOaKRYVwCjzXnm4/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:4",
@@ -194,7 +254,39 @@
     "role": "Talk",
     "organiser": "Liceo \"Hector Perez Biott\" de Talca (Chile)",
     "location": "",
-    "url": ""
+    "url": "",
+    "image_url": "assets/events/liceo-biott.jpg",
+    "image_alt": {
+      "en": "Learning and the Biology of Behaviour in Young People",
+      "es": "Aprendizaje y biología del comportamiento en jóvenes",
+      "it": "Apprendimento e biologia del comportamento nei giovani"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1Xe8y1jhX8zBiQgnxSrB_1y3Rx4yx6w5K/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/1lWTsMFdoQikeYsTq4Cwwry9TtPSuZ0YS/view?usp=drivesdk",
+        "label": {
+          "en": "Event photos",
+          "es": "Fotos del evento",
+          "it": "Foto dell’evento"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/1djItwTpHRUze6ZcjpNGGkUu-NXilqMlh/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:6",
@@ -213,8 +305,32 @@
     "category": "Invited talk",
     "role": "Invited speaker",
     "organiser": "Facultad de Derecho, Universidad Autónoma de Querétaro",
-    "location": "Mexico",
-    "url": ""
+    "location": "Online · Querétaro, México",
+    "url": "",
+    "image_url": "assets/events/neurociencias-ia-derecho.jpg",
+    "image_alt": {
+      "en": "Organoid Intelligence",
+      "es": "Inteligencia Organoide",
+      "it": "Intelligenza organoide"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/10inThOslrbN7u6YSUwkkuuXfmht9FRe-/view?usp=drivesdk",
+        "label": {
+          "en": "Flyer",
+          "es": "Cartel",
+          "it": "Locandina"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/1gy-XBj8hGyAgbdHGxdB8oGVggi_pxO6v/view?usp=drivesdk",
+        "label": {
+          "en": "Programme",
+          "es": "Programa",
+          "it": "Programma"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:7",
@@ -254,7 +370,14 @@
     "role": "Invited speaker",
     "organiser": "Universidad del Desarrollo",
     "location": "Online",
-    "url": ""
+    "url": "https://uddtv.udd.cl/video/3o-ciclo-mujeres-en-ciencias-cognitivas-charla-percepcion-cognicion-y-conciencia/",
+    "video_url": "https://youtu.be/lNeaVGG11JE?si=a8ud2ZL_7lvxGMoh",
+    "image_url": "assets/events/udd-conciencia.jpg",
+    "image_alt": {
+      "en": "Perception, Cognition and Consciousness",
+      "es": "Percepción, cognición y conciencia",
+      "it": "Percezione, cognizione e coscienza"
+    }
   },
   {
     "id": "engagement:9",
@@ -264,17 +387,17 @@
       "it": "Che cosa succede nel cervello quando ci innamoriamo?"
     },
     "description": {
-      "en": "Contributed to a Semilla UCM podcast episode with children on what happens in the brain when we fall in love, published 05/07/2023.",
-      "es": "Participación en un episodio del podcast Semilla UCM junto a niños y niñas, dedicado a explicar qué ocurre en el cerebro cuando nos enamoramos, publicado el 05/07/2023.",
-      "it": "Partecipazione al podcast Semilla UCM insieme a bambini e bambine, 05/07/2023."
+      "en": "Wrote the text for an episode of Semillas Científicas UCM about what happens in the brain when we fall in love.",
+      "es": "Autora del texto de un episodio de Semillas Científicas UCM sobre qué ocurre en el cerebro cuando nos enamoramos.",
+      "it": "Autrice del testo di un episodio di Semillas Científicas UCM su ciò che accade nel cervello quando ci innamoriamo."
     },
     "start": "2023-07-05",
     "end": "",
     "category": "Public outreach",
-    "role": "Podcast contributor",
+    "role": "Podcast script author",
     "organiser": "Universidad Católica del Maule; Semilla UCM",
     "location": "Online",
-    "url": ""
+    "url": "https://www.mixcloud.com/Semillascientificas/semillas-cient%C3%ADficas-ucm-1-qu%C3%A9-pasa-cuando-nos-enamoramos/"
   },
   {
     "id": "engagement:10",
@@ -294,7 +417,23 @@
     "role": "Interviewee",
     "organiser": "Ecociencia",
     "location": "Online / publication",
-    "url": ""
+    "url": "https://revistaecociencias.cl/2022/04/29/entrevista-dra-chiara-saracini-la-especie-humana-se-ha-aduenado-de-la-naturaleza-y-la-esta-destrozando-por-su-falta-de-vision-del-futuro/",
+    "image_url": "assets/events/ecociencia.jpg",
+    "image_alt": {
+      "en": "The Human Species Has Taken Possession of Nature and Is Destroying It Through Its Lack of Vision for the Future",
+      "es": "La especie humana se ha adueñado de la naturaleza y la está destrozando por su falta de visión del futuro",
+      "it": "L’essere umano e la distruzione della natura"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1CTU5ZTRqYtNYbg182spASTR_sxxsN6ho/view?usp=drivesdk",
+        "label": {
+          "en": "Evidence PDF",
+          "es": "Evidencia PDF",
+          "it": "Evidenza PDF"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:12",
@@ -314,7 +453,13 @@
     "role": "Webinar lecturer",
     "organiser": "Universidad Católica del Maule",
     "location": "Online",
-    "url": ""
+    "url": "https://portal.ucm.cl/noticias/ciclo-neurociencias-la-ucm-abordara-las-bases-biologicas-del-aprendizaje-entregara-tips-aula",
+    "image_url": "assets/events/fid-neurociencias.jpg",
+    "image_alt": {
+      "en": "How to Apply Neuroscience Knowledge in the Classroom",
+      "es": "Cómo aprovechar los conocimientos de las neurociencias en el aula",
+      "it": "Come utilizzare le conoscenze neuroscientifiche in classe"
+    }
   },
   {
     "id": "engagement:11",
@@ -334,7 +479,13 @@
     "role": "Webinar lecturer",
     "organiser": "Universidad Católica del Maule",
     "location": "Online",
-    "url": ""
+    "url": "https://portal.ucm.cl/noticias/ciclo-neurociencias-la-ucm-abordara-las-bases-biologicas-del-aprendizaje-entregara-tips-aula",
+    "image_url": "assets/events/fid-neurociencias.jpg",
+    "image_alt": {
+      "en": "The Biological Foundations of Learning",
+      "es": "Bases biológicas del aprendizaje",
+      "it": "Le basi biologiche dell’apprendimento"
+    }
   },
   {
     "id": "engagement:13",
@@ -354,7 +505,32 @@
     "role": "Discussion participant",
     "organiser": "PAR Explora Coquimbo; Universidad Católica del Norte",
     "location": "Online live discussion",
-    "url": ""
+    "url": "",
+    "video_url": "https://www.youtube.com/watch?v=BdVkx_SQam0",
+    "image_url": "assets/events/neuroderechos.jpg",
+    "image_alt": {
+      "en": "Neurorights in Chile: Pioneering Regulation on a Global Scale",
+      "es": "Los Neuroderechos en Chile: una regulación pionera a nivel mundial",
+      "it": "I neurodiritti in Cile: una regolamentazione pionieristica"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1EBlbJrA8g8Cf1szPG6lGAIHoXiq9Zw7b/view?usp=drivesdk",
+        "label": {
+          "en": "Flyer",
+          "es": "Cartel",
+          "it": "Locandina"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/1-PkBLncdKn353P3bWGECVeXVXzCspOVg/view?usp=drivesdk",
+        "label": {
+          "en": "Evidence PDF",
+          "es": "Evidencia PDF",
+          "it": "Evidenza PDF"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:14",
@@ -374,7 +550,24 @@
     "role": "Symposium organiser",
     "organiser": "FONDECYT Initiation project 11190828",
     "location": "",
-    "url": ""
+    "url": "",
+    "video_url": "https://m.youtube.com/watch?v=Vna8gwOfkVQ",
+    "image_url": "assets/events/symposium-fondecyt.jpg",
+    "image_alt": {
+      "en": "Brain Connectivity, Neural Oscillations and Dynamics of Cognition and Consciousness",
+      "es": "Brain connectivity, neural oscillations and dynamics of cognition and consciousness",
+      "it": "Connettività cerebrale, oscillazioni neurali e dinamiche della cognizione e della coscienza"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1RePk5Pz9wDtv8YLS4rv_mmp5HYyI_YOz/view?usp=drivesdk",
+        "label": {
+          "en": "Flyer",
+          "es": "Cartel",
+          "it": "Locandina"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:15",
@@ -394,7 +587,14 @@
     "role": "Discussion participant",
     "organiser": "PAR Explora Maule; Universidad de Talca",
     "location": "Online live discussion",
-    "url": ""
+    "url": "",
+    "video_url": "https://youtu.be/sQTEfEc66Lw",
+    "image_url": "assets/events/el-sabor-del-saber.jpg",
+    "image_alt": {
+      "en": "The Taste of Knowledge",
+      "es": "El sabor del Saber",
+      "it": "Il sapore del sapere"
+    }
   },
   {
     "id": "engagement:16",
@@ -414,7 +614,31 @@
     "role": "Talk",
     "organiser": "Dirección de Formación General, Universidad Católica del Maule",
     "location": "Online / Teams",
-    "url": ""
+    "url": "https://portal.ucm.cl/noticias/5-cosas-no-sabias-cerebro",
+    "image_url": "assets/events/cinco-cosas-cerebro.jpg",
+    "image_alt": {
+      "en": "Five Things You Didn’t Know About Your Brain",
+      "es": "5 cosas que no sabías de tu cerebro",
+      "it": "Cinque cose che non sapevi del tuo cervello"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1RhzpWjkiHCm_9kQfXWb771foG_oie4QI/view?usp=drivesdk",
+        "label": {
+          "en": "Certificate",
+          "es": "Certificado",
+          "it": "Certificato"
+        }
+      },
+      {
+        "url": "https://drive.google.com/file/d/1wKQGrc4NnFi-ytwzGZABVNXlZHiLD6Jd/view?usp=drivesdk",
+        "label": {
+          "en": "Flyer",
+          "es": "Cartel",
+          "it": "Locandina"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:17",
@@ -434,7 +658,23 @@
     "role": "Talk",
     "organiser": "Alumni Universidad Católica del Maule",
     "location": "Online / Teams",
-    "url": ""
+    "url": "",
+    "image_url": "assets/events/como-aprendemos.jpg",
+    "image_alt": {
+      "en": "How Does Our Brain Learn? An Answer from Neuroscience",
+      "es": "¿Cómo aprende nuestro cerebro? Una respuesta desde la neurociencia",
+      "it": "Come apprende il nostro cervello? Una risposta dalle neuroscienze"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1HwdVS9UtZXQAADGjtzA_YM4HC2dk6wEv/view?usp=drivesdk",
+        "label": {
+          "en": "Flyer",
+          "es": "Cartel",
+          "it": "Locandina"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:19",
@@ -454,7 +694,24 @@
     "role": "Talk",
     "organiser": "PAR Explora Maule; Universidad de Talca",
     "location": "Facebook Live",
-    "url": ""
+    "url": "",
+    "video_url": "https://www.facebook.com/cientificosescolaresmaule/videos/427203588448285",
+    "image_url": "",
+    "image_alt": {
+      "en": "When the Brain Is Undecided: Phenomena of Bistable Perception",
+      "es": "Cuando el cerebro está indeciso: Fenómenos de percepción Biestable",
+      "it": "Quando il cervello è indeciso: i fenomeni di percezione bistabile"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1_2_11h4YiVvSeywTUG3hudqWrkqaRTfl/view?usp=drivesdk",
+        "label": {
+          "en": "Flyer",
+          "es": "Cartel",
+          "it": "Locandina"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:20",
@@ -474,7 +731,23 @@
     "role": "Invited speaker",
     "organiser": "BioClues",
     "location": "India / Zoom",
-    "url": ""
+    "url": "",
+    "image_url": "assets/events/bioclues.jpg",
+    "image_alt": {
+      "en": "Stress Management and the Positive Impact of COVID-19 on Research",
+      "es": "Stress management and the positive impact of COVID-19 in research",
+      "it": "Gestire lo stress e gli effetti positivi inattesi della pandemia sulla ricerca"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1_TJtOn-IpVeOO9z28TATwBd6LdJUAxB3/view?usp=drivesdk",
+        "label": {
+          "en": "Flyer",
+          "es": "Cartel",
+          "it": "Locandina"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:18",
@@ -494,7 +767,7 @@
     "role": "Discussion participant",
     "organiser": "Senado de Chile · Comisión Desafíos del Futuro",
     "location": "Chile",
-    "url": ""
+    "url": "https://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=941"
   },
   {
     "id": "engagement:22",
@@ -513,7 +786,7 @@
     "category": "School engagement",
     "role": "Project evaluator",
     "organiser": "Escuela Pedro Antonio González de Curepto",
-    "location": "Curepto, Chile",
+    "location": "Escuela Pedro Antonio González · Curepto, Chile",
     "url": ""
   },
   {
@@ -554,7 +827,23 @@
     "role": "Talk",
     "organiser": "Liceo Héctor Pérez Biott",
     "location": "Talca, Chile",
-    "url": ""
+    "url": "",
+    "image_url": "assets/events/neurociencias-adicciones.jpg",
+    "image_alt": {
+      "en": "Neuroscience and Addiction",
+      "es": "Neurociencias y adicciones",
+      "it": "Neuroscienze e dipendenze"
+    },
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1oG2BkCHmArpZhG-AHmwtGhzgZAKw5NVY/view?usp=drivesdk",
+        "label": {
+          "en": "Report & photos",
+          "es": "Reseña y fotos",
+          "it": "Resoconto e foto"
+        }
+      }
+    ]
   },
   {
     "id": "engagement:26",
