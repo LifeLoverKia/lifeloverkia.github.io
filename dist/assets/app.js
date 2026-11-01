@@ -69,12 +69,25 @@ function activityLinks(x){
  if(x.slides_url)html+=link(x.slides_url,t('slides'));
  return html;
 }
-function activityImage(x){
+function activitySessions(x){
+ if(!x.sessions?.length)return '';
+ return `<ul class="event-sessions">${x.sessions.map(s=>`<li><time datetime="${esc(s.date)}">${date(s.date)}</time><span>${esc(s.title[lang])}</span>${link(s.video_url,t('video'))}${link(s.flyer_url,t('source'))}</li>`).join('')}</ul>`;
+}
+function eventImageContent(x,featured=false){
  const src=safe(x.image_url)||(/^assets\/[a-zA-Z0-9_./-]+$/.test(x.image_url||'')?x.image_url:'');
  if(!src)return '';
- return `<div class="activity-image"><img src="${esc(src)}" alt="${esc(x.image_alt?.[lang]||(typeof x.title==='string'?x.title:x.title[lang]))}" loading="lazy"></div>`;
+ const alt=x.image_alt?.[lang]||(typeof x.title==='string'?x.title:x.title[lang]);
+ const c=(featured&&x.featured_image_crop)||x.image_crop;
+ if(c&&['x','y','width','height','source_width','source_height'].every(k=>Number.isFinite(c[k]))&&c.width>0&&c.height>0){
+  return `<div class="event-image-crop" style="aspect-ratio:${c.width}/${c.height}"><img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" style="width:${100*c.source_width/c.width}%;height:${100*c.source_height/c.height}%;left:${-100*c.x/c.width}%;top:${-100*c.y/c.height}%"></div>`;
+ }
+ return `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy">`;
 }
-function activityHTML(x){const image=activityImage(x);return `<article class="entry activity-entry ${image?'has-image':''}" id="${anchor(x)}">${image}<div class="activity-body"><div class="tags">${activityCategoryBadge(x)}</div><h3>${esc(x.title[lang])}</h3><p class="venue">${date(x.start)}${x.end?' – '+date(x.end):''}${x.organiser?' · '+esc(x.featured_organiser?.[lang]||x.organiser):''}</p><p class="description">${esc(x.description[lang])}</p>${x.location?`<p class="meta">${esc(x.location)}</p>`:''}<div class="linkrow">${activityLinks(x)}</div></div></article>`;}
+function activityImage(x){
+ const content=eventImageContent(x);
+ return content?`<div class="activity-image">${content}</div>`:'';
+}
+function activityHTML(x){const image=activityImage(x);return `<article class="entry activity-entry ${image?'has-image':''}" id="${anchor(x)}">${image}<div class="activity-body"><div class="tags">${activityCategoryBadge(x)}</div><h3>${esc(x.title[lang])}</h3><p class="venue">${date(x.start)}${x.end?' – '+date(x.end):''}${x.organiser?' · '+esc(x.featured_organiser?.[lang]||x.organiser):''}</p><p class="description">${esc(x.description[lang])}</p>${activitySessions(x)}${x.location?`<p class="meta">${esc(x.location)}</p>`:''}<div class="linkrow">${activityLinks(x)}</div></div></article>`;}
 function projectHTML(x){return `<article class="project-card"><div class="tags">${badge(tr(x.status),x.status==='Ongoing'?'status-ongoing':'status-completed')}${x.grant?badge(x.grant,'type-article'):''}</div><h3>${esc(x.titles?.[lang]||x.title)}</h3><p class="project-role">${esc(tr(x.role))}</p><p class="meta">${x.date_scope==='action'?t('actiondates'):t('participation')}: ${date(x.start)}${x.end?' – '+date(x.end):x.status==='Ongoing'&&x.date_scope!=='contribution'?' – '+t('current'):''}</p><p class="description">${esc(x.description[lang])}</p><div class="card-link">${link(x.url,t('source'))}</div></article>`;}
 function homeLists(){
  const pubs=DATA.publications,confs=DATA.conferences;
@@ -88,13 +101,13 @@ function homeLists(){
  }
 }
 function activityCategoryBadge(x){
- const colors={'Public outreach':'outreach-public','School engagement':'outreach-school','Teacher training':'outreach-training','Invited talk':'outreach-talk','Academic event':'outreach-academic','Institutional representation':'outreach-institutional','Policy engagement':'outreach-policy'};
+ const colors={'Public outreach':'outreach-public','School engagement':'outreach-school','Teacher training':'outreach-training','Teacher education':'outreach-training','Invited talk':'outreach-talk','Academic event':'outreach-academic','Institutional representation':'outreach-institutional','Policy engagement':'outreach-policy'};
  return badge(tr(x.category),colors[x.category]||'type-other');
 }
 function featuredEventsHTML(){
  const events=DATA.activities.filter(x=>x.featured===true).sort((a,b)=>b.start.localeCompare(a.start)||a.id.localeCompare(b.id));
  const cards=events.map(x=>`<a class="featured-event-card ${x.image_url?'':'without-image'}" href="${route('outreach.html',anchor(x))}">
-  ${x.image_url?`<div class="featured-event-image"><img src="${esc(x.image_url)}" alt="${esc(x.image_alt?.[lang]||x.title[lang])}" loading="lazy"></div>`:''}
+  ${x.image_url?`<div class="featured-event-image ${x.image_fit==='contain'?'image-contain':''}">${eventImageContent(x,true)}</div>`:''}
   <div class="featured-event-copy"><div class="featured-event-meta"><time datetime="${esc(x.start)}">${date(x.start)}</time>${activityCategoryBadge(x)}</div>
   <p class="featured-event-organiser">${esc(x.featured_organiser?.[lang]||x.organiser||'')}</p><h3>${esc(x.title[lang])}</h3><span class="featured-event-action">${t('viewevent')}</span></div></a>`).join('');
  return `${events.length?`<div class="featured-events-heading"><p class="eyebrow">${t('selectedEvents')}</p></div><div class="featured-events-grid ${events.length===1?'single-feature':''}">${cards}</div>`:''}<a class="button primary outreach-button" href="${route('outreach.html')}">${t('alloutreach')} <span>${DATA.activities.length} ${t('records')}</span></a>`;

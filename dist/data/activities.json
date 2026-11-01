@@ -72,7 +72,7 @@
       "es": "Evento y actas",
       "it": "Evento e atti"
     },
-    "featured": false,
+    "featured": true,
     "programme_url": "https://drive.google.com/file/d/1mdcsD6XC3tEKNBPcGx1YlU1K_f2L9sMC/view",
     "proceedings_url": "https://www.texasic.org/_files/ugd/215bac_08c47f6c635741849b68670f19f182c4.pdf",
     "image_alt": {
@@ -218,7 +218,14 @@
         }
       }
     ],
-    "featured": false
+    "featured": true,
+    "image_url": "assets/events/penne-amiche-logo.png",
+    "image_fit": "contain",
+    "image_alt": {
+      "en": "Penne Amiche della Scienza",
+      "es": "Penne Amiche della Scienza",
+      "it": "Penne Amiche della Scienza"
+    }
   },
   {
     "id": "engagement:5",
@@ -402,7 +409,15 @@
       "es": "Percepción, cognición y conciencia",
       "it": "Percezione, cognizione e coscienza"
     },
-    "featured": false
+    "featured": true,
+    "featured_image_crop": {
+      "x": 325,
+      "y": 105,
+      "width": 750,
+      "height": 345,
+      "source_width": 1400,
+      "source_height": 688
+    }
   },
   {
     "id": "engagement:9",
@@ -584,7 +599,8 @@
         }
       }
     ],
-    "featured": false
+    "featured": true,
+    "image_fit": "contain"
   },
   {
     "id": "engagement:14",
@@ -622,7 +638,8 @@
         }
       }
     ],
-    "featured": false
+    "featured": true,
+    "image_fit": "contain"
   },
   {
     "id": "engagement:15",
@@ -770,7 +787,8 @@
         }
       }
     ],
-    "featured": false
+    "featured": true,
+    "image_fit": "contain"
   },
   {
     "id": "engagement:20",
@@ -891,7 +909,7 @@
     "organiser": "Liceo Héctor Pérez Biott",
     "location": "Talca, Chile",
     "url": "",
-    "image_url": "assets/events/neurociencias-adicciones.jpg",
+    "image_url": "assets/events/neurociencias-adicciones-source.jpg",
     "image_alt": {
       "en": "Neuroscience and Addiction",
       "es": "Neurociencias y adicciones",
@@ -907,7 +925,15 @@
         }
       }
     ],
-    "featured": false
+    "featured": false,
+    "image_crop": {
+      "x": 224,
+      "y": 351,
+      "width": 353,
+      "height": 265,
+      "source_width": 602,
+      "source_height": 948
+    }
   },
   {
     "id": "engagement:26",
@@ -991,6 +1017,99 @@
     "organiser": "Universidad Católica del Maule",
     "location": "Talca, Chile",
     "url": "",
+    "featured": false
+  },
+  {
+    "id": "engagement:fid-cycle-2021",
+    "title": {
+      "es": "Ciclo de Neurociencia — cuatro charlas FID / Alumni UCM",
+      "en": "Neuroscience Series — Four FID / Alumni UCM Talks",
+      "it": "Ciclo di neuroscienze — quattro incontri FID / Alumni UCM"
+    },
+    "description": {
+      "es": "Ciclo de cuatro charlas para docentes, egresados y público general sobre aprendizaje, procesos cognitivos, neurociencia y educación, y bienestar psicofísico. Impartió las cuatro sesiones, transmitidas por el canal de YouTube de la UCM.",
+      "en": "Delivered a four-part public series for teachers, alumni and the wider community, covering learning, cognitive processes, neuroscience and education, and psychophysical wellbeing. All four sessions were broadcast on UCM’s YouTube channel.",
+      "it": "Ciclo di quattro incontri per insegnanti, ex studenti e pubblico generale su apprendimento, processi cognitivi, neuroscienze ed educazione e benessere psicofisico. Ho tenuto tutti e quattro gli incontri, trasmessi sul canale YouTube della UCM."
+    },
+    "start": "2021-04-30",
+    "end": "2021-06-11",
+    "category": "Teacher education",
+    "role": "Speaker",
+    "organiser": "Alumni UCM · Formación Inicial Docente (FID), Universidad Católica del Maule",
+    "location": "Online · UCM YouTube",
+    "url": "https://portal.ucm.cl/noticias/una-alta-asistencia-publico-comenzo-ciclo-talleres-charlas-neurociencia",
+    "image_url": "assets/events/fid-neuroscience-2021.png",
+    "featured": false,
+    "sessions": [
+      {
+        "date": "2021-04-30",
+        "title": {
+          "es": "Bases neurobiológicas del aprendizaje",
+          "en": "Neurobiological Foundations of Learning",
+          "it": "Basi neurobiologiche dell’apprendimento"
+        },
+        "video_url": "https://www.youtube.com/watch?v=GJE_YjQyUFw&t=3s"
+      },
+      {
+        "date": "2021-05-14",
+        "title": {
+          "es": "Procesos cognitivos y aprendizaje",
+          "en": "Cognitive Processes and Learning",
+          "it": "Processi cognitivi e apprendimento"
+        },
+        "video_url": "https://www.youtube.com/watch?v=3CrYmR6O1ig&t=44s"
+      },
+      {
+        "date": "2021-05-28",
+        "title": {
+          "es": "Neurociencia y educación",
+          "en": "Neuroscience and Education",
+          "it": "Neuroscienze ed educazione"
+        },
+        "video_url": "https://www.youtube.com/watch?v=tnuvUiNhDoc&t=331s"
+      },
+      {
+        "date": "2021-06-11",
+        "title": {
+          "es": "Bienestar integral psicofísico para aprender a vivir mejor",
+          "en": "Psychophysical Wellbeing: Learning to Live Better",
+          "it": "Benessere psicofisico per imparare a vivere meglio"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Z5njROFPfFE"
+      }
+    ],
+    "evidence_links": [
+      {
+        "url": "https://drive.google.com/file/d/1m8cEqFgEJodXxOCxmx_Wjo7W6gj4o55n/view?usp=drivesdk",
+        "label": {
+          "en": "Series flyer",
+          "es": "Cartel del ciclo",
+          "it": "Locandina del ciclo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "engagement:her-2025",
+    "title": {
+      "es": "Her: las relaciones entre una IA y el ser humano (antropomorfización de la IA)",
+      "en": "Her: Relationships Between AI and Humans (Anthropomorphising AI)",
+      "it": "Her: le relazioni fra IA ed esseri umani (antropomorfizzazione dell’IA)"
+    },
+    "description": {
+      "es": "Participación como invitada en la cuarta jornada del ciclo «Cine, sociedad y derecho del futuro», dedicada a las relaciones humano–máquina. Análisis de la película Her y de la antropomorfización de la inteligencia artificial.",
+      "en": "Invited contribution to the fourth session of “Cinema, Society and the Law of the Future”, exploring human–machine relationships through the film Her and the anthropomorphisation of artificial intelligence.",
+      "it": "Intervento su invito al quarto incontro del ciclo «Cine, sociedad y derecho del futuro», dedicato alle relazioni umano–macchina attraverso il film Her e all’antropomorfizzazione dell’intelligenza artificiale."
+    },
+    "start": "2025-01-09",
+    "end": "",
+    "category": "Public outreach",
+    "role": "Invited speaker",
+    "organiser": "Universidad Autónoma de Chile",
+    "location": "Online",
+    "url": "",
+    "video_url": "https://www.youtube.com/watch?v=CJBtq3Ndu3k",
+    "image_url": null,
     "featured": false
   }
 ]

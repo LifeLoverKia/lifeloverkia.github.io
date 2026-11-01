@@ -19,7 +19,7 @@ The originals in Materiali eventi remain unchanged. A reviewed work archive stor
 
 Outreach now also uses Evidence PDF, Additional evidence PDF, Further evidence PDF, and Additional evidence link. Conferences adds Video, Evidence PDF, Photo / image link, and Additional evidence PDF. Material cells retain editable URL values, consistent with the existing registers. Do not replace URLs with descriptive labels when synchronizing. No automatic synchronization is configured.
 
-The website retains 55 publications, 32 conference contributions and 32 outreach records. Reviewed evidence fills author lists for SfN2025 and SweCog2025, identifies Omar Rodríguez Muñoz as presenter of the joint SfN2024 poster, and links the IECBS2022 poster and separate ASSC27/ICSC2024 abstracts. Conference imagery appears on the dedicated archive; compact home previews retain their layout. External material links open new tabs.
+The website retains 55 publications, 32 conference contributions and 34 outreach records. Reviewed evidence fills author lists for SfN2025 and SweCog2025, identifies Omar Rodríguez Muñoz as presenter of the joint SfN2024 poster, and links the IECBS2022 poster and separate ASSC27/ICSC2024 abstracts. Conference imagery appears on the dedicated archive; compact home previews retain their layout. External material links open new tabs.
 
 The original FID2022 flyer confirms 6 and 13 January; a certificate with inconsistent dates remains documented in the work archive but is not used as website evidence. Other unresolved date discrepancies are retained in the review catalog and private workbook notes.
 
@@ -30,3 +30,14 @@ Featured (Yes/No, column Y) selects the outreach events displayed on the home pa
 Programme link (Z) is distinct from Full proceedings PDF (AA). The Rome event links to the complete programme, the complete proceedings and a separate two-page extract of Chiara’s abstract. Original proceedings pages 81–82 are physical pages 1–2 of the extract, so the default PDF view reaches the contribution without relying on #page=81 support.
 
 Homo Ludens was verified against the full programme screenshot and the personal 2022 report. The talk was on 28 October 2022 at 17:10, UCM Talca. The former two-page PDF cut off before the name. The register identifies Speaker, without an unsupported invited status.
+
+
+## Featured selection and recovered activities — 1 November 2026
+
+Seven events have Featured=Yes: SLIM, the 20th Conference of Italian Researchers in the World, Penne Amiche, UDD perception/cognition/consciousness, Neurorights in Chile, the brain-connectivity symposium and When the Brain Is Undecided. The archive now contains 34 outreach records.
+
+The 2021 FID series is one event with four dated sessions and four video links; it is distinct from January 2021 and January 2022. Her is dated 9 January 2025 according to source row 12, despite its position under the 2024 reporting block. The reference Google Sheet remains unchanged.
+
+Image crops are presentation viewports over preserved source images: UDD uses only its central flyer in the home preview; the 2019 school event uses the large upper classroom photograph. Penne Amiche uses the official public-site feather logo because the user-supplied image URL returned 403. If the user supplies the intended file, replace it.
+
+Attivita_da_valutare now distinguishes already published records, details of existing roles, possible new records and optional training/attendance. Do not treat all its rows as missing activities.
