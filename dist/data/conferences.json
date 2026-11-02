@@ -281,7 +281,23 @@
       "en": "Transfer Entropy analysis of directed EEG connectivity during binocular rivalry.",
       "es": "Análisis de conectividad EEG dirigida mediante Transfer Entropy durante rivalidad binocular.",
       "it": "Analisi della connettività EEG direzionale mediante Transfer Entropy durante rivalità binoculare."
-    }
+    },
+    "image_url": "assets/events/sfn-2023-binocular-rivalry-poster.jpeg",
+    "image_alt": {
+      "en": "Chiara Saracini with the binocular rivalry and Transfer Entropy poster at SfN 2023",
+      "es": "Chiara Saracini con el póster sobre rivalidad binocular y Transfer Entropy en SfN 2023",
+      "it": "Chiara Saracini con il poster sulla rivalità binoculare e Transfer Entropy a SfN 2023"
+    },
+    "additional_images": [
+      {
+        "image_url": "assets/events/sfn-2023-binocular-rivalry-selfie.jpeg",
+        "image_alt": {
+          "en": "Chiara Saracini taking a selfie with the same poster at SfN 2023",
+          "es": "Selfie de Chiara Saracini con el mismo póster en SfN 2023",
+          "it": "Selfie di Chiara Saracini con lo stesso poster a SfN 2023"
+        }
+      }
+    ]
   },
   {
     "id": "conf:tex:05",

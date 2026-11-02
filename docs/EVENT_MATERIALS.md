@@ -58,3 +58,8 @@ Desktop uses four columns and two rows for eight featured events; tablet uses tw
 ## Image interactions and archive navigation
 
 Featured home images have a single light sweep when hovered with a fine pointer. Touch devices and reduced-motion preferences do not run the animation. Outreach images use semantic buttons to open a native modal dialog with a caption. Close button, Escape and backdrop restore focus to the originating image; the page does not navigate or lose its position. Existing image crops remain in the enlarged view. On archive pages, the Publications, Conferences and Outreach menu links lead to their full archives; the remaining menu links return to the home sections. The home menu remains section-based.
+
+
+## SfN 2023 photographs and conference layout — 2 November 2026
+
+Two newly uploaded photographs show the same binocular-rivalry / Transfer Entropy poster (conf:tex:04), including the file originally named ChiaraNeuromyths.jpeg. Both are grouped with that contribution; no image is attributed to the neuromyths poster without matching visual evidence. The originals were renamed in place in 02_Immagini, preserving their Drive IDs. Only the full Conferences page places its image column to the right of the text. Narrow layouts place the photographs below the contribution; Outreach remains unchanged.
