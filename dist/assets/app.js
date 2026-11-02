@@ -107,7 +107,7 @@ function activityCategoryBadge(x){
 function featuredEventsHTML(){
  const events=DATA.activities.filter(x=>x.featured===true).sort((a,b)=>b.start.localeCompare(a.start)||a.id.localeCompare(b.id));
  const cards=events.map(x=>`<a class="featured-event-card ${x.image_url?'':'without-image'}" href="${route('outreach.html',anchor(x))}">
-  ${x.image_url?`<div class="featured-event-image ${x.image_fit==='contain'?'image-contain':''}">${eventImageContent(x,true)}</div>`:''}
+  ${x.image_url?`<div style="--event-position:${esc(x.image_position||'50% 45%')}" class="featured-event-image ${x.image_fit==='contain'?'image-contain':''}">${eventImageContent(x,true)}</div>`:''}
   <div class="featured-event-copy"><div class="featured-event-meta"><time datetime="${esc(x.start)}">${date(x.start)}</time>${activityCategoryBadge(x)}</div>
   <p class="featured-event-organiser">${esc(x.featured_organiser?.[lang]||x.organiser||'')}</p><h3>${esc(x.title[lang])}</h3><span class="featured-event-action">${t('viewevent')}</span></div></a>`).join('');
  return `${events.length?`<div class="featured-events-heading"><p class="eyebrow">${t('selectedEvents')}</p></div><div class="featured-events-grid ${events.length===1?'single-feature':''}">${cards}</div>`:''}<a class="button primary outreach-button" href="${route('outreach.html')}">${t('alloutreach')} <span>${DATA.activities.length} ${t('records')}</span></a>`;
@@ -118,6 +118,7 @@ function renderHome(){const c=DATA.content[lang];
  $('research-grid').innerHTML=c.research.map((x,i)=>`<article class="research-item"><span class="research-mark" aria-hidden="true">${['◒','∿','◌'][i]}</span><div><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p></div></article>`).join('');
  $('background-list').innerHTML=c.background.map(x=>`<li>${esc(x)}</li>`).join('');homeLists();$('project-list').innerHTML=DATA.projects.map(projectHTML).join('');
  $('outreach-banner').innerHTML=featuredEventsHTML();
+ $('outreach-open').href=route('outreach.html');$('outreach-open').textContent=({en:'All events →',es:'Todos los eventos →',it:'Tutti gli eventi →'})[lang]+' · '+DATA.activities.length;
  $('academic-grid').innerHTML=[['teaching',c.service[0]],['service',c.service.slice(1).join('\n\n')],['mentoring',c.mentoring],['reviews',c.grant_reviews]].map(([title,text])=>`<article class="academic-card"><h3>${t(title)}</h3>${text.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')}</article>`).join('');
  $('membership-grid').innerHTML=DATA.memberships.map(x=>`<article class="membership-card"><div class="membership-top"><span class="membership-acronym">${esc(x.acronym)}</span><span>${t('since')} ${date(x.start)}</span></div><h4>${link(x.url,x.names?.[lang]||x.name)}</h4><p>${esc(x.role[lang])}</p></article>`).join('');
 }

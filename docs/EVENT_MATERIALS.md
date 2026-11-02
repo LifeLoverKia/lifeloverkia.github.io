@@ -48,3 +48,8 @@ Attivita_da_valutare now distinguishes already published records, details of exi
 The event id is a permanent key, independent of display order and source row number. Never regenerate existing ids from array position or renumber them after insertions, sorting, date corrections or title edits. Existing numeric keys remain unchanged to preserve published links. New events use a unique descriptive key assigned once, such as engagement:fid-cycle-2021 or engagement:her-2025. A year in a descriptive key is only a mnemonic: correcting an event date must not rename the key. Chronological display uses the start date, separately from the id.
 
 The complete Penne Amiche logo supplied by Chiara replaces the temporary feather-only logo on 1 November 2026. Its existing Drive file ID is preserved so workbook image links remain valid.
+
+
+## Compact featured grid
+
+Desktop uses four columns and two rows for eight featured events; tablet uses two columns and narrow phones one. Both archive buttons navigate internally to the same outreach archive. Added permanent record engagement:metaverse-senate-2023 with the Senate photo, programme and timestamped video. Programme date is 17 March 2023; it takes precedence over the older summary’s 16 March date. The master workbook row 38 has Featured=Yes. The archive now contains 35 outreach entries.

@@ -1111,5 +1111,30 @@
     "video_url": "https://www.youtube.com/watch?v=CJBtq3Ndu3k",
     "image_url": null,
     "featured": false
+  },
+  {
+    "id": "engagement:metaverse-senate-2023",
+    "title": {
+      "es": "El problema de la identidad en el metaverso",
+      "en": "The Problem of Identity in the Metaverse",
+      "it": "Il problema dell’identità nel metaverso"
+    },
+    "description": {
+      "es": "Ponencia invitada en el Primer Seminario Internacional «Oportunidades y Desafíos del Metaverso», organizado por Congreso Futuro y Fundación Encuentros del Futuro. Presentación en el bloque «El metaverso como nuevo paradigma», el 17 de marzo de 2023, en el Senado de Chile.",
+      "en": "Invited talk at the First International Seminar “Opportunities and Challenges of the Metaverse”, organised by Congreso Futuro and Fundación Encuentros del Futuro. Presented in the session “The Metaverse as a New Paradigm” on 17 March 2023 at the Chilean Senate.",
+      "it": "Intervento su invito al Primo Seminario Internazionale «Oportunidades y Desafíos del Metaverso», organizzato da Congreso Futuro e Fundación Encuentros del Futuro. Presentazione nella sessione «El metaverso como nuevo paradigma», il 17 marzo 2023 al Senato cileno."
+    },
+    "start": "2023-03-17",
+    "end": "",
+    "category": "Invited talk",
+    "role": "Invited speaker",
+    "organiser": "Congreso Futuro · Fundación Encuentros del Futuro",
+    "location": "Senado de Chile · Santiago, Chile",
+    "url": "",
+    "video_url": "https://www.youtube.com/live/LJK2qO27yqA?si=Ra_lMpPQoCyv-AEQ&t=6827",
+    "programme_url": "https://drive.google.com/file/d/13bGDAETerZ47Hr4CnNJ0jVcpZe6k6om2/view?usp=drivesdk",
+    "image_url": "assets/events/metaverse-senate-2023.jpg",
+    "image_position": "50% 27%",
+    "featured": true
   }
 ]
