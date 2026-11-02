@@ -53,3 +53,8 @@ The complete Penne Amiche logo supplied by Chiara replaces the temporary feather
 ## Compact featured grid
 
 Desktop uses four columns and two rows for eight featured events; tablet uses two columns and narrow phones one. Both archive buttons navigate internally to the same outreach archive. Added permanent record engagement:metaverse-senate-2023 with the Senate photo, programme and timestamped video. Programme date is 17 March 2023; it takes precedence over the older summary’s 16 March date. The master workbook row 38 has Featured=Yes. The archive now contains 35 outreach entries.
+
+
+## Image interactions and archive navigation
+
+Featured home images have a single light sweep when hovered with a fine pointer. Touch devices and reduced-motion preferences do not run the animation. Outreach images use semantic buttons to open a native modal dialog with a caption. Close button, Escape and backdrop restore focus to the originating image; the page does not navigate or lose its position. Existing image crops remain in the enlarged view. On archive pages, the Publications, Conferences and Outreach menu links lead to their full archives; the remaining menu links return to the home sections. The home menu remains section-based.

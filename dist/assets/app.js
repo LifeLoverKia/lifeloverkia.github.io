@@ -85,7 +85,26 @@ function eventImageContent(x,featured=false){
 }
 function activityImage(x){
  const content=eventImageContent(x);
- return content?`<div class="activity-image">${content}</div>`:'';
+ if(!content)return '';
+ if(page==='outreach')return `<button class="activity-image image-enlarge" type="button" data-event-image="${esc(x.id)}" aria-haspopup="dialog" aria-label="${esc(({en:'Enlarge image: ',es:'Ampliar imagen: ',it:'Ingrandisci immagine: '})[lang]+x.title[lang])}">${content}<span class="image-enlarge-hint" aria-hidden="true">⤢</span></button>`;
+ return `<div class="activity-image">${content}</div>`;
+}
+function setupImageViewer(){
+ if(page!=='outreach')return;
+ const viewer=document.createElement('dialog');viewer.className='image-viewer';viewer.setAttribute('aria-labelledby','image-viewer-caption');
+ viewer.innerHTML='<div class="image-viewer-panel"><button class="image-viewer-close" type="button" autofocus></button><div class="image-viewer-stage"></div><p id="image-viewer-caption"></p></div>';
+ document.body.append(viewer);
+ const stage=viewer.querySelector('.image-viewer-stage'),close=viewer.querySelector('button'),caption=viewer.querySelector('p');let opener;
+ close.addEventListener('click',()=>viewer.close());
+ viewer.addEventListener('click',e=>{if(e.target===viewer)viewer.close();});
+ viewer.addEventListener('close',()=>{document.body.classList.remove('image-viewer-open');stage.replaceChildren();if(opener?.isConnected)opener.focus({preventScroll:true});});
+ document.addEventListener('click',e=>{
+  const button=e.target.closest('button[data-event-image]');if(!button)return;
+  const item=DATA.activities.find(x=>x.id===button.dataset.eventImage);if(!item)return;
+  opener=button;caption.textContent=item.title[lang];close.textContent=({en:'Close ×',es:'Cerrar ×',it:'Chiudi ×'})[lang];
+  stage.innerHTML=eventImageContent(item);stage.style.setProperty('--viewer-ratio',item.image_crop?item.image_crop.width/item.image_crop.height:1);
+  stage.querySelector('img')?.removeAttribute('loading');document.body.classList.add('image-viewer-open');viewer.showModal();
+ });
 }
 function activityHTML(x){const image=activityImage(x);return `<article class="entry activity-entry ${image?'has-image':''}" id="${anchor(x)}">${image}<div class="activity-body"><div class="tags">${activityCategoryBadge(x)}</div><h3>${esc(x.title[lang])}</h3><p class="venue">${date(x.start)}${x.end?' – '+date(x.end):''}${x.organiser?' · '+esc(x.featured_organiser?.[lang]||x.organiser):''}</p><p class="description">${esc(x.description[lang])}</p>${activitySessions(x)}${x.location?`<p class="meta">${esc(x.location)}</p>`:''}<div class="linkrow">${activityLinks(x)}</div></div></article>`;}
 function projectHTML(x){return `<article class="project-card"><div class="tags">${badge(tr(x.status),x.status==='Ongoing'?'status-ongoing':'status-completed')}${x.grant?badge(x.grant,'type-article'):''}</div><h3>${esc(x.titles?.[lang]||x.title)}</h3><p class="project-role">${esc(tr(x.role))}</p><p class="meta">${x.date_scope==='action'?t('actiondates'):t('participation')}: ${date(x.start)}${x.end?' – '+date(x.end):x.status==='Ongoing'&&x.date_scope!=='contribution'?' – '+t('current'):''}</p><p class="description">${esc(x.description[lang])}</p><div class="card-link">${link(x.url,t('source'))}</div></article>`;}
@@ -131,7 +150,8 @@ function renderArchive(){const kind=page==='publications'?'pub':page==='conferen
  document.title='Chiara Saracini | '+t(kind==='pub'?'pubtitle':kind==='conf'?'conftitle':'outreach');
 }
 function render(){document.documentElement.lang=lang;
- const ids=['research','publications','conferences','projects','engagement','teaching','contact'];$('nav').innerHTML=ids.map((id,i)=>`<a href="${page==='home'?'#'+id:((page==='publications'&&id==='publications')||(page==='conferences'&&id==='conferences')||(page==='outreach'&&id==='engagement')?'#main':route('index.html',id))}" ${((page==='publications'&&id==='publications')||(page==='conferences'&&id==='conferences')||(page==='outreach'&&id==='engagement'))?'aria-current="page"':''}>${ui[lang].nav[i]}</a>`).join('');
+ const ids=['research','publications','conferences','projects','engagement','teaching','contact'],archives={publications:'publications',conferences:'conferences',engagement:'outreach'};
+ $('nav').innerHTML=ids.map((id,i)=>{const current=archives[id]===page,href=page==='home'?'#'+id:current?'#main':archives[id]?route(archives[id]+'.html'):route('index.html',id);return `<a href="${href}" ${current?'aria-current="page"':''}>${ui[lang].nav[i]}</a>`;}).join('');
  document.querySelector('.wordmark').href=page==='home'?'#main':route('index.html');
  document.querySelectorAll('[data-lang]').forEach(a=>{a.setAttribute('aria-current',String(a.dataset.lang===lang));const u=new URL(location.href);u.searchParams.set('lang',a.dataset.lang);a.href=u.pathname+u.search+u.hash;});
  $('contact-title').textContent=t('contact');$('footer-note').textContent=t('footer');page==='home'?renderHome():renderArchive();
@@ -140,5 +160,6 @@ function render(){document.documentElement.lang=lang;
 document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();lang=a.dataset.lang;history.replaceState(null,'',a.href);render();}));
 window.addEventListener('popstate',()=>{lang=new URLSearchParams(location.search).get('lang')||'en';if(!ui[lang])lang='en';render();});
 render();
+setupImageViewer();
 if(page==='home')$('cv-download').addEventListener('click',e=>{e.currentTarget.href=DATA.content[lang].cv_url+'&_='+Date.now();});
 if(location.hash)requestAnimationFrame(()=>document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView());
