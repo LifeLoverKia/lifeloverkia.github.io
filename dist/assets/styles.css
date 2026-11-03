@@ -103,3 +103,5 @@
 .visitor-copy{max-width:560px}.visitor-copy h3{margin:0 0 8px;color:var(--accent,#64509e);font-size:1.3rem}.visitor-copy p{margin:6px 0;font-size:.85rem;line-height:1.7}.visitor-copy .visitor-note,.visitor-privacy{font-size:.72rem}.visitor-note{color:#686170}.visitor-map{display:block;flex:0 1 280px;border-radius:12px;overflow:hidden;line-height:0;max-width:100%}.visitor-map img{display:block;max-width:100%;height:auto}.visitor-map:hover{outline:2px solid #c60070;outline-offset:4px}.visitor-map:focus-visible{outline:3px solid #c60070;outline-offset:5px}
 @media(max-width:600px){.visitor-section{flex-direction:column;align-items:flex-start;gap:18px}.visitor-map{flex-basis:auto}}
 @media print{.visitor-section{display:none}}
+
+.declaration-list{margin-top:24px}.declaration-card{padding:22px 26px;border-left:4px solid #a58ac7;border-radius:0 12px 12px 0;background:#f1edf8}.declaration-card h3{margin:0 0 10px;font-size:1.25rem;color:#64509e}.declaration-card p{font-size:.88rem;line-height:1.85;max-width:950px}.declaration-card>a{font-size:.8rem}

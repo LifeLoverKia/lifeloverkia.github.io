@@ -140,6 +140,7 @@ function renderHome(){const c=DATA.content[lang];
  $('outreach-banner').innerHTML=featuredEventsHTML();
  $('outreach-open').href=route('outreach.html');$('outreach-open').textContent=({en:'All events →',es:'Todos los eventos →',it:'Tutti gli eventi →'})[lang]+' · '+DATA.activities.length;
  $('academic-grid').innerHTML=[['teaching',c.service[0]],['service',c.service.slice(1).join('\n\n')],['mentoring',c.mentoring],['reviews',c.grant_reviews]].map(([title,text])=>`<article class="academic-card"><h3>${t(title)}</h3>${text.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')}</article>`).join('');
+ $('declaration-list').innerHTML=(c.declarations||[]).map(x=>`<article class="declaration-card"><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p>${link(x.url,x.link_label)}</article>`).join('');
  $('membership-grid').innerHTML=DATA.memberships.map(x=>`<article class="membership-card"><div class="membership-top"><span class="membership-acronym">${esc(x.acronym)}</span><span>${t('since')} ${date(x.start)}</span></div><h4>${link(x.url,x.names?.[lang]||x.name)}</h4><p>${esc(x.role[lang])}</p></article>`).join('');
 }
 function renderArchive(){const kind=page==='publications'?'pub':page==='conferences'?'conf':'act',rows=kind==='pub'?DATA.publications:kind==='conf'?DATA.conferences:DATA.activities,html=kind==='pub'?pubHTML:kind==='conf'?confHTML:activityHTML;

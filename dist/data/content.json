@@ -39,7 +39,15 @@
     ],
     "cv_url": "https://drive.google.com/uc?export=download&id=10ig7s5eWo7N2Hchg7pVwjo2sPQC98Ffc",
     "mentoring": "I supervise postgraduate research in EEG and cognitive neuroscience. Completed work includes a 2024 Neuroscience master’s thesis on resting-state EEG markers of impulsivity and co-supervision of a 2024 doctoral thesis in Education. Current research supervision includes EEG and conscious access to emotionally valenced words.",
-    "grant_reviews": "External evaluation of competitive research funding: ANID doctoral and master’s scholarships (Chile, since 2020); NWO Talent Programme, Veni competition (Netherlands, 2023); NCN OPUS 30 (LAP) research funding scheme (Poland, 2026)."
+    "grant_reviews": "External evaluation of competitive research funding: ANID doctoral and master’s scholarships (Chile, since 2020); NWO Talent Programme, Veni competition (Netherlands, 2023); NCN OPUS 30 (LAP) research funding scheme (Poland, 2026).",
+    "declarations": [
+      {
+        "title": "Signatory — New York Declaration on Animal Consciousness",
+        "description": "Signatory of the 2024 New York Declaration on Animal Consciousness, an interdisciplinary statement highlighting the growing scientific evidence for conscious experience across a broad range of animal species and its implications for animal welfare and policy.",
+        "link_label": "Declaration & signatories",
+        "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration"
+      }
+    ]
   },
   "es": {
     "headings": [
@@ -81,7 +89,15 @@
     ],
     "cv_url": "https://drive.google.com/uc?export=download&id=10ig7s5eWo7N2Hchg7pVwjo2sPQC98Ffc",
     "mentoring": "Superviso investigación de posgrado en EEG y neurociencia cognitiva. Entre los trabajos concluidos figuran una tesis de Magíster en Neurociencia de 2024 sobre marcadores EEG de impulsividad en reposo y la codirección de una tesis doctoral en Educación de 2024. La supervisión actual incluye EEG y acceso consciente a palabras con valencia emocional.",
-    "grant_reviews": "Evaluación externa de financiamiento competitivo: becas de doctorado y magíster de ANID (Chile, desde 2020); NWO Talent Programme, concurso Veni (Países Bajos, 2023); concurso de investigación NCN OPUS 30 (LAP) (Polonia, 2026)."
+    "grant_reviews": "Evaluación externa de financiamiento competitivo: becas de doctorado y magíster de ANID (Chile, desde 2020); NWO Talent Programme, concurso Veni (Países Bajos, 2023); concurso de investigación NCN OPUS 30 (LAP) (Polonia, 2026).",
+    "declarations": [
+      {
+        "title": "Firmante — Declaración de Nueva York sobre la Conciencia Animal",
+        "description": "Firmante de la Declaración de Nueva York sobre la Conciencia Animal de 2024, una declaración interdisciplinaria que destaca la creciente evidencia científica de experiencia consciente en una amplia variedad de especies animales y sus implicaciones para el bienestar animal y las políticas públicas.",
+        "link_label": "Declaración y firmantes",
+        "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration"
+      }
+    ]
   },
   "it": {
     "headings": [
@@ -123,6 +139,14 @@
     ],
     "cv_url": "https://drive.google.com/uc?export=download&id=10ig7s5eWo7N2Hchg7pVwjo2sPQC98Ffc",
     "mentoring": "Supervisiono ricerche post-laurea in EEG e neuroscienze cognitive. I lavori conclusi comprendono una tesi di Master in Neuroscienze del 2024 sui marcatori EEG a riposo dell’impulsività e la cosupervisione di una tesi di Dottorato in Educazione del 2024. La supervisione attuale comprende EEG e accesso cosciente a parole con valenza emotiva.",
-    "grant_reviews": "Valutazione esterna di finanziamenti competitivi: borse di Dottorato e Master ANID (Cile, dal 2020); NWO Talent Programme, concorso Veni (Paesi Bassi, 2023); programma di finanziamento alla ricerca NCN OPUS 30 (LAP) (Polonia, 2026)."
+    "grant_reviews": "Valutazione esterna di finanziamenti competitivi: borse di Dottorato e Master ANID (Cile, dal 2020); NWO Talent Programme, concorso Veni (Paesi Bassi, 2023); programma di finanziamento alla ricerca NCN OPUS 30 (LAP) (Polonia, 2026).",
+    "declarations": [
+      {
+        "title": "Firmataria — Dichiarazione di New York sulla coscienza animale",
+        "description": "Firmataria della Dichiarazione di New York sulla coscienza animale del 2024, un documento interdisciplinare che evidenzia le crescenti prove scientifiche dell’esperienza cosciente in un’ampia varietà di specie animali e le implicazioni per il benessere animale e le politiche pubbliche.",
+        "link_label": "Dichiarazione e firmatari",
+        "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration"
+      }
+    ]
   }
 }
