@@ -150,12 +150,18 @@ function renderArchive(){const kind=page==='publications'?'pub':page==='conferen
  $('archive-print').hidden=kind!=='act';$('archive-print').textContent=t('print');$('archive-print').onclick=()=>window.print();
  document.title='Chiara Saracini | '+t(kind==='pub'?'pubtitle':kind==='conf'?'conftitle':'outreach');
 }
+const visitorCopy={
+ en:{title:'Visitors around the world',intro:'Click the map to explore visits by country.',note:'Country-level estimates · Counting since 2 November 2026.',open:'Open the visitor map and statistics',alt:'Visitor map and visit counter provided by Flag Counter',privacy:'Flag Counter · Privacy ↗'},
+ es:{title:'Visitantes de todo el mundo',intro:'Haz clic en el mapa para explorar las visitas por país.',note:'Estimaciones por país · Recuento desde el 2 de noviembre de 2026.',open:'Abrir el mapa de visitantes y las estadísticas',alt:'Mapa y contador de visitas de Flag Counter',privacy:'Flag Counter · Privacidad ↗'},
+ it:{title:'Visitatori dal mondo',intro:'Clicca sulla mappa per esplorare le visite per paese.',note:'Stime per paese · Conteggio dal 2 novembre 2026.',open:'Apri la mappa dei visitatori e le statistiche',alt:'Mappa e contatore delle visite di Flag Counter',privacy:'Flag Counter · Privacy ↗'}
+};
+function renderVisitors(){const c=visitorCopy[lang];if(!$('visitors'))return;$('visitor-title').textContent=c.title;$('visitor-intro').textContent=c.intro;$('visitor-note').textContent=c.note;$('visitor-privacy').textContent=c.privacy;$('visitor-map').setAttribute('aria-label',c.open);$('visitor-map').querySelector('img').alt=c.alt;}
 function render(){document.documentElement.lang=lang;
  const ids=['research','publications','conferences','projects','engagement','teaching','contact'],archives={publications:'publications',conferences:'conferences',engagement:'outreach'};
  $('nav').innerHTML=ids.map((id,i)=>{const current=archives[id]===page,href=page==='home'?'#'+id:current?'#main':archives[id]?route(archives[id]+'.html'):route('index.html',id);return `<a href="${href}" ${current?'aria-current="page"':''}>${ui[lang].nav[i]}</a>`;}).join('');
  document.querySelector('.wordmark').href=page==='home'?'#main':route('index.html');
  document.querySelectorAll('[data-lang]').forEach(a=>{a.setAttribute('aria-current',String(a.dataset.lang===lang));const u=new URL(location.href);u.searchParams.set('lang',a.dataset.lang);a.href=u.pathname+u.search+u.hash;});
- $('contact-title').textContent=t('contact');$('footer-note').textContent=t('footer');page==='home'?renderHome():renderArchive();
+ $('contact-title').textContent=t('contact');$('footer-note').textContent=t('footer');renderVisitors();page==='home'?renderHome():renderArchive();
  document.querySelectorAll('a[href]').forEach(a=>{if(/^(https?:|mailto:)/i.test(a.getAttribute('href'))){a.target='_blank';a.rel='noopener noreferrer';}});
 }
 document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();lang=a.dataset.lang;history.replaceState(null,'',a.href);render();}));
