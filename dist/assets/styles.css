@@ -105,3 +105,6 @@
 @media print{.visitor-section{display:none}}
 
 .declaration-list{margin-top:24px}.declaration-card{padding:22px 26px;border-left:4px solid #a58ac7;border-radius:0 12px 12px 0;background:#f1edf8}.declaration-card h3{margin:0 0 10px;font-size:1.25rem;color:#64509e}.declaration-card p{font-size:.88rem;line-height:1.85;max-width:950px}.declaration-card>a{font-size:.8rem}
+
+.conference-publication{font-size:.76rem;color:#665777;margin:8px 0}.publication-status{font-size:.8em;color:#64509e}
+.research-team{margin-top:24px;padding:24px 26px;border:1px solid #e1d9ed;border-radius:16px;background:#faf8fd}.team-heading h3{margin:0 0 10px;color:#64509e;font-size:1.4rem}.team-heading>p{font-size:.88rem;line-height:1.85;max-width:950px}.team-heading>a{font-size:.8rem}.team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px;padding:0;margin:20px 0 0;list-style:none}.team-person{padding:14px 0;border-top:1px solid #e5deee;min-width:0}.team-person h4{margin:0 0 6px;font-size:.9rem}.team-person p{margin:0 0 8px;font-size:.74rem;line-height:1.7}.team-status{font-size:.68rem;line-height:1.65;color:#725590}.team-status.completed{color:#31634a}@media(max-width:850px){.team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.team-grid{grid-template-columns:1fr}.research-team{padding:20px}}

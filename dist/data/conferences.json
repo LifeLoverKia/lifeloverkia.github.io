@@ -108,6 +108,135 @@
     }
   },
   {
+    "id": "conf:published:10.1016/j.brs.2024.12.589",
+    "title": "Driving hebbian plasticity in premotor-to-motor circuits unveils different roles of ventral and medial pathways on automatic imitation",
+    "authors": "Sonia Turrini; Francesca Fiori; Naomi Bevacqua; Chiara Saracini; Matteo Candidi; Boris Lucero; Alessio Avenanti",
+    "year": 2025,
+    "start": "2025",
+    "end": "",
+    "event": "Brain Stimulation",
+    "location": "",
+    "format": "Conference abstract",
+    "role": "Co-author",
+    "presenter": "",
+    "attendance": "",
+    "student_collaboration": false,
+    "publication_id": "doi:10.1016/j.brs.2024.12.589",
+    "related_article_doi": "",
+    "poster_url": "",
+    "slides_url": "",
+    "abstract_url": "",
+    "event_url": "",
+    "description": {
+      "en": "",
+      "es": "",
+      "it": ""
+    },
+    "bibliography": {
+      "id": "doi:10.1016/j.brs.2024.12.589",
+      "title": "Driving hebbian plasticity in premotor-to-motor circuits unveils different roles of ventral and medial pathways on automatic imitation",
+      "authors": "Sonia Turrini; Francesca Fiori; Naomi Bevacqua; Chiara Saracini; Matteo Candidi; Boris Lucero; Alessio Avenanti",
+      "year": 2025,
+      "type": "Conference abstract",
+      "topics": [
+        "Perception and consciousness"
+      ],
+      "venue": "Brain Stimulation",
+      "citation": "Sonia Turrini; Francesca Fiori; Naomi Bevacqua; Chiara Saracini; Matteo Candidi; Boris Lucero; Alessio Avenanti (2025). Driving hebbian plasticity in premotor-to-motor circuits unveils different roles of ventral and medial pathways on automatic imitation. Brain Stimulation, 18(1), 413.",
+      "doi": "10.1016/j.brs.2024.12.589",
+      "order": 7,
+      "orcid_ids": [
+        "179724679"
+      ],
+      "sources": [
+        "https://www.semanticscholar.org/paper/ea2581b6d1f42b12ac4323ba5f657e043a415baf",
+        "https://orcid.org/0000-0002-1594-7382/work/179724679"
+      ],
+      "dates": {
+        "published": [
+          2025,
+          1
+        ],
+        "published-print": [
+          2025,
+          1
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "18",
+      "issue": "1",
+      "pages": "413",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.brs.2024.12.589",
+      "publisher_open_access": true,
+      "fulltext_url": "https://www.brainstimjrnl.com/article/S1935-861X(24)00784-8/pdf"
+    },
+    "publication_year": 2025
+  },
+  {
+    "id": "conf:published:10.1016/j.ijpsycho.2025.112998",
+    "title": "Spike-time-dependent plasticity induction reveals dissociable premotor-motor pathways to automatic imitation",
+    "authors": "Sonia Turrini; Naomi Bevacqua; Luca Tarasi; Francesca Fiori; Chiara Saracini; Boris Lucero; Sara Zago; Giorgio Arcara; Matteo Candidi; Vincenzo Romei; Alessio Avenanti",
+    "year": 2025,
+    "start": "2025",
+    "end": "",
+    "event": "International Journal of Psychophysiology",
+    "location": "",
+    "format": "Conference abstract",
+    "role": "Co-author",
+    "presenter": "",
+    "attendance": "",
+    "student_collaboration": false,
+    "publication_id": "doi:10.1016/j.ijpsycho.2025.112998",
+    "related_article_doi": "",
+    "poster_url": "",
+    "slides_url": "",
+    "abstract_url": "",
+    "event_url": "",
+    "description": {
+      "en": "",
+      "es": "",
+      "it": ""
+    },
+    "bibliography": {
+      "id": "doi:10.1016/j.ijpsycho.2025.112998",
+      "title": "Spike-time-dependent plasticity induction reveals dissociable premotor-motor pathways to automatic imitation",
+      "authors": "Sonia Turrini; Naomi Bevacqua; Luca Tarasi; Francesca Fiori; Chiara Saracini; Boris Lucero; Sara Zago; Giorgio Arcara; Matteo Candidi; Vincenzo Romei; Alessio Avenanti",
+      "year": 2025,
+      "type": "Conference abstract",
+      "topics": [
+        "Perception and consciousness"
+      ],
+      "venue": "International Journal of Psychophysiology",
+      "citation": "Sonia Turrini; Naomi Bevacqua; Luca Tarasi; Francesca Fiori; Chiara Saracini; Boris Lucero; Sara Zago; Giorgio Arcara; Matteo Candidi; Vincenzo Romei; Alessio Avenanti (2025). Spike-time-dependent plasticity induction reveals dissociable premotor-motor pathways to automatic imitation. International Journal of Psychophysiology, 213, 112998.",
+      "doi": "10.1016/j.ijpsycho.2025.112998",
+      "order": 9,
+      "orcid_ids": [],
+      "sources": [
+        "https://www.semanticscholar.org/paper/bd7f36f48ba9f5869107edfdff9587e12a77a1c2"
+      ],
+      "dates": {
+        "published": [
+          2025,
+          7
+        ],
+        "published-print": [
+          2025,
+          7
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "213",
+      "issue": "",
+      "pages": "112998",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1016/j.ijpsycho.2025.112998",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/393713781_Spike-time-dependent_plasticity_induction_reveals_dissociable_premotor-motor_pathways_to_automatic_imitation"
+    },
+    "publication_year": 2025
+  },
+  {
     "id": "conf:tex:00",
     "title": "Theta/beta ratio as an impulsiveness marker: an exploratory study with EEG",
     "authors": "Omar Rodríguez Muñoz; Chiara Saracini",
@@ -178,12 +307,39 @@
           "it": "Certificato"
         }
       }
-    ]
+    ],
+    "bibliography": {
+      "id": "title\\:exploringthecorrelationbetweenvisuospatialinhibitorycontrolandcognitiveflexibilityperformance\\:2024",
+      "title": "Exploring the correlation between visuospatial inhibitory control and cognitive flexibility performance",
+      "authors": "Saracini, C., Lucero, B.",
+      "year": 2024,
+      "type": "Conference abstract",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "COGNITIVE PROCESSING",
+      "citation": "Saracini, C., Lucero, B. (2024). Exploring the correlation between visuospatial inhibitory control and cognitive flexibility performance. COGNITIVE PROCESSING.",
+      "doi": "",
+      "order": 15,
+      "orcid_ids": [
+        "198675936",
+        "199999624"
+      ],
+      "sources": [
+        "https://orcid.org/0000-0002-1594-7382/work/198675936"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2024
   },
   {
     "id": "conf:tex:02",
     "title": "How to measure observational implicit learning of complex sequences: a novel paradigm involving rapid visual presentation and serial reaction time task",
-    "authors": "D'Angiò, M., Chiarella, S.G.;Simione, L., Saracini, C., Raffone, A., Di Pace, E.",
+    "authors": "Monia D'Angiò; S. Chiarella; Luca Simione; Chiara Saracini; A. Raffone; E. Di Pace",
     "year": 2024,
     "start": "2024-07-24",
     "end": "2024-07-27",
@@ -204,7 +360,31 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:howtomeasureobservationalimplicitlearningofcomplexsequencesanovelparadigminvolvingrapidvisualpresentationandserialreactiontimetask\\:2024",
+      "title": "How to measure observational implicit learning of complex sequences: a novel paradigm involving rapid visual presentation and serial reaction time task",
+      "authors": "Monia D'Angiò; S. Chiarella; Luca Simione; Chiara Saracini; A. Raffone; E. Di Pace",
+      "year": 2024,
+      "type": "Conference paper",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "Annual Meeting of the Cognitive Science Society",
+      "citation": "Monia D'Angiò; S. Chiarella; Luca Simione; Chiara Saracini; A. Raffone; E. Di Pace. (2024). How to measure observational implicit learning of complex sequences: a novel paradigm involving rapid visual presentation and serial reaction time task. Annual Meeting of the Cognitive Science Society.",
+      "doi": "",
+      "order": 16,
+      "orcid_ids": [],
+      "sources": [
+        "https://www.semanticscholar.org/paper/c3390146d108eea872a14b975945852d3a1e18b6"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2024
   },
   {
     "id": "conf:tex:03",
@@ -334,7 +514,7 @@
   {
     "id": "conf:tex:06",
     "title": "Bistable perception’s oscillations dynamics, individual differences and cognitive flexibility: a behavioral study",
-    "authors": "Saracini, C.",
+    "authors": "Chiara Saracini",
     "year": 2022,
     "start": "2022-10-01",
     "end": "2022-10-15",
@@ -371,18 +551,60 @@
           "it": "Certificato"
         }
       }
-    ]
+    ],
+    "bibliography": {
+      "id": "doi:10.3390/iecbs2022-13742",
+      "title": "Bistable Perception’s Oscillations Dynamics, Individual Differences and Cognitive Flexibility: A Behavioral Study",
+      "authors": "Chiara Saracini",
+      "year": 2022,
+      "type": "Conference abstract",
+      "topics": [
+        "Perception and consciousness"
+      ],
+      "venue": "IECBS 2022",
+      "citation": "Chiara Saracini (2022). Bistable Perception’s Oscillations Dynamics, Individual Differences and Cognitive Flexibility: A Behavioral Study. IECBS 2022, 13.",
+      "doi": "10.3390/iecbs2022-13742",
+      "order": 21,
+      "orcid_ids": [
+        "125373146"
+      ],
+      "sources": [
+        "https://www.semanticscholar.org/paper/109a1eda523add46b3ffe146e4584101dbb1b854",
+        "https://orcid.org/0000-0002-1594-7382/work/125373146"
+      ],
+      "dates": {
+        "published": [
+          2022,
+          11,
+          25
+        ],
+        "published-online": [
+          2022,
+          11,
+          25
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "",
+      "issue": "",
+      "pages": "13",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.3390/iecbs2022-13742",
+      "publisher_open_access": true,
+      "fulltext_url": "https://www.mdpi.com/2673-9976/19/1/13/pdf?version=1672044314"
+    },
+    "publication_year": 2022
   },
   {
     "id": "conf:tex:07",
     "title": "wSMI, Intelligence, and attentional performance on children: Preliminary results",
-    "authors": "Lucero, B., Canales-Johnson, A., Saracini, C., Munoz-Quezada, M.T.",
+    "authors": "Lucero, B.; Canales-Johnson, A.; Saracini, C.; Muñoz-Quezada, M. T.",
     "year": 2021,
     "start": "2021-09-13",
     "end": "2021-09-17",
     "event": "ICSC 2021 · 8th International Conference on Spatial Cognition",
     "location": "Rome, Italy",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -397,18 +619,45 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:wsmiintelligenceandattentionalperformanceonchildrenpreliminaryresults\\:2021",
+      "title": "wSMI, Intelligence, and attentional performance on children: Preliminary results",
+      "authors": "Lucero, B.; Canales-Johnson, A.; Saracini, C.; Muñoz-Quezada, M. T.",
+      "year": 2021,
+      "type": "Conference abstract",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "Cognitive Processing",
+      "citation": "Lucero, B.; Canales-Johnson, A.; Saracini, C.; Muñoz-Quezada, M. T. (2021). wSMI, Intelligence, and attentional performance on children: Preliminary results. Cognitive Processing, 22 (Suppl 1), 21.",
+      "doi": "",
+      "order": 29,
+      "orcid_ids": [
+        "198675945",
+        "133834019"
+      ],
+      "sources": [
+        "https://orcid.org/0000-0002-1594-7382/work/198675945"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2021
   },
   {
     "id": "conf:tex:08",
     "title": "Impulsiveness influence on Attentional Networks in young adults",
-    "authors": "Saracini, C., Lucero, B., Ahumada, F., Munoz-Quezada, M.T.",
+    "authors": "Saracini, C.; Lucero, B.; Ahumada, F.; Muñoz-Quezada, M. T.",
     "year": 2021,
     "start": "2021-09-13",
     "end": "2021-09-17",
     "event": "ICSC 2021 · 8th International Conference on Spatial Cognition",
     "location": "Rome, Italy",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Author",
     "presenter": "",
     "attendance": "",
@@ -423,12 +672,39 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:impulsivenessinfluenceonattentionalnetworksinyoungadults\\:2021",
+      "title": "Impulsiveness influence on Attentional Networks in young adults",
+      "authors": "Saracini, C.; Lucero, B.; Ahumada, F.; Muñoz-Quezada, M. T.",
+      "year": 2021,
+      "type": "Conference abstract",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "Cognitive Processing",
+      "citation": "Saracini, C.; Lucero, B.; Ahumada, F.; Muñoz-Quezada, M. T. (2021). Impulsiveness influence on Attentional Networks in young adults. Cognitive Processing, 22 (Suppl 1), 21.",
+      "doi": "",
+      "order": 26,
+      "orcid_ids": [
+        "198675946",
+        "133834021"
+      ],
+      "sources": [
+        "https://orcid.org/0000-0002-1594-7382/work/198675946"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2021
   },
   {
     "id": "conf:tex:09",
     "title": "Spatial attention performance assessed by the ANT on children and young adults: Its association with age, intelligence and impulsiveness",
-    "authors": "Saracini, C. & Lucero, B.",
+    "authors": "Saracini, C.; Lucero, B.",
     "year": 2021,
     "start": "2021-09-13",
     "end": "2021-09-17",
@@ -449,7 +725,99 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:spatialattentionperformanceassessedbytheantonchildrenandyoungadultsitsassociationwithageintelligenceandimpulsiveness\\:2021",
+      "title": "Spatial attention performance assessed by the ANT on children and young adults: Its association with age, intelligence and impulsiveness",
+      "authors": "Saracini, C.; Lucero, B.",
+      "year": 2021,
+      "type": "Conference abstract",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "Cognitive Processing",
+      "citation": "Saracini, C.; Lucero, B. (2021). Spatial attention performance assessed by the ANT on children and young adults: Its association with age, intelligence and impulsiveness. Cognitive Processing, 22 (Suppl 1), 20.",
+      "doi": "",
+      "order": 28,
+      "orcid_ids": [
+        "198675947",
+        "133834023"
+      ],
+      "sources": [
+        "https://orcid.org/0000-0002-1594-7382/work/198675947"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2021
+  },
+  {
+    "id": "conf:published:10.1289/isee.2020.virtual.p-0813",
+    "title": "Pesticide exposure in Chile and population health: urgency for decision making",
+    "authors": "S. Cortes; L. Zúñiga-Venegas; C. Saracini; F. Pancetti; M. Muñoz-Quezada; B. Lucero; C. Foerster",
+    "year": 2020,
+    "start": "2020",
+    "end": "",
+    "event": "ISEE Conference Abstracts",
+    "location": "",
+    "format": "Conference abstract",
+    "role": "Co-author",
+    "presenter": "",
+    "attendance": "",
+    "student_collaboration": false,
+    "publication_id": "doi:10.1289/isee.2020.virtual.p-0813",
+    "related_article_doi": "",
+    "poster_url": "",
+    "slides_url": "",
+    "abstract_url": "",
+    "event_url": "",
+    "description": {
+      "en": "",
+      "es": "",
+      "it": ""
+    },
+    "bibliography": {
+      "id": "doi:10.1289/isee.2020.virtual.p-0813",
+      "title": "Pesticide exposure in Chile and population health: urgency for decision making",
+      "authors": "S. Cortes; L. Zúñiga-Venegas; C. Saracini; F. Pancetti; M. Muñoz-Quezada; B. Lucero; C. Foerster",
+      "year": 2020,
+      "type": "Conference abstract",
+      "topics": [
+        "Health and environment"
+      ],
+      "venue": "ISEE Conference Abstracts",
+      "citation": "S. Cortes; L. Zúñiga-Venegas; C. Saracini; F. Pancetti; M. Muñoz-Quezada; B. Lucero; C. Foerster (2020). Pesticide exposure in Chile and population health: urgency for decision making. ISEE Conference Abstracts, 2020(1), isee.2020.virtual.P-0813.",
+      "doi": "10.1289/isee.2020.virtual.p-0813",
+      "order": 33,
+      "orcid_ids": [],
+      "sources": [
+        "https://www.semanticscholar.org/paper/21f01a797ad89999f77f64dc1a8935d2544319f3",
+        "https://api.crossref.org/works/10.1289/isee.2020.virtual.p-0813"
+      ],
+      "dates": {
+        "published": [
+          2020,
+          10,
+          26
+        ],
+        "published-print": [
+          2020,
+          10,
+          26
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "2020",
+      "issue": "1",
+      "pages": "isee.2020.virtual.P-0813",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1289/isee.2020.virtual.p-0813",
+      "publisher_open_access": true
+    },
+    "publication_year": 2020
   },
   {
     "id": "conf:ucm2019-percept",
@@ -504,7 +872,7 @@
     "end": "2019-07-05",
     "event": "IMG2019 · Image and Imagination",
     "location": "Alghero, Italy",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Author",
     "presenter": "",
     "attendance": "",
@@ -529,7 +897,49 @@
           "it": "Certificato"
         }
       }
-    ]
+    ],
+    "bibliography": {
+      "id": "doi:10.1007/978-3-030-41018-6\\_72",
+      "title": "Differences in Distance Estimations in Real and Virtual 3D Environments",
+      "authors": "Chiara Saracini; Marta Olivetti Belardinelli; Andreas Hoepfner; Demis Basso",
+      "year": 2020,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Proceedings of IMG 2019 · Advances in Intelligent Systems and Computing, 1140",
+      "citation": "Chiara Saracini; Marta Olivetti Belardinelli; Andreas Hoepfner; Demis Basso (2020). Differences in Distance Estimations in Real and Virtual 3D Environments. Advances in Intelligent Systems and Computing, 881-896.",
+      "doi": "10.1007/978-3-030-41018-6_72",
+      "order": 31,
+      "orcid_ids": [],
+      "sources": [
+        "https://www.semanticscholar.org/paper/b47b2d3cba28610e8ab01a0be71b0cb08b7f2007",
+        "https://api.crossref.org/works/10.1007/978-3-030-41018-6\\_72",
+        "https://api.crossref.org/works/10.1007/978-3-030-41018-6_72"
+      ],
+      "dates": {
+        "published": [
+          2020
+        ],
+        "published-online": [
+          2020,
+          3,
+          18
+        ],
+        "published-print": [
+          2020
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "",
+      "issue": "",
+      "pages": "881-896",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/978-3-030-41018-6_72",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/339991233_Differences_in_Distance_Estimations_in_Real_and_Virtual_3D_Environments"
+    },
+    "publication_year": 2020
   },
   {
     "id": "conf:stereoscopydoesnotimprove",
@@ -540,7 +950,7 @@
     "end": "2019-07-05",
     "event": "IMG2019 · Image and Imagination",
     "location": "Alghero, Italy",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Author",
     "presenter": "",
     "attendance": "",
@@ -565,18 +975,58 @@
           "it": "Certificato"
         }
       }
-    ]
+    ],
+    "bibliography": {
+      "id": "doi:10.1007/978-3-030-41018-6\\_74",
+      "title": "Stereoscopy Does not Improve Metric Distance Estimations in Virtual Environments",
+      "authors": "Chiara Saracini; Demis Basso; Marta Olivetti Belardinelli",
+      "year": 2020,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Proceedings of IMG 2019 · Advances in Intelligent Systems and Computing, 1140",
+      "citation": "Chiara Saracini; Demis Basso; Marta Olivetti Belardinelli (2020). Stereoscopy Does not Improve Metric Distance Estimations in Virtual Environments. , 907-922.",
+      "doi": "10.1007/978-3-030-41018-6_74",
+      "order": 36,
+      "orcid_ids": [],
+      "sources": [
+        "https://www.semanticscholar.org/paper/56039382ec2e658f9af9a44fdf8c1bd6153eeffc"
+      ],
+      "dates": {
+        "published": [
+          2020
+        ],
+        "published-online": [
+          2020,
+          3,
+          18
+        ],
+        "published-print": [
+          2020
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "",
+      "issue": "",
+      "pages": "907-922",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/978-3-030-41018-6_74",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/339989573_Stereoscopy_Does_not_Improve_Metric_Distance_Estimations_in_Virtual_Environments"
+    },
+    "publication_year": 2020
   },
   {
     "id": "conf:tex:10",
     "title": "Learning tools against developmental dyscalculia in primary school: a case study",
-    "authors": "Tovazzi, A., Basso, D., Saracini, C.",
+    "authors": "Alice Tovazzi; Demis Basso; Chiara Saracini",
     "year": 2019,
     "start": "2019-03-11",
     "end": "2019-03-13",
     "event": "INTED2019 · 13th International Technology, Education and Development Conference",
     "location": "Valencia, Spain",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -591,7 +1041,48 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "doi:10.21125/inted.2019.1643",
+      "title": "Learning tools against developmental dyscalculia in primary school: a case study",
+      "authors": "Alice Tovazzi; Demis Basso; Chiara Saracini",
+      "year": 2019,
+      "type": "Conference paper",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "INTED2019 Proceedings",
+      "citation": "Alice Tovazzi; Demis Basso; Chiara Saracini (2019). Learning tools against developmental dyscalculia in primary school: a case study. INTED2019 Proceedings, 1, 6755-6762.",
+      "doi": "10.21125/inted.2019.1643",
+      "order": 34,
+      "orcid_ids": [
+        "198675956",
+        "199999629"
+      ],
+      "sources": [
+        "https://www.semanticscholar.org/paper/c9f2f80baf5e93092927beeee6e4e4e4eda489dd",
+        "https://orcid.org/0000-0002-1594-7382/work/198675956"
+      ],
+      "dates": {
+        "published": [
+          2019,
+          3
+        ],
+        "published-print": [
+          2019,
+          3
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "1",
+      "issue": "",
+      "pages": "6755-6762",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.21125/inted.2019.1643",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/333000965_Learning_tools_against_developmental_dyscalculia_in_primary_school_A_case_study"
+    },
+    "publication_year": 2019
   },
   {
     "id": "conf:tex:11",
@@ -602,7 +1093,7 @@
     "end": "2018-09-14",
     "event": "ICSC 2018 · 7th International Conference on Spatial Cognition",
     "location": "Rome, Italy",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -617,7 +1108,36 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:attentionalnetworksandintellectualperformanceinchildrenpreliminaryevidencefromerps\\:2018",
+      "title": "Attentional networks and intellectual performance in children: Preliminary evidence from ERPs",
+      "authors": "Lucero, B., Saracini, C., Morgado, K., Morales, P., Teresa Munoz-Quezada, M.",
+      "year": 2018,
+      "type": "Conference abstract",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "COGNITIVE PROCESSING",
+      "citation": "Lucero, B., Saracini, C., Morgado, K., Morales, P., Teresa Munoz-Quezada, M. (2018). Attentional networks and intellectual performance in children: Preliminary evidence from ERPs. COGNITIVE PROCESSING.",
+      "doi": "",
+      "order": 39,
+      "orcid_ids": [
+        "55279189",
+        "198675958",
+        "199999631"
+      ],
+      "sources": [
+        "https://orcid.org/0000-0002-1594-7382/work/55279189",
+        "https://orcid.org/0000-0002-1594-7382/work/198675958"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2018
   },
   {
     "id": "conf:tex:12",
@@ -628,7 +1148,7 @@
     "end": "2018-09-14",
     "event": "ICSC 2018 · 7th International Conference on Spatial Cognition",
     "location": "Rome, Italy",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Author",
     "presenter": "",
     "attendance": "",
@@ -643,7 +1163,36 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:isartificialstereoscopyreallyhelpfulforacorrectdistanceperceptioninvirtualenvironments\\:2018",
+      "title": "Is artificial stereoscopy really helpful for a correct distance perception in virtual environments?",
+      "authors": "Saracini, C., Belardinelli, M. O.",
+      "year": 2018,
+      "type": "Conference abstract",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "COGNITIVE PROCESSING",
+      "citation": "Saracini, C., Belardinelli, M. O. (2018). Is artificial stereoscopy really helpful for a correct distance perception in virtual environments?. COGNITIVE PROCESSING.",
+      "doi": "",
+      "order": 41,
+      "orcid_ids": [
+        "55279190",
+        "198675957",
+        "199999619"
+      ],
+      "sources": [
+        "https://orcid.org/0000-0002-1594-7382/work/55279190",
+        "https://orcid.org/0000-0002-1594-7382/work/198675957"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2018
   },
   {
     "id": "conf:travellingsalesperson",
@@ -654,7 +1203,7 @@
     "end": "",
     "event": "EARTH 2018 · Digital Environments for Education, Arts and Heritage",
     "location": "",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -669,18 +1218,60 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "doi:10.1007/978-3-030-12240-9\\_54",
+      "title": "Travelling Salesperson in an Immersive Virtual Environment: Experimental Evaluation of Tracking System Device",
+      "authors": "D. Basso; C. Saracini; P. Palladino; M. Cottini",
+      "year": 2019,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Advances in Intelligent Systems and Computing",
+      "citation": "D. Basso; C. Saracini; P. Palladino; M. Cottini (2019). Travelling Salesperson in an Immersive Virtual Environment: Experimental Evaluation of Tracking System Device. Advances in Intelligent Systems and Computing, 519-529.",
+      "doi": "10.1007/978-3-030-12240-9_54",
+      "order": 37,
+      "orcid_ids": [],
+      "sources": [
+        "https://www.semanticscholar.org/paper/17d396910483f9492864fbc153a1f7db4761d2d7",
+        "https://api.crossref.org/works/10.1007/978-3-030-12240-9\\_54",
+        "https://api.crossref.org/works/10.1007/978-3-030-12240-9_54"
+      ],
+      "dates": {
+        "published": [
+          2019
+        ],
+        "published-online": [
+          2019,
+          3,
+          23
+        ],
+        "published-print": [
+          2019
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "",
+      "issue": "",
+      "pages": "519-529",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/978-3-030-12240-9_54",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/332818140_Travelling_Salesperson_in_an_Immersive_Virtual_Environment_Experimental_Evaluation_of_Tracking_System_Device"
+    },
+    "publication_year": 2019
   },
   {
     "id": "conf:tex:13",
     "title": "The influence of stereoscopy in Virtual Environments for metric and non metric distances estimates",
-    "authors": "Saracini, C., Blümel, E., Olivetti-Belardinelli, M.",
+    "authors": "Saracini, C.; Olivetti Belardinelli, M.; Blümel, E.",
     "year": 2011,
     "start": "2011",
     "end": "",
     "event": "ESCoP 2011 · 17th European Society for Cognitive Psychology meeting",
     "location": "Donostia–San Sebastián, Spain",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Author",
     "presenter": "",
     "attendance": "",
@@ -695,18 +1286,42 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "scholar:theinfluenceofstereoscopyinvirtualenvironmentsformetricandnonmetricdistancesestimates",
+      "title": "The influence of stereoscopy in Virtual Environments for metric and non metric distances estimates",
+      "authors": "Saracini, C.; Olivetti Belardinelli, M.; Blümel, E.",
+      "year": 2011,
+      "type": "Conference abstract",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "17th Meeting of the European Society for Cognitive Psychology",
+      "citation": "Saracini, C.; Olivetti Belardinelli, M.; Blümel, E. (2011). The influence of stereoscopy in Virtual Environments for metric and non metric distances estimates. 17th Meeting of the European Society for Cognitive Psychology.",
+      "doi": "",
+      "order": 45,
+      "orcid_ids": [],
+      "sources": [
+        "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2011
   },
   {
     "id": "conf:tex:14",
     "title": "Influences of Different Visualization Systems on Performances in a Planning and Wayfinding Test",
-    "authors": "Saracini, C., Masik, S., Wienert, O., Basso, D., Blümel, E., Olivetti-Belardinelli, M.",
+    "authors": "Saracini, C.; Masik, S.; Wienert, O.; Basso, D.; Blümel, E.; Olivetti Belardinelli, M.",
     "year": 2010,
     "start": "2010",
     "end": "",
     "event": "Spatial Cognition 2010 · Doctoral Colloquium",
     "location": "Mt. Hood, Oregon, USA",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Author",
     "presenter": "",
     "attendance": "",
@@ -721,7 +1336,31 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "scholar:influencesofdifferentvisualizationsystemsonperformancesinaplanningandwayfindingtest",
+      "title": "Influences of different visualization systems on performances in a planning and wayfinding test",
+      "authors": "Saracini, C.; Masik, S.; Wienert, O.; Basso, D.; Blümel, E.; Olivetti Belardinelli, M.",
+      "year": 2010,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Spatial Cognition 2010: Doctoral Colloquium, p. 39",
+      "citation": "Saracini, C.; Masik, S.; Wienert, O.; Basso, D.; Blümel, E.; Olivetti Belardinelli, M. (2010). Influences of different visualization systems on performances in a planning and wayfinding test. Spatial Cognition 2010: Doctoral Colloquium, p. 39.",
+      "doi": "",
+      "order": 47,
+      "orcid_ids": [],
+      "sources": [
+        "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2010
   },
   {
     "id": "conf:tex:15",
@@ -732,7 +1371,7 @@
     "end": "",
     "event": "AISB 2010 · New Frontiers in Human-Robot Interaction",
     "location": "Leicester, UK",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -747,18 +1386,45 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:exploratoryanalysisofoperatorrobotratioinsearchandrescuemissions\\:2010",
+      "title": "Exploratory analysis of operator: Robot ratio in search and rescue missions",
+      "authors": "Valero, A., Saracini, C., de la Puente, P., Rodriguez-Losada, D., Matia, F.",
+      "year": 2010,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Proceedings of the 2nd International Symposium on New Frontiers in Human-Robot Interaction - A Symposium at the AISB 2010 Convention",
+      "citation": "Valero, A., Saracini, C., de la Puente, P., Rodriguez-Losada, D., Matia, F. (2010). Exploratory analysis of operator: Robot ratio in search and rescue missions. Proceedings of the 2nd International Symposium on New Frontiers in Human-Robot Interaction - A Symposium at the AISB 2010 Convention.",
+      "doi": "",
+      "order": 46,
+      "orcid_ids": [
+        "39920183"
+      ],
+      "sources": [
+        "https://orcid.org/0000-0002-1594-7382/work/39920183"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null,
+      "researchgate_url": "https://www.researchgate.net/publication/265188384_Exploratory_Analysis_of_OperatorRobot_ratio_in_Search_and_Rescue_Missions"
+    },
+    "publication_year": 2010
   },
   {
     "id": "conf:tex:16",
     "title": "Give me the control, I can see the robot!",
-    "authors": "Valero, A., Randelli, G., Botta, F., Saracini, C., Nardi, D.",
+    "authors": "Alberto Valero; Gabriele Randelli; Fabiano Botta; Chiara Saracini; Daniele Nardi",
     "year": 2009,
     "start": "2009",
     "end": "",
     "event": "IEEE SSRR 2009 · Safety, Security and Rescue Robotics",
     "location": "Denver, Colorado, USA",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -773,18 +1439,59 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "doi:10.1109/ssrr.2009.5424157",
+      "title": "Give me the control, I can see the robot!",
+      "authors": "Alberto Valero; Gabriele Randelli; Fabiano Botta; Chiara Saracini; Daniele Nardi",
+      "year": 2009,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "2009 IEEE International Workshop on Safety, Security & Rescue Robotics (SSRR 2009)",
+      "citation": "Alberto Valero; Gabriele Randelli; Fabiano Botta; Chiara Saracini; Daniele Nardi (2009). Give me the control, I can see the robot!. 2009 IEEE International Workshop on Safety, Security & Rescue Robotics (SSRR 2009), 1-6.",
+      "doi": "10.1109/ssrr.2009.5424157",
+      "order": 50,
+      "orcid_ids": [
+        "39920187"
+      ],
+      "sources": [
+        "https://www.semanticscholar.org/paper/74e642c04340da3983b08e3cee6ca37f2196036a",
+        "https://orcid.org/0000-0002-1594-7382/work/39920187",
+        "https://api.crossref.org/works/10.1109/ssrr.2009.5424157"
+      ],
+      "dates": {
+        "published": [
+          2009,
+          11
+        ],
+        "published-print": [
+          2009,
+          11
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "",
+      "issue": "",
+      "pages": "1-6",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1109/ssrr.2009.5424157",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/224120710_Give_me_the_control_I_can_see_the_robot"
+    },
+    "publication_year": 2009
   },
   {
     "id": "conf:tex:17",
     "title": "Spatial processes in mobile robot teleoperation",
-    "authors": "Valero, A., Randelli, G., Botta, F., Saracini, C.",
+    "authors": "Alberto Valero Gomez; Chiara Saracini; Fabiano Botta; Gabriele Randelli",
     "year": 2009,
     "start": "2009",
     "end": "",
     "event": "ICSC 2009 · International Conference on Spatial Cognition",
     "location": "Rome, Italy",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -799,18 +1506,70 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "doi:10.1007/s10339-009-0299-2",
+      "title": "Spatial processes in mobile robot teleoperation",
+      "authors": "Alberto Valero Gomez; Chiara Saracini; Fabiano Botta; Gabriele Randelli",
+      "year": 2009,
+      "type": "Conference abstract",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Cognitive Processing",
+      "citation": "Alberto Valero Gomez; Chiara Saracini; Fabiano Botta; Gabriele Randelli (2009). Spatial processes in mobile robot teleoperation. Cognitive Processing, 10(S2), 338-341.",
+      "doi": "10.1007/s10339-009-0299-2",
+      "order": 51,
+      "orcid_ids": [
+        "198675964",
+        "199999617",
+        "198675961",
+        "199999620",
+        "39920184"
+      ],
+      "sources": [
+        "https://www.semanticscholar.org/paper/48841deaaa2ad2d768d972b629e639800e579e5b",
+        "https://orcid.org/0000-0002-1594-7382/work/198675964",
+        "https://orcid.org/0000-0002-1594-7382/work/198675961",
+        "https://api.crossref.org/works/10.1007/s10339-009-0299-2"
+      ],
+      "dates": {
+        "published": [
+          2009,
+          8,
+          20
+        ],
+        "published-online": [
+          2009,
+          8,
+          20
+        ],
+        "published-print": [
+          2009,
+          9
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "10",
+      "issue": "S2",
+      "pages": "338-341",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s10339-009-0299-2",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/51437945_Spatial_processes_in_mobile_robot_teleoperation"
+    },
+    "publication_year": 2009
   },
   {
     "id": "conf:tex:18",
     "title": "The Advantage of Mobility: Mobile Tele-operation for Mobile Robots",
-    "authors": "Valero, A., Randelli, G., Saracini, C., Botta, F.",
+    "authors": "Alberto Valero; Gabriele Randelli; Chiara Saracini; Fabiano Botta; Massimo Mecella",
     "year": 2009,
     "start": "2009",
     "end": "",
     "event": "AISB 2009 · New Frontiers in Human-Robot Interaction",
     "location": "Edinburgh, UK",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -825,18 +1584,173 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:theadvantageofmobilitymobileteleoperationformobilerobots\\:2009",
+      "title": "The Advantage of Mobility: Mobile Tele-operation for Mobile Robots",
+      "authors": "Alberto Valero; Gabriele Randelli; Chiara Saracini; Fabiano Botta; Massimo Mecella",
+      "year": 2009,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Adaptive and Emergent Behaviour and Complex Systems - Proceedings of the 23rd Convention of the Society for the Study of Artificial Intelligence and Simulation of Behaviour, AISB 2009",
+      "citation": "Alberto Valero; Gabriele Randelli; Chiara Saracini; Fabiano Botta; Massimo Mecella. (2009). The Advantage of Mobility: Mobile Tele-operation for Mobile Robots. Adaptive and Emergent Behaviour and Complex Systems - Proceedings of the 23rd Convention of the Society for the Study of Artificial Intelligence and Simulation of Behaviour, AISB 2009.",
+      "doi": "",
+      "order": 55,
+      "orcid_ids": [
+        "39920182"
+      ],
+      "sources": [
+        "https://www.semanticscholar.org/paper/f7691c8725bcc06821968f66d6cf82b9c90356ee",
+        "https://orcid.org/0000-0002-1594-7382/work/39920182"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2009
+  },
+  {
+    "id": "conf:published:cognitive-processes-in-virtual-environments",
+    "title": "Cognitive processes in virtual environments",
+    "authors": "Saracini, C.; Blümel, E.; Olivetti Belardinelli, M.",
+    "year": 2009,
+    "start": "2009",
+    "end": "",
+    "event": "Internationaler Magdeburger Logistik-Doktorandenworkshop 2009",
+    "location": "",
+    "format": "Conference paper",
+    "role": "Author",
+    "presenter": "",
+    "attendance": "",
+    "student_collaboration": false,
+    "publication_id": "scholar:cognitiveprocessesinvirtualenvironments",
+    "related_article_doi": "",
+    "poster_url": "",
+    "slides_url": "",
+    "abstract_url": "",
+    "event_url": "",
+    "description": {
+      "en": "",
+      "es": "",
+      "it": ""
+    },
+    "bibliography": {
+      "id": "scholar:cognitiveprocessesinvirtualenvironments",
+      "title": "Cognitive processes in virtual environments",
+      "authors": "Saracini, C.; Blümel, E.; Olivetti Belardinelli, M.",
+      "year": 2009,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Internationaler Magdeburger Logistik-Doktorandenworkshop 2009",
+      "citation": "Saracini, C.; Blümel, E.; Olivetti Belardinelli, M. (2009). Cognitive processes in virtual environments. Internationaler Magdeburger Logistik-Doktorandenworkshop 2009.",
+      "doi": "",
+      "order": 48,
+      "orcid_ids": [],
+      "sources": [
+        "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null,
+      "researchgate_url": "https://www.researchgate.net/publication/46194817_Cognitive_processes_in_virtual_environments"
+    },
+    "publication_year": 2009
+  },
+  {
+    "id": "conf:published:10.1007/s10339-009-0314-7",
+    "title": "Comparing distance perception in different virtual environments",
+    "authors": "Chiara Saracini; Ronny Franke; Eberhard Blümel; Marta Olivetti Belardinelli",
+    "year": 2009,
+    "start": "2009",
+    "end": "",
+    "event": "ICSC 2009 · International Conference on Spatial Cognition",
+    "location": "Rome, Italy",
+    "format": "Conference abstract",
+    "role": "Author",
+    "presenter": "",
+    "attendance": "",
+    "student_collaboration": false,
+    "publication_id": "doi:10.1007/s10339-009-0314-7",
+    "related_article_doi": "",
+    "poster_url": "",
+    "slides_url": "",
+    "abstract_url": "",
+    "event_url": "",
+    "description": {
+      "en": "",
+      "es": "",
+      "it": ""
+    },
+    "bibliography": {
+      "id": "doi:10.1007/s10339-009-0314-7",
+      "title": "Comparing distance perception in different virtual environments",
+      "authors": "Chiara Saracini; Ronny Franke; Eberhard Blümel; Marta Olivetti Belardinelli",
+      "year": 2009,
+      "type": "Conference abstract",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "Cognitive Processing",
+      "citation": "Chiara Saracini; Ronny Franke; Eberhard Blümel; Marta Olivetti Belardinelli (2009). Comparing distance perception in different virtual environments. Cognitive Processing, 10(S2), 294-296.",
+      "doi": "10.1007/s10339-009-0314-7",
+      "order": 49,
+      "orcid_ids": [
+        "198675962",
+        "199999622",
+        "39920185",
+        "198675963",
+        "199999628"
+      ],
+      "sources": [
+        "https://www.semanticscholar.org/paper/98427438c504551b1490fd3578fd85b6b836f26c",
+        "https://orcid.org/0000-0002-1594-7382/work/198675962",
+        "https://orcid.org/0000-0002-1594-7382/work/198675963"
+      ],
+      "dates": {
+        "published": [
+          2009,
+          8,
+          20
+        ],
+        "published-online": [
+          2009,
+          8,
+          20
+        ],
+        "published-print": [
+          2009,
+          9
+        ]
+      },
+      "metadata_checked": "2026-10-30",
+      "volume": "10",
+      "issue": "S2",
+      "pages": "294-296",
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "https://api.openalex.org/works/https://doi.org/10.1007/s10339-009-0314-7",
+      "publisher_open_access": false,
+      "researchgate_url": "https://www.researchgate.net/publication/51437932_Comparing_distance_perception_in_different_virtual_environments"
+    },
+    "publication_year": 2009
   },
   {
     "id": "conf:tex:19",
     "title": "Repetitive TMS stimulation on virtual 3D navigation: Gender differences in frontal and parietal involvement",
-    "authors": "Saracini, C., Basso, D., Olivetti Belardinelli, M.",
+    "authors": "Chiara Saracini; D. Basso; M. O. Belardinelli",
     "year": 2008,
     "start": "2008",
     "end": "",
     "event": "IAPS 2008 · 20th IAPS Conference",
     "location": "Rome, Italy",
-    "format": "Conference contribution",
+    "format": "Conference paper",
     "role": "Author",
     "presenter": "",
     "attendance": "",
@@ -851,7 +1765,32 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "title\\:repetitivetmsstimulationonvirtual3dnavigationgenderdifferencesinfrontalandparietalinvolvement\\:2008",
+      "title": "Repetitive Tms Stimulation on Virtual 3D Navigation: Gender Differences in Frontal and Parietal Involvement",
+      "authors": "Chiara Saracini; D. Basso; M. O. Belardinelli",
+      "year": 2008,
+      "type": "Conference paper",
+      "topics": [
+        "Spatial cognition and HRI"
+      ],
+      "venue": "20th IAPS Conference Proceedings, Rome, Italy",
+      "citation": "Chiara Saracini; D. Basso; M. O. Belardinelli. (2008). Repetitive Tms Stimulation on Virtual 3D Navigation: Gender Differences in Frontal and Parietal Involvement. 20th IAPS Conference Proceedings, Rome, Italy.",
+      "doi": "",
+      "order": 54,
+      "orcid_ids": [],
+      "sources": [
+        "https://www.semanticscholar.org/paper/7859c14b40e53778762ca5c34924b5fee5d5e00a"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null,
+      "researchgate_url": "https://www.researchgate.net/publication/38134247_Repetitive_TMS_stimulation_on_virtual_3D_navigation_Gender_differences_in_frontal_and_parietal_involvement"
+    },
+    "publication_year": 2008
   },
   {
     "id": "conf:tex:20",
@@ -882,13 +1821,13 @@
   {
     "id": "conf:tex:21",
     "title": "Orientamento e memoria spaziale: effetti della veglia protratta",
-    "authors": "Casagrande M., Martella D., Paonessa A., Saracini C., Puce L., Pirri F., Guadalupi F.",
+    "authors": "Casagrande, M.; Martella, D.; Paonessa, A.; Saracini, C.; Puce, L.; Pirri, F.; et al.",
     "year": 2006,
     "start": "2006-11-12",
     "end": "2006-11-15",
     "event": "AIMS 2006 · XVI Congresso Nazionale",
     "location": "Milan, Italy",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -903,7 +1842,31 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "scholar:orientamentoememoriaspazialeeffettidellavegliaprotratta",
+      "title": "Orientamento e memoria spaziale: effetti della veglia protratta.",
+      "authors": "Casagrande, M.; Martella, D.; Paonessa, A.; Saracini, C.; Puce, L.; Pirri, F.; et al.",
+      "year": 2006,
+      "type": "Conference abstract",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "XVI Congresso Nazionale dell’Associazione Italiana di Medicina del Sonno",
+      "citation": "Casagrande, M.; Martella, D.; Paonessa, A.; Saracini, C.; Puce, L.; Pirri, F.; et al. (2006). Orientamento e memoria spaziale: effetti della veglia protratta. XVI Congresso Nazionale dell’Associazione Italiana di Medicina del Sonno.",
+      "doi": "",
+      "order": 53,
+      "orcid_ids": [],
+      "sources": [
+        "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2006
   },
   {
     "id": "conf:tex:22",
@@ -934,13 +1897,13 @@
   {
     "id": "conf:tex:24",
     "title": "Tempi di reazione semplici visivi: un compito per la valutazione della vigilanza durante 24 ore di veglia sostenuta",
-    "authors": "Casagrande M., Martella D., Guadalupi F., Pirri F., Puce L., Saracini C., Di Pace E., Tomao E.",
+    "authors": "Casagrande, M.; Martella, D.; Guadalupi, F.; Pirri, F.; Puce, L.; Saracini, C.; et al.",
     "year": 2004,
     "start": "2004-10-17",
     "end": "2004-10-20",
     "event": "AIMS 2004 · XIV Congresso Nazionale",
     "location": "Stresa, Italy",
-    "format": "Conference contribution",
+    "format": "Conference abstract",
     "role": "Co-author",
     "presenter": "",
     "attendance": "",
@@ -955,7 +1918,31 @@
       "en": "",
       "es": "",
       "it": ""
-    }
+    },
+    "bibliography": {
+      "id": "scholar:tempidireazionesemplicivisiviuncompitoperlavalutazionedellavigilanzadurante24oredivegliasostenuta",
+      "title": "Tempi di reazione semplici visivi: un compito per la valutazione della vigilanza durante 24 ore di veglia sostenuta.",
+      "authors": "Casagrande, M.; Martella, D.; Guadalupi, F.; Pirri, F.; Puce, L.; Saracini, C.; et al.",
+      "year": 2004,
+      "type": "Conference abstract",
+      "topics": [
+        "Cognition and learning"
+      ],
+      "venue": "XIV Congresso Nazionale dell’Associazione Italiana di Medicina del Sonno",
+      "citation": "Casagrande, M.; Martella, D.; Guadalupi, F.; Pirri, F.; Puce, L.; Saracini, C.; et al. (2004). Tempi di reazione semplici visivi: un compito per la valutazione della vigilanza durante 24 ore di veglia sostenuta. XIV Congresso Nazionale dell’Associazione Italiana di Medicina del Sonno.",
+      "doi": "",
+      "order": 52,
+      "orcid_ids": [],
+      "sources": [
+        "https://scholar.google.com/citations?user=HtpMVGIAAAAJ"
+      ],
+      "dates": {},
+      "metadata_checked": null,
+      "access_checked": "2026-10-31",
+      "access_metadata_source": "",
+      "publisher_open_access": null
+    },
+    "publication_year": 2004
   },
   {
     "id": "conf:tex:23",

@@ -47,7 +47,57 @@
         "link_label": "Declaration & signatories",
         "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration"
       }
-    ]
+    ],
+    "team": {
+      "title": "CINPSI Neurocog · Research & supervision",
+      "role": "Alternate Director and Research Associate, CINPSI Neurocog · Universidad Católica del Maule. I conduct EEG and behavioural research on perception, cognition and consciousness, and supervise postgraduate researchers.",
+      "link": "About CINPSI Neurocog",
+      "people": [
+        {
+          "name": "Francia Arriagada-Mödinger",
+          "programme": "PhD in Psychology",
+          "status": "Thesis supervision · Ongoing",
+          "completed": false
+        },
+        {
+          "name": "Lucero Cuevas",
+          "programme": "PhD in Psychology",
+          "status": "Thesis supervision · Ongoing",
+          "completed": false
+        },
+        {
+          "name": "Belén Valdés Villalobos",
+          "programme": "PhD in Education",
+          "status": "Co-supervision · Completed in 2024",
+          "completed": true
+        },
+        {
+          "name": "Omar Rodríguez Muñoz",
+          "programme": "Master’s in Neuroscience · Cohort 1",
+          "status": "Thesis completed and defended in 2024",
+          "completed": true
+        },
+        {
+          "name": "Daniel Barros Muñoz",
+          "programme": "Master’s in Neuroscience · Cohort 2",
+          "status": "Awaiting thesis defence",
+          "completed": false
+        },
+        {
+          "name": "Fernanda Rodríguez",
+          "programme": "Master’s in Neuroscience · Cohort 2",
+          "status": "Awaiting thesis defence",
+          "completed": false
+        },
+        {
+          "name": "María Antonieta Lara",
+          "programme": "Master’s in Neuroscience · Cohort 3",
+          "status": "Thesis project started",
+          "completed": false
+        }
+      ],
+      "url": "https://www.ucm.cl/cinpsi/equipo/"
+    }
   },
   "es": {
     "headings": [
@@ -97,7 +147,57 @@
         "link_label": "Declaración y firmantes",
         "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration"
       }
-    ]
+    ],
+    "team": {
+      "title": "CINPSI Neurocog · Investigación y supervisión",
+      "role": "Directora alterna e investigadora asociada de CINPSI Neurocog · Universidad Católica del Maule. Desarrollo investigación EEG y conductual sobre percepción, cognición y conciencia y superviso la formación de investigadores de posgrado.",
+      "link": "Conoce CINPSI Neurocog",
+      "people": [
+        {
+          "name": "Francia Arriagada-Mödinger",
+          "programme": "Doctorado en Psicología",
+          "status": "Dirección de tesis · En curso",
+          "completed": false
+        },
+        {
+          "name": "Lucero Cuevas",
+          "programme": "Doctorado en Psicología",
+          "status": "Dirección de tesis · En curso",
+          "completed": false
+        },
+        {
+          "name": "Belén Valdés Villalobos",
+          "programme": "Doctorado en Educación",
+          "status": "Codirección · Finalizada en 2024",
+          "completed": true
+        },
+        {
+          "name": "Omar Rodríguez Muñoz",
+          "programme": "Magíster en Neurociencia · Cohorte 1",
+          "status": "Tesis finalizada y defendida en 2024",
+          "completed": true
+        },
+        {
+          "name": "Daniel Barros Muñoz",
+          "programme": "Magíster en Neurociencia · Cohorte 2",
+          "status": "Pendiente de defensa de tesis",
+          "completed": false
+        },
+        {
+          "name": "Fernanda Rodríguez",
+          "programme": "Magíster en Neurociencia · Cohorte 2",
+          "status": "Pendiente de defensa de tesis",
+          "completed": false
+        },
+        {
+          "name": "María Antonieta Lara",
+          "programme": "Magíster en Neurociencia · Cohorte 3",
+          "status": "Proyecto de tesis iniciado",
+          "completed": false
+        }
+      ],
+      "url": "https://www.ucm.cl/cinpsi/equipo/"
+    }
   },
   "it": {
     "headings": [
@@ -147,6 +247,56 @@
         "link_label": "Dichiarazione e firmatari",
         "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration"
       }
-    ]
+    ],
+    "team": {
+      "title": "CINPSI Neurocog · Ricerca e supervisione",
+      "role": "Direttrice supplente e ricercatrice associata di CINPSI Neurocog · Universidad Católica del Maule. Svolgo ricerche EEG e comportamentali su percezione, cognizione e coscienza e supervisiono la formazione di ricercatori post-laurea.",
+      "link": "Scopri CINPSI Neurocog",
+      "people": [
+        {
+          "name": "Francia Arriagada-Mödinger",
+          "programme": "Dottorato in Psicologia",
+          "status": "Supervisione della tesi · In corso",
+          "completed": false
+        },
+        {
+          "name": "Lucero Cuevas",
+          "programme": "Dottorato in Psicologia",
+          "status": "Supervisione della tesi · In corso",
+          "completed": false
+        },
+        {
+          "name": "Belén Valdés Villalobos",
+          "programme": "Dottorato in Educazione",
+          "status": "Cosupervisione · Conclusa nel 2024",
+          "completed": true
+        },
+        {
+          "name": "Omar Rodríguez Muñoz",
+          "programme": "Master in Neuroscienze · Coorte 1",
+          "status": "Tesi conclusa e discussa nel 2024",
+          "completed": true
+        },
+        {
+          "name": "Daniel Barros Muñoz",
+          "programme": "Master in Neuroscienze · Coorte 2",
+          "status": "In attesa di discussione della tesi",
+          "completed": false
+        },
+        {
+          "name": "Fernanda Rodríguez",
+          "programme": "Master in Neuroscienze · Coorte 2",
+          "status": "In attesa di discussione della tesi",
+          "completed": false
+        },
+        {
+          "name": "María Antonieta Lara",
+          "programme": "Master in Neuroscienze · Coorte 3",
+          "status": "Progetto di tesi avviato",
+          "completed": false
+        }
+      ],
+      "url": "https://www.ucm.cl/cinpsi/equipo/"
+    }
   }
 }
