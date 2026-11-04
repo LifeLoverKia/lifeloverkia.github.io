@@ -94,6 +94,12 @@
           "programme": "Master’s in Neuroscience · Cohort 3",
           "status": "Thesis project started",
           "completed": false
+        },
+        {
+          "name": "Benjamín Vergara",
+          "programme": "Master’s in Kinesiology",
+          "status": "Thesis supervision requested",
+          "completed": false
         }
       ],
       "url": "https://www.ucm.cl/cinpsi/equipo/"
@@ -194,6 +200,12 @@
           "programme": "Magíster en Neurociencia · Cohorte 3",
           "status": "Proyecto de tesis iniciado",
           "completed": false
+        },
+        {
+          "name": "Benjamín Vergara",
+          "programme": "Magíster en Kinesiología",
+          "status": "Dirección de tesis solicitada",
+          "completed": false
         }
       ],
       "url": "https://www.ucm.cl/cinpsi/equipo/"
@@ -293,6 +305,12 @@
           "name": "María Antonieta Lara",
           "programme": "Master in Neuroscienze · Coorte 3",
           "status": "Progetto di tesi avviato",
+          "completed": false
+        },
+        {
+          "name": "Benjamín Vergara",
+          "programme": "Master in Kinesiologia",
+          "status": "Supervisione della tesi richiesta",
           "completed": false
         }
       ],
